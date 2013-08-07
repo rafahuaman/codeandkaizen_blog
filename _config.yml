@@ -2,9 +2,9 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://www.codeandkaizen.com
+url: http://codeandkaizen.herokuapp.com
 title: Code and Kaizen
-subtitle: .
+subtitle: My never-ending quest for self-improvement
 author: Rafael Huaman
 simple_search: http://google.com/search
 description:
@@ -63,13 +63,13 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/delicious.
 # ----------------------- #
 
 # Github repositories
-github_user:rafahuaman
+github_user: rafahuaman
 github_repo_count: 0
 github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user:rhuaman
+twitter_user: rhuaman
 twitter_tweet_button: true
 
 # Google +1
