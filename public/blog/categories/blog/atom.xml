@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Code and Kaizen]]></title>
-  <link href="http://codeandkaizen.herokuapp.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: blog | Code and Kaizen]]></title>
+  <link href="http://codeandkaizen.herokuapp.com/blog/categories/blog/atom.xml" rel="self"/>
   <link href="http://codeandkaizen.herokuapp.com/"/>
   <updated>2013-08-10T12:56:04-04:00</updated>
   <id>http://codeandkaizen.herokuapp.com/</id>
@@ -32,7 +32,7 @@
 <li>I graduated from the University of Richmond with a BS in Computer Science and Mathematical Economics</li>
 <li>I like books, comics, movies, and video games. </li>
 <li>I have played every generation of Pokémon games.  ಠ_�</li>
-<li>I like tennis but I don&#8217;t watch sports.</li>
+<li>I like tennis but I don't watch sports.</li>
 <li>I prefer non-fiction to fiction books.</li>
 </ul>
 

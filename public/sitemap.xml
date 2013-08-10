@@ -1,12 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
+        <loc>http://codeandkaizen.herokuapp.com/blog/2013/08/08/first-post/</loc>
+        <lastmod>2013-08-08T17:35:57-04:00</lastmod>
+    </url>
+    <url>
         <loc>http://codeandkaizen.herokuapp.com/blog/archives/</loc>
-        <lastmod>2013-08-08T10:01:10-04:00</lastmod>
+        <lastmod>2013-08-08T17:35:57-04:00</lastmod>
     </url>
     <url>
         <loc>http://codeandkaizen.herokuapp.com/</loc>
-        <lastmod>2013-08-08T10:01:10-04:00</lastmod>
+        <lastmod>2013-08-08T17:35:57-04:00</lastmod>
     </url>
     <url>
         <loc>http://codeandkaizen.herokuapp.com/robots.txt</loc>
