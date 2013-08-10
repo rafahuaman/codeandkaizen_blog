@@ -17,7 +17,7 @@ I am technology consultant out of New York City. I have been working in the fina
 <li>I am from Lima, Peru. I lived there until I was 17.</li>
 <li>I graduated from the University of Richmond with a BS in Computer Science and Mathematical Economics</li>
 <li>I like books, comics, movies, and video games. </li>
-<li>I have played every generation of Pokémon games.  ಠ_� </li>
+<li>I have played every generation of Pokémon games.  ಠ_ಠ  </li>
 <li>I like tennis but I don't watch sports.</li>
 <li>I prefer non-fiction to fiction books.</li>
 </ul>
