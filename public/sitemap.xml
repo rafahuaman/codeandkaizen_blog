@@ -2,28 +2,28 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://codeandkaizen.herokuapp.com/blog/2013/08/08/first-post/</loc>
-        <lastmod>2013-08-10T17:50:07-04:00</lastmod>
+        <lastmod>2013-08-15T18:06:48-04:00</lastmod>
     </url>
     <url>
         <loc>
             http://codeandkaizen.herokuapp.com/blog/2013/08/10/the-start-of-the-great-web-development-adventure-of-2013/
         </loc>
-        <lastmod>2013-08-10T17:40:09-04:00</lastmod>
+        <lastmod>2013-08-15T18:06:48-04:00</lastmod>
     </url>
     <url>
         <loc>http://codeandkaizen.herokuapp.com/blog/2013/08/15/roadmap-to-the-full-stack/</loc>
-        <lastmod>2013-08-15T17:33:02-04:00</lastmod>
+        <lastmod>2013-08-15T18:06:48-04:00</lastmod>
     </url>
     <url>
         <loc>http://codeandkaizen.herokuapp.com/blog/archives/</loc>
-        <lastmod>2013-08-15T17:33:02-04:00</lastmod>
+        <lastmod>2013-08-15T18:06:48-04:00</lastmod>
     </url>
     <url>
         <loc>http://codeandkaizen.herokuapp.com/</loc>
-        <lastmod>2013-08-15T17:33:02-04:00</lastmod>
+        <lastmod>2013-08-15T18:06:48-04:00</lastmod>
     </url>
     <url>
         <loc>http://codeandkaizen.herokuapp.com/robots.txt</loc>
-        <lastmod>2013-08-08T10:01:10-04:00</lastmod>
+        <lastmod>2013-08-15T18:06:48-04:00</lastmod>
     </url>
 </urlset>
