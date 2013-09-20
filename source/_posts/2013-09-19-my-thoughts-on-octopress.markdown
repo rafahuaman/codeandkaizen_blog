@@ -3,7 +3,7 @@ layout: post
 title: "My Thoughts on Octopress"
 date: 2013-09-19 23:25
 comments: true
-categories: [blog, about, octopress,, git, heroku] 
+categories: [blog, about, octopress, git, heroku] 
 ---
 Originally I wanted to dedicate an entire post to <a href="http://octopress.org/">Octopress</a> and how I set it up. However, in the interested of moving forward I will just write down my thoughts on it and my experience so far. 
 When I made the decision to document my learning progress and put it on the internet, I thought I was going to use a simple blog tool like <a href="http://wordpress.com/"> Wordpress</a> or <a href="http://www.blogger.com/home">Blogger</a>. I was almost ready to build my site using one of those tools when I stumbled on to a blog which influenced my own: <a href="http://learnwithjeff.com/">learnwithjeff</a>. In his blog, Jeff mentioned how he learns by teaching and he documents his learning process as well as assigns exercises for those who want to learn along with him. 

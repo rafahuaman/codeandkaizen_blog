@@ -6,8 +6,6 @@ comments: true
 categories: [blog, web dev, Ruby, Ruby Koans, Koans, Neo Innovation]
 ---
 
-
-Ruby and the Koans 
 After finishing CodeAcademy's Web Fundamentals track I immediately started the Ruby track. I knew I wanted to go with Ruby because I had already done plenty of research on the technologies I needed to learn in order to become a web developer. I had used Ruby in the past for a very simple Ride Sharing web application I built while at school; however, I used it simply as a means to work with rails and setup the application quickly. During my student time this was OK; however, now that I have made a serious choice about becoming a web developer I need to master it.
 The authors of the book <a href ="http://www.amazon.com/Apprenticeship-Patterns-Guidance-Aspiring-Craftsman/dp/0596518382/ref=sr_1_1?s=books&ie=UTF8&qid=1379649530&sr=1-1">Apprenticeship Patterns</a> point out that "It is important that you carefully weigh the options (between programming languages), as this is the foundation upon which your early career will be built". I have chosen Ruby. I will immerse myself in it, play with it in my free time, solve puzzles and read the documentation until I know it all. It will be a long road but I am ready to take the first steps. 
 The Ruby track offered by <a href="codecademy.com">CodeAcademy</a> was very good. It was very simple and easy to understand. It even had a few "projects" to apply the concepts learned. The sections build on each other and it is easy to go back and review previous concepts and exercises in case you forget something along the way. The Ruby track can be finished very quickly since it just a beginner's course.  
@@ -39,23 +37,19 @@ The user is not testing a big program in these exercises. The user is testing Ru
  
 This test fails and the user has to fill replace "__" with the expected output
 
-{% codeblock Failing Test lang:ruby %}
 def test_creating_arrays
   empty_array = Array.new
   assert_equal __, empty_array.class
   assert_equal __, empty_array.size
 end
-{% endcodeblock %}
   
 These changes will make the tests pass: 
 
-{% codeblock Passing Test lang:ruby %}  
 def test_creating_arrays
   empty_array = Array.new
   assert_equal Array, empty_array.class
   assert_equal 0, empty_array.size
 end
-{% endcodeblock %}
 
 
 There are basically no hints or answer sheets (you can find solved Koans in <a href="https://github.com/">Github</a>, but why ruin these amazing exercises? This way the user is forced to think about the exercises and internalize the concepts with each test. 

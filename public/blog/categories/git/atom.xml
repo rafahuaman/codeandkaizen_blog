@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: git | Code and Kaizen]]></title>
+  <link href="http://codeandkaizen.herokuapp.com/blog/categories/git/atom.xml" rel="self"/>
+  <link href="http://codeandkaizen.herokuapp.com/"/>
+  <updated>2013-09-20T00:52:42-04:00</updated>
+  <id>http://codeandkaizen.herokuapp.com/</id>
+  <author>
+    <name><![CDATA[Rafael Huaman]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[My Thoughts on Octopress]]></title>
+    <link href="http://codeandkaizen.herokuapp.com/blog/2013/09/19/my-thoughts-on-octopress/"/>
+    <updated>2013-09-19T23:25:00-04:00</updated>
+    <id>http://codeandkaizen.herokuapp.com/blog/2013/09/19/my-thoughts-on-octopress</id>
+    <content type="html"><![CDATA[<p>Originally I wanted to dedicate an entire post to <a href="http://octopress.org/">Octopress</a> and how I set it up. However, in the interested of moving forward I will just write down my thoughts on it and my experience so far.
+When I made the decision to document my learning progress and put it on the internet, I thought I was going to use a simple blog tool like <a href="http://wordpress.com/"> Wordpress</a> or <a href="http://www.blogger.com/home">Blogger</a>. I was almost ready to build my site using one of those tools when I stumbled on to a blog which influenced my own: <a href="http://learnwithjeff.com/">learnwithjeff</a>. In his blog, Jeff mentioned how he learns by teaching and he documents his learning process as well as assigns exercises for those who want to learn along with him.
+At the bottom of his page, I saw a little label that said &ldquo;Powered by Octopress&rdquo;. I had never heard of Octopress but I was curious. I looked it up and after reading the tagline &ldquo;A blogging framework for hackers&rdquo; I decided to give it shot. I figured that blogging using a tool meant for &ldquo;hackers&rdquo; would make me a better programmer and would expose me to more technologies.
+I was not disappointed. Octopress was easy to setup but in order to get it working and see it live I had to install <a href="https://www.ruby-lang.org/en/">Ruby</a> and <a href="http://git-scm.com/">git</a> on my PC and get <a href="https://www.heroku.com/">Heroku</a> account. This exercise alone exposed me to several new technologies and basically broke the ice. &ldquo;Heroku&rdquo; stopped being a mysterious word I had heard when reading about web development and Git became more approachable. This gave me more confidence to keep moving forward and continue learning. I was making progress and I was happy about it.
+After a few searches I settled on a theme I liked and I was done!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Git and Github]]></title>
+    <link href="http://codeandkaizen.herokuapp.com/blog/2013/09/19/git-and-github/"/>
+    <updated>2013-09-19T23:25:00-04:00</updated>
+    <id>http://codeandkaizen.herokuapp.com/blog/2013/09/19/git-and-github</id>
+    <content type="html"><![CDATA[<p>This is pretty straight forward. I had setup a <a href="https://github.com/">Github</a> account in the past. But I had rarely used it. I used the free <a href=” the http://try.github.io/levels/1/challenges/1”>Try git tutorial</a> from <a href=” http://www.codeschool.com/”>Code School</a> to help me started. I started using git with <a href="http://octopress.org/">Octopress</a> and with <a href="http://ruby.railstutorial.org/">Michael Hartl&rsquo;s Rails tutorial</a>.
+I have started using git to version all of the code I am writing. Additionally, I have been uploading all the code I have completed from tutorials to Github.
+The interesting thing about uploading code to Github is that it forced me to <a href="http://en.wikipedia.org/wiki/Code_refactoring">refactor</a> and make my code nicer. The thought that my code was out there for everyone to see, made me push myself to make it better!
+I have used only few of the features Git and Github have to offer. I use it for code versioning mostly.Additionally, <a href="http://git-scm.com/book/en/Git-Branching">branching</a> is a useful feature that I have started to understand. With some discipline and practice I will introduce branching to my everyday coding. However, this is only the tip of the iceberg in terms of Git. Anyone interested in learning more should check out <a href=http://git-scm.com/book> the Pro Git book</a>.</p>
+]]></content>
+  </entry>
+  
+</feed>

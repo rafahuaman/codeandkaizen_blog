@@ -4,7 +4,7 @@
   <title><![CDATA[Category: about | Code and Kaizen]]></title>
   <link href="http://codeandkaizen.herokuapp.com/blog/categories/about/atom.xml" rel="self"/>
   <link href="http://codeandkaizen.herokuapp.com/"/>
-  <updated>2013-09-09T22:46:35-04:00</updated>
+  <updated>2013-09-20T00:52:42-04:00</updated>
   <id>http://codeandkaizen.herokuapp.com/</id>
   <author>
     <name><![CDATA[Rafael Huaman]]></name>
@@ -12,6 +12,31 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[My Thoughts on Octopress]]></title>
+    <link href="http://codeandkaizen.herokuapp.com/blog/2013/09/19/my-thoughts-on-octopress/"/>
+    <updated>2013-09-19T23:25:00-04:00</updated>
+    <id>http://codeandkaizen.herokuapp.com/blog/2013/09/19/my-thoughts-on-octopress</id>
+    <content type="html"><![CDATA[<p>Originally I wanted to dedicate an entire post to <a href="http://octopress.org/">Octopress</a> and how I set it up. However, in the interested of moving forward I will just write down my thoughts on it and my experience so far.
+When I made the decision to document my learning progress and put it on the internet, I thought I was going to use a simple blog tool like <a href="http://wordpress.com/"> Wordpress</a> or <a href="http://www.blogger.com/home">Blogger</a>. I was almost ready to build my site using one of those tools when I stumbled on to a blog which influenced my own: <a href="http://learnwithjeff.com/">learnwithjeff</a>. In his blog, Jeff mentioned how he learns by teaching and he documents his learning process as well as assigns exercises for those who want to learn along with him.
+At the bottom of his page, I saw a little label that said &ldquo;Powered by Octopress&rdquo;. I had never heard of Octopress but I was curious. I looked it up and after reading the tagline &ldquo;A blogging framework for hackers&rdquo; I decided to give it shot. I figured that blogging using a tool meant for &ldquo;hackers&rdquo; would make me a better programmer and would expose me to more technologies.
+I was not disappointed. Octopress was easy to setup but in order to get it working and see it live I had to install <a href="https://www.ruby-lang.org/en/">Ruby</a> and <a href="http://git-scm.com/">git</a> on my PC and get <a href="https://www.heroku.com/">Heroku</a> account. This exercise alone exposed me to several new technologies and basically broke the ice. &ldquo;Heroku&rdquo; stopped being a mysterious word I had heard when reading about web development and Git became more approachable. This gave me more confidence to keep moving forward and continue learning. I was making progress and I was happy about it.
+After a few searches I settled on a theme I liked and I was done!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Lots of updates and Diminishing Returns]]></title>
+    <link href="http://codeandkaizen.herokuapp.com/blog/2013/09/19/lots-of-updates-and-diminishing-returns/"/>
+    <updated>2013-09-19T23:24:00-04:00</updated>
+    <id>http://codeandkaizen.herokuapp.com/blog/2013/09/19/lots-of-updates-and-diminishing-returns</id>
+    <content type="html"><![CDATA[<p>Over the past couple of few months I have been trying to document my achievements as I went along. I found that reflecting on the things I learned as I write about them really helped me internalize some concepts. However, at some point I reached a point where I was learning and trying new things faster than I could write about them.
+Initially my solution to this was to write quick notes on what I had learned and write the complete blog post later.  This worked for a while but I quickly started falling behind on my blog entries and started accumulating lots of notes on the topics and technologies I had covered.
+One thing to keep in mind when you start learning something new is that &ldquo;Diminishing Returns&rdquo; really apply to this situation. I learned the basics of a lot of technologies very quickly and did not write blog entries on it. However, I have reached a point now in which I am spending quite a bit of time going through the <a href="http://ruby.railstutorial.org/">Michael Hartl&rsquo;s Rails Tutorial</a>  and reading the <a href="http://www.amazon.com/Well-Grounded-Rubyist-David-Black/dp/1933988657/ref=sr_1_1?s=books&ie=UTF8&qid=1379647910&sr=1-1"> Well Grounded Rubyist book</a>. My learning has slowed down. That&rsquo;s not a bad thing. It just means I have covered a lot of topics and is taking me a while to get more in-depth knowledge on some of the advanced concepts. I am going to take advantage of this time and catch quickly catch up my blog with all the technologies I have learned over the past couple of months.
+The next few posts will be uploaded on the same day probably. That&rsquo;s because I wrote them all in a day but learning and experimenting occurred over several weeks.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[HTML, CSS, and CodeAcademy]]></title>
@@ -96,65 +121,6 @@ I thought about starting a bigger project like a simple Android App as a way to 
 
 
 
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[The Start of The Great Web Development Adventure of 2013]]></title>
-    <link href="http://codeandkaizen.herokuapp.com/blog/2013/08/10/the-start-of-the-great-web-development-adventure-of-2013/"/>
-    <updated>2013-08-10T17:24:00-04:00</updated>
-    <id>http://codeandkaizen.herokuapp.com/blog/2013/08/10/the-start-of-the-great-web-development-adventure-of-2013</id>
-    <content type="html"><![CDATA[<p>Do you like my title? I like my goals and projects to sound <strong>EPIC</strong>!</p>
-
-<p>Several weeks ago I decided I wanted to become a full-fledged web developer. After reading about agile development, TDD, and the tools and languages that developers were using nowadays, I got very interested in the subject.
-I made this decision after analyzing what I really liked doing professionally. It took me a couple of years of being in the workforce to really see what options were available to me and to learn what type of job I liked. Being a technology consultant helped with this because I was exposed to many different companies and wore several different throughout multiple projects.</p>
-
-<p>Here is the breakdown:</p>
-
-<ul>
-<li>I like Building things.</li>
-<li>I like programming. At work, I enjoy tasks that involved coding.</li>
-<li>I like programming applications over to process automation or database management.</li>
-</ul>
-
-
-<p>
-So it turns out, I want to be programming all day, building applications and solving problems with code.
-In the next few weeks I will document my progress as I teach myself the skills necessary to be a web developer. Let the adventure begin!</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[First Post]]></title>
-    <link href="http://codeandkaizen.herokuapp.com/blog/2013/08/08/first-post/"/>
-    <updated>2013-08-08T17:22:00-04:00</updated>
-    <id>http://codeandkaizen.herokuapp.com/blog/2013/08/08/first-post</id>
-    <content type="html"><![CDATA[<p>I am Rafael.</p>
-
-<p>Welcome to my new blog. Here I will post about my attempts to learn new things and improve myself. I figured that writing about my learning experiences will be a good way to reflect on what I learned and at the same time document my progress.</p>
-
-<p>A little about me:</p>
-
-<p>I am technology consultant out of New York City. I have been working in the financial industry helping companies improve their regulatory processes through technology.</p>
-
-<ul>
-<li>I flew 100,000 miles last year.</li>
-<li>I am from Lima, Peru. I lived there until I was 17.</li>
-<li>I graduated from the University of Richmond with a BS in Computer Science and Mathematical Economics</li>
-<li>I like books, comics, movies, and video games. </li>
-<li>I have played every generation of Pokémon games.  ಠ_ಠ  </li>
-<li>I like tennis but I don't watch sports.</li>
-<li>I prefer non-fiction to fiction books.</li>
-</ul>
-
-
-<p>And&hellip;</p>
-
-<p>I love <a href="http://www.instructables.com/">building</a>, <a href="http://www.radiolab.org/">learning</a>, <a href="http://hackaday.com/">hacking</a>, <a href="http://www.codeacademy.com/">programming</a>, and <a href="http://www.lifehacker.com">optimizing my life</a>. These last five things are my reason for creating this blog, so you will most likely find posts about them.</p>
-
-<p>That is all for now. Introduction done!</p>
-
-<p>Please comment! I love suggestions and ideas. Please include sources or examples when available.</p>
 ]]></content>
   </entry>
   

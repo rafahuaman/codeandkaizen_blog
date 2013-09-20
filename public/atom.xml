@@ -4,7 +4,7 @@
   <title><![CDATA[Code and Kaizen]]></title>
   <link href="http://codeandkaizen.herokuapp.com/atom.xml" rel="self"/>
   <link href="http://codeandkaizen.herokuapp.com/"/>
-  <updated>2013-09-09T22:46:35-04:00</updated>
+  <updated>2013-09-20T00:52:42-04:00</updated>
   <id>http://codeandkaizen.herokuapp.com/</id>
   <author>
     <name><![CDATA[Rafael Huaman]]></name>
@@ -12,6 +12,122 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Ruby and the Koans]]></title>
+    <link href="http://codeandkaizen.herokuapp.com/blog/2013/09/19/ruby-and-the-koans/"/>
+    <updated>2013-09-19T23:26:00-04:00</updated>
+    <id>http://codeandkaizen.herokuapp.com/blog/2013/09/19/ruby-and-the-koans</id>
+    <content type="html"><![CDATA[<p>After finishing CodeAcademy&rsquo;s Web Fundamentals track I immediately started the Ruby track. I knew I wanted to go with Ruby because I had already done plenty of research on the technologies I needed to learn in order to become a web developer. I had used Ruby in the past for a very simple Ride Sharing web application I built while at school; however, I used it simply as a means to work with rails and setup the application quickly. During my student time this was OK; however, now that I have made a serious choice about becoming a web developer I need to master it.
+The authors of the book <a href ="http://www.amazon.com/Apprenticeship-Patterns-Guidance-Aspiring-Craftsman/dp/0596518382/ref=sr_1_1?s=books&ie=UTF8&qid=1379649530&sr=1-1">Apprenticeship Patterns</a> point out that &ldquo;It is important that you carefully weigh the options (between programming languages), as this is the foundation upon which your early career will be built&rdquo;. I have chosen Ruby. I will immerse myself in it, play with it in my free time, solve puzzles and read the documentation until I know it all. It will be a long road but I am ready to take the first steps.
+The Ruby track offered by <a href="codecademy.com">CodeAcademy</a> was very good. It was very simple and easy to understand. It even had a few &ldquo;projects&rdquo; to apply the concepts learned. The sections build on each other and it is easy to go back and review previous concepts and exercises in case you forget something along the way. The Ruby track can be finished very quickly since it just a beginner&rsquo;s course.<br/>
+My conclusion after CodeAcademy&rsquo;s Ruby Track:</p>
+
+<ul>
+<li>This is definitely a beginner&#8217;s course.</li>
+<li>After I was done I felt that I even though I could write classes, methods, procs, lambdas, and loops, there was still a lot to learn.</li> 
+</ul>
+
+
+<p>My initial thoughts on Ruby:</p>
+
+<ul>
+<li>I like it.</li> 
+<li>It offers a lot of flexibility (There&#8217;s usually more than one way to do one thing in Ruby)</li>
+<li>Ruby offers a few interesting methods and features like &#8220;each&#8221;, the flexible way to write conditions, and passing blocks.</li>
+<li>It&#8217;s very easy to work with hashes.</li>
+</ul>
+
+
+
+
+<h2>Achieving Zen with the Ruby Koans </h2>
+
+
+<p>&ldquo;If a test runs in the forest, and no one is there to see it. Does it pass?&rdquo;</p>
+
+<p>OK that&rsquo;s enough for my attempts at programming/Zen puns.</p>
+
+<p>After I finished CodeAcademy&rsquo;s Ruby track I felt that there was a lot more I needed to learn about the language. The CodeAcademy tutorial is definitely a beginner&rsquo;s guide. It&rsquo;s meant to get you started, and walk you through the concepts but it does not go deeper. It doesn&rsquo;t even walk the users through installing Ruby in their machines.</p>
+
+<p>This bothered me a lot. I felt that had I learned all the Ruby basics but I couldn&rsquo;t do much with them yet. I continued to feel this way until I reached the end of chapter 4 in <a href="http://ruby.railstutorial.org/">Michel Hartl&rsquo;s Rails tutorial</a>  (I will discuss my adventures with rails later). Hidden in the exercise section at the end of chapter four I found the best resource to help me learn ruby to date: <a href="http://rubykoans.com/">The Ruby Koans</a>.</p>
+
+<p>The Ruby Koans brought to you by the nice folks at <a href="http://www.neo.com/">Neo Innovation</a> are a way to learn Ruby through testing. The Koans are structured as a series of exercises. Each exercise includes one or more tests the user needs to make pass. Each time the user runs the Koans, the program shows the first failed test in the terminal. The user then has to find the file and the specific test that is failing in order to fix it.</p>
+
+<p>The user is not testing a big program in these exercises. The user is testing Ruby! Here is an example of a test in the Koans:</p>
+
+<p>This test fails and the user has to fill replace &ldquo;__&rdquo; with the expected output</p>
+
+<p>def test_creating_arrays
+  empty_array = Array.new
+  assert_equal <strong>, empty_array.class
+  assert_equal </strong>, empty_array.size
+end</p>
+
+<p>These changes will make the tests pass:</p>
+
+<p>def test_creating_arrays
+  empty_array = Array.new
+  assert_equal Array, empty_array.class
+  assert_equal 0, empty_array.size
+end</p>
+
+<p>There are basically no hints or answer sheets (you can find solved Koans in <a href="https://github.com/">Github</a>, but why ruin these amazing exercises? This way the user is forced to think about the exercises and internalize the concepts with each test.</p>
+
+<p>Another reason I liked the Koans is that they emphasize testing. As you advance you will find small projects and bigger exercises to work one that involve more coding than just replacing words in the text. I got so used to testing by this point that I used <a href="http://en.wikipedia.org/wiki/Test-driven_development">TDD</a> in the projects and even in the <a href="http://en.wikipedia.org/wiki/Farkle">Farkle</a> game at the end.</p>
+
+<p>After finishing the Koans I definitely felt more adept in Ruby and was more confident in my abilities. I would recommend this style of learning to anyone that wants to learn Ruby.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[The Command Line]]></title>
+    <link href="http://codeandkaizen.herokuapp.com/blog/2013/09/19/the-command-line/"/>
+    <updated>2013-09-19T23:25:00-04:00</updated>
+    <id>http://codeandkaizen.herokuapp.com/blog/2013/09/19/the-command-line</id>
+    <content type="html"><![CDATA[<p>This is not completely new to me. I have used the windows and UNIX command lines in the past. I used it in school to compile programs archive them. I hadn&rsquo;t really used for anything other than that. The point is that I wasn&rsquo;t a complete stranger. I debated whether I should skip this section of my road map. However, I decided against it. Since my goal is to be proficient in every aspect of web development I not could afford missing important information in one of the basics skills. Besides I had never had any &ldquo;training&rdquo; in terms of the command line.
+I decided to go with the <a href=” http://cli.learncodethehardway.org/book/”> Command Line Crash Course</a> by Learn code the hard way.
+The course was really useful. It really makes a point of making the readers memorize the commands by practicing with flash cards and doing the exercises over and over again. Doing the exercises over and over again gets repetitive but you can be sure that if you follow the instructions you will be very familiar with the command line by the end of it.
+So yes, the course will make you familiar with the command line and some of its more advanced features such as piping and redirecting; however, if you are already familiar with it. There is not that much more to learn here. I recommend it if you are completely new to it but if you are not complete beginner skip the sections you already know.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[My Thoughts on Octopress]]></title>
+    <link href="http://codeandkaizen.herokuapp.com/blog/2013/09/19/my-thoughts-on-octopress/"/>
+    <updated>2013-09-19T23:25:00-04:00</updated>
+    <id>http://codeandkaizen.herokuapp.com/blog/2013/09/19/my-thoughts-on-octopress</id>
+    <content type="html"><![CDATA[<p>Originally I wanted to dedicate an entire post to <a href="http://octopress.org/">Octopress</a> and how I set it up. However, in the interested of moving forward I will just write down my thoughts on it and my experience so far.
+When I made the decision to document my learning progress and put it on the internet, I thought I was going to use a simple blog tool like <a href="http://wordpress.com/"> Wordpress</a> or <a href="http://www.blogger.com/home">Blogger</a>. I was almost ready to build my site using one of those tools when I stumbled on to a blog which influenced my own: <a href="http://learnwithjeff.com/">learnwithjeff</a>. In his blog, Jeff mentioned how he learns by teaching and he documents his learning process as well as assigns exercises for those who want to learn along with him.
+At the bottom of his page, I saw a little label that said &ldquo;Powered by Octopress&rdquo;. I had never heard of Octopress but I was curious. I looked it up and after reading the tagline &ldquo;A blogging framework for hackers&rdquo; I decided to give it shot. I figured that blogging using a tool meant for &ldquo;hackers&rdquo; would make me a better programmer and would expose me to more technologies.
+I was not disappointed. Octopress was easy to setup but in order to get it working and see it live I had to install <a href="https://www.ruby-lang.org/en/">Ruby</a> and <a href="http://git-scm.com/">git</a> on my PC and get <a href="https://www.heroku.com/">Heroku</a> account. This exercise alone exposed me to several new technologies and basically broke the ice. &ldquo;Heroku&rdquo; stopped being a mysterious word I had heard when reading about web development and Git became more approachable. This gave me more confidence to keep moving forward and continue learning. I was making progress and I was happy about it.
+After a few searches I settled on a theme I liked and I was done!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Git and Github]]></title>
+    <link href="http://codeandkaizen.herokuapp.com/blog/2013/09/19/git-and-github/"/>
+    <updated>2013-09-19T23:25:00-04:00</updated>
+    <id>http://codeandkaizen.herokuapp.com/blog/2013/09/19/git-and-github</id>
+    <content type="html"><![CDATA[<p>This is pretty straight forward. I had setup a <a href="https://github.com/">Github</a> account in the past. But I had rarely used it. I used the free <a href=” the http://try.github.io/levels/1/challenges/1”>Try git tutorial</a> from <a href=” http://www.codeschool.com/”>Code School</a> to help me started. I started using git with <a href="http://octopress.org/">Octopress</a> and with <a href="http://ruby.railstutorial.org/">Michael Hartl&rsquo;s Rails tutorial</a>.
+I have started using git to version all of the code I am writing. Additionally, I have been uploading all the code I have completed from tutorials to Github.
+The interesting thing about uploading code to Github is that it forced me to <a href="http://en.wikipedia.org/wiki/Code_refactoring">refactor</a> and make my code nicer. The thought that my code was out there for everyone to see, made me push myself to make it better!
+I have used only few of the features Git and Github have to offer. I use it for code versioning mostly.Additionally, <a href="http://git-scm.com/book/en/Git-Branching">branching</a> is a useful feature that I have started to understand. With some discipline and practice I will introduce branching to my everyday coding. However, this is only the tip of the iceberg in terms of Git. Anyone interested in learning more should check out <a href=http://git-scm.com/book> the Pro Git book</a>.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Lots of updates and Diminishing Returns]]></title>
+    <link href="http://codeandkaizen.herokuapp.com/blog/2013/09/19/lots-of-updates-and-diminishing-returns/"/>
+    <updated>2013-09-19T23:24:00-04:00</updated>
+    <id>http://codeandkaizen.herokuapp.com/blog/2013/09/19/lots-of-updates-and-diminishing-returns</id>
+    <content type="html"><![CDATA[<p>Over the past couple of few months I have been trying to document my achievements as I went along. I found that reflecting on the things I learned as I write about them really helped me internalize some concepts. However, at some point I reached a point where I was learning and trying new things faster than I could write about them.
+Initially my solution to this was to write quick notes on what I had learned and write the complete blog post later.  This worked for a while but I quickly started falling behind on my blog entries and started accumulating lots of notes on the topics and technologies I had covered.
+One thing to keep in mind when you start learning something new is that &ldquo;Diminishing Returns&rdquo; really apply to this situation. I learned the basics of a lot of technologies very quickly and did not write blog entries on it. However, I have reached a point now in which I am spending quite a bit of time going through the <a href="http://ruby.railstutorial.org/">Michael Hartl&rsquo;s Rails Tutorial</a>  and reading the <a href="http://www.amazon.com/Well-Grounded-Rubyist-David-Black/dp/1933988657/ref=sr_1_1?s=books&ie=UTF8&qid=1379647910&sr=1-1"> Well Grounded Rubyist book</a>. My learning has slowed down. That&rsquo;s not a bad thing. It just means I have covered a lot of topics and is taking me a while to get more in-depth knowledge on some of the advanced concepts. I am going to take advantage of this time and catch quickly catch up my blog with all the technologies I have learned over the past couple of months.
+The next few posts will be uploaded on the same day probably. That&rsquo;s because I wrote them all in a day but learning and experimenting occurred over several weeks.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[HTML, CSS, and CodeAcademy]]></title>
