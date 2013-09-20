@@ -37,19 +37,23 @@ The user is not testing a big program in these exercises. The user is testing Ru
  
 This test fails and the user has to fill replace "__" with the expected output
 
+{% codeblock Failing Test lang:ruby %}
 def test_creating_arrays
   empty_array = Array.new
   assert_equal __, empty_array.class
   assert_equal __, empty_array.size
 end
+{% endcodeblock %}
   
 These changes will make the tests pass: 
 
+{% codeblock Passing Test lang:ruby %}  
 def test_creating_arrays
   empty_array = Array.new
   assert_equal Array, empty_array.class
   assert_equal 0, empty_array.size
 end
+{% endcodeblock %}
 
 
 There are basically no hints or answer sheets (you can find solved Koans in <a href="https://github.com/">Github</a>, but why ruin these amazing exercises? This way the user is forced to think about the exercises and internalize the concepts with each test. 
