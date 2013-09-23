@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: HTML | Code and Kaizen]]></title>
-  <link href="http://codeandkaizen.herokuapp.com/blog/categories/html/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Codecademy | Code and Kaizen]]></title>
+  <link href="http://codeandkaizen.herokuapp.com/blog/categories/codecademy/atom.xml" rel="self"/>
   <link href="http://codeandkaizen.herokuapp.com/"/>
   <updated>2013-09-22T21:15:53-04:00</updated>
   <id>http://codeandkaizen.herokuapp.com/</id>

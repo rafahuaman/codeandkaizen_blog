@@ -28,7 +28,7 @@ After some research I have narrowed down the list of technologies and topics tha
 
 <h2>My resources</h2>
 <ul>
-<li><a href="http://www.codecademy.com/">Codeacademy</a></li>
+<li><a href="http://www.codecademy.com/">Codecademy</a></li>
 <li><a href="http://hackercs.com/">Hackcer CS</a></li>
 <li><a href="http://codingbat.com/">CodingBat</li>
 <li><a href="https://www.codeschool.com/">Code School</li>

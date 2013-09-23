@@ -4,7 +4,7 @@
   <title><![CDATA[Code and Kaizen]]></title>
   <link href="http://codeandkaizen.herokuapp.com/atom.xml" rel="self"/>
   <link href="http://codeandkaizen.herokuapp.com/"/>
-  <updated>2013-09-20T01:00:02-04:00</updated>
+  <updated>2013-09-22T21:15:53-04:00</updated>
   <id>http://codeandkaizen.herokuapp.com/</id>
   <author>
     <name><![CDATA[Rafael Huaman]]></name>
@@ -18,9 +18,9 @@
     <link href="http://codeandkaizen.herokuapp.com/blog/2013/09/19/ruby-and-the-koans/"/>
     <updated>2013-09-19T23:26:00-04:00</updated>
     <id>http://codeandkaizen.herokuapp.com/blog/2013/09/19/ruby-and-the-koans</id>
-    <content type="html"><![CDATA[<p>After finishing CodeAcademy&rsquo;s Web Fundamentals track I immediately started the Ruby track. I knew I wanted to go with Ruby because I had already done plenty of research on the technologies I needed to learn in order to become a web developer. I had used Ruby in the past for a very simple Ride Sharing web application I built while at school; however, I used it simply as a means to work with rails and setup the application quickly. During my student time this was OK; however, now that I have made a serious choice about becoming a web developer I need to master it.
+    <content type="html"><![CDATA[<p>After finishing Codecademy&rsquo;s Web Fundamentals track I immediately started the Ruby track. I knew I wanted to go with Ruby because I had already done plenty of research on the technologies I needed to learn in order to become a web developer. I had used Ruby in the past for a very simple Ride Sharing web application I built while at school; however, I used it simply as a means to work with rails and setup the application quickly. During my student time this was OK; however, now that I have made a serious choice about becoming a web developer I need to master it.
 The authors of the book <a href ="http://www.amazon.com/Apprenticeship-Patterns-Guidance-Aspiring-Craftsman/dp/0596518382/ref=sr_1_1?s=books&ie=UTF8&qid=1379649530&sr=1-1">Apprenticeship Patterns</a> point out that &ldquo;It is important that you carefully weigh the options (between programming languages), as this is the foundation upon which your early career will be built&rdquo;. I have chosen Ruby. I will immerse myself in it, play with it in my free time, solve puzzles and read the documentation until I know it all. It will be a long road but I am ready to take the first steps.
-The Ruby track offered by <a href="codecademy.com">CodeAcademy</a> was very good. It was very simple and easy to understand. It even had a few &ldquo;projects&rdquo; to apply the concepts learned. The sections build on each other and it is easy to go back and review previous concepts and exercises in case you forget something along the way. The Ruby track can be finished very quickly since it just a beginner&rsquo;s course.<br/>
+The Ruby track offered by <a href="http://www.codecademy.com/">Codecademy</a> was very good. It was very simple and easy to understand. It even had a few &ldquo;projects&rdquo; to apply the concepts learned. The sections build on each other and it is easy to go back and review previous concepts and exercises in case you forget something along the way. The Ruby track can be finished very quickly since it just a beginner&rsquo;s course.<br/>
 My conclusion after CodeAcademy&rsquo;s Ruby Track:</p>
 
 <ul>
@@ -148,7 +148,7 @@ The next few posts will be uploaded on the same day probably. That&rsquo;s becau
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[HTML, CSS, and CodeAcademy]]></title>
+    <title type="html"><![CDATA[HTML, CSS, and Codecademy]]></title>
     <link href="http://codeandkaizen.herokuapp.com/blog/2013/09/09/html/"/>
     <updated>2013-09-09T22:39:00-04:00</updated>
     <id>http://codeandkaizen.herokuapp.com/blog/2013/09/09/html</id>
@@ -156,13 +156,13 @@ The next few posts will be uploaded on the same day probably. That&rsquo;s becau
 
 <p>I had learned a bit about HTML and CSS before, but I hadn&rsquo;t really dived deep into the subject. After a few Google searches and reading a few reviews I decided to get the book HTML and &amp; CSS Design and build websites by Jon Duckett. This book was great!. Short and concise explanations paired with excellent visual design and great photographs. The book was just so pretty it was a joy to read and to hold. The book has a companion website which you can use to get the source code and images for the examples. Besides core HTML and CSS concepts, the book covers best practices, backwards and cross-browser compatibility. I recommend this book to anyone who wants to learn about HTML and CSS and get acquainted with some design concepts.</p>
 
-<p>I was about all done with the HTML part of the book when I stumbled upon CodeAcademy. An enlightened internet user mentioned it on Quora and I decided to take a look out of curiosity. What a great find! You really have to give credit to the programming community for building such amazing learning resources and making them available to the public for free. CodeAcademy offers free coding courses through their interactive online platform, which allows its users to code right on the browser and see immediate results without any previous setup. CodeSchool and Treehouse offer paid versions of this web service. At around $25 a month, access to these websites is a bargain, they offer as similar platforms for learning paired with videos and a lot more courses to choose from. CodeAcademy does not have as much content as its paid counterparts but it&rsquo;s free!</p>
+<p>I was about all done with the HTML part of the book when I stumbled upon Codecademy. An enlightened internet user mentioned it on Quora and I decided to take a look out of curiosity. What a great find! You really have to give credit to the programming community for building such amazing learning resources and making them available to the public for free. Codecademy offers free coding courses through their interactive online platform, which allows its users to code right on the browser and see immediate results without any previous setup. CodeSchool and Treehouse offer paid versions of this web service. At around $25 a month, access to these websites is a bargain, they offer as similar platforms for learning paired with videos and a lot more courses to choose from. Codecademy does not have as much content as its paid counterparts but it&rsquo;s free!</p>
 
-<p>CodeAcademy was just what I needed. Reading the books and following along some of the work was great but I needed additional exercises. CodeAcademy helped me with this. And I was quickly done with their &ldquo;Web Fundamentals&rdquo; track which included HTML and CSS. Code Academy had effectively replaced my book even though it wasn&rsquo;t as detailed. I imagine that the great people at CodeAcademy will add more advanced courses with time.</p>
+<p>Codecademy was just what I needed. Reading the books and following along some of the work was great but I needed additional exercises. Codecademy helped me with this. And I was quickly done with their &ldquo;Web Fundamentals&rdquo; track which included HTML and CSS. Codecademy had effectively replaced my book even though it wasn&rsquo;t as detailed. I imagine that the great people at Codecademy will add more advanced courses with time.</p>
 
 <p>After finishing the HTML and CSS course I felt good about what I had learned. Let&rsquo;s be honest, I won&rsquo;t be able to memorize all the tags and syntax unless I use them repeatedly. But there are plenty of resources out there I can use to check for syntax rules when the time comes. I already use HTML while editing these blog posts, but CSS will be a bit harder to use on a regular basis.</p>
 
-<p>At this point I wanted to move forward so I did. I was done with HTML &amp; CSS and CodeAcademy offered several tracks so I quickly moved onto Ruby.</p>
+<p>At this point I wanted to move forward so I did. I was done with HTML &amp; CSS and Codecademy offered several tracks so I quickly moved onto Ruby.</p>
 ]]></content>
   </entry>
   
@@ -216,7 +216,7 @@ I thought about starting a bigger project like a simple Android App as a way to 
 
 
 <ul>
-<li><a href="http://www.codecademy.com/">Codeacademy</a></li>
+<li><a href="http://www.codecademy.com/">Codecademy</a></li>
 <li><a href="http://hackercs.com/">Hackcer CS</a></li>
 <li><a href="http://codingbat.com/">CodingBat</li>
 <li><a href="https://www.codeschool.com/">Code School</li>
@@ -284,7 +284,7 @@ In the next few weeks I will document my progress as I teach myself the skills n
 
 <p>And&hellip;</p>
 
-<p>I love <a href="http://www.instructables.com/">building</a>, <a href="http://www.radiolab.org/">learning</a>, <a href="http://hackaday.com/">hacking</a>, <a href="http://www.codeacademy.com/">programming</a>, and <a href="http://www.lifehacker.com">optimizing my life</a>. These last five things are my reason for creating this blog, so you will most likely find posts about them.</p>
+<p>I love <a href="http://www.instructables.com/">building</a>, <a href="http://www.radiolab.org/">learning</a>, <a href="http://hackaday.com/">hacking</a>, <a href="http://www.codecademy.com/">programming</a>, and <a href="http://www.lifehacker.com">optimizing my life</a>. These last five things are my reason for creating this blog, so you will most likely find posts about them.</p>
 
 <p>That is all for now. Introduction done!</p>
 

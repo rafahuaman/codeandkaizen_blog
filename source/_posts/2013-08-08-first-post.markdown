@@ -23,7 +23,7 @@ I am technology consultant out of New York City. I have been working in the fina
 </ul>
 And...
 
-I love <a href="http://www.instructables.com/">building</a>, <a href="http://www.radiolab.org/">learning</a>, <a href="http://hackaday.com/">hacking</a>, <a href="http://www.codeacademy.com/">programming</a>, and <a href="http://www.lifehacker.com">optimizing my life</a>. These last five things are my reason for creating this blog, so you will most likely find posts about them.
+I love <a href="http://www.instructables.com/">building</a>, <a href="http://www.radiolab.org/">learning</a>, <a href="http://hackaday.com/">hacking</a>, <a href="http://www.codecademy.com/">programming</a>, and <a href="http://www.lifehacker.com">optimizing my life</a>. These last five things are my reason for creating this blog, so you will most likely find posts about them.
 
 That is all for now. Introduction done!
 
