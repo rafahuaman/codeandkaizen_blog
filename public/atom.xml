@@ -4,7 +4,7 @@
   <title><![CDATA[Code and Kaizen]]></title>
   <link href="http://codeandkaizen.herokuapp.com/atom.xml" rel="self"/>
   <link href="http://codeandkaizen.herokuapp.com/"/>
-  <updated>2013-09-22T21:15:53-04:00</updated>
+  <updated>2013-09-22T21:22:14-04:00</updated>
   <id>http://codeandkaizen.herokuapp.com/</id>
   <author>
     <name><![CDATA[Rafael Huaman]]></name>
@@ -25,7 +25,7 @@ My conclusion after CodeAcademy&rsquo;s Ruby Track:</p>
 
 <ul>
 <li>This is definitely a beginner&#8217;s course.</li>
-<li>After I was done I felt that I even though I could write classes, methods, procs, lambdas, and loops, there was still a lot to learn.</li> 
+<li>After I was done I felt that even though I could write classes, methods, procs, lambdas, and loops, there was still a lot to learn.</li> 
 </ul>
 
 

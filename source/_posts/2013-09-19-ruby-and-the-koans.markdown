@@ -12,7 +12,7 @@ The Ruby track offered by <a href="http://www.codecademy.com/">Codecademy</a> wa
 My conclusion after CodeAcademy's Ruby Track:
 <ul>
 <li>This is definitely a beginner's course.</li>
-<li>After I was done I felt that I even though I could write classes, methods, procs, lambdas, and loops, there was still a lot to learn.</li> 
+<li>After I was done I felt that even though I could write classes, methods, procs, lambdas, and loops, there was still a lot to learn.</li> 
 </ul>
 My initial thoughts on Ruby:
 <ul>
