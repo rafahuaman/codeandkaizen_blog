@@ -1,0 +1,972 @@
+
+
+<!doctype html>
+  <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+  <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+  <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+  <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Code and Kaizen</title>
+    <meta name="author" content="Rafael Huaman">
+    
+    <meta name="description" content="Ruby and the Koans Sep 19th, 2013 blog web dev Ruby Ruby Koans Koans Neo Innovation After finishing Codecademy&rsquo;s Web Fundamentals track I &hellip;">
+    
+    <meta name="viewport" content="width=device-width">
+    
+    <link rel="canonical" href="http://codeandkaizen.herokuapp.com/blog">
+    <link href="/favicon.png" rel="icon">
+    <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet">
+    <link href="//atom.xml" rel="alternate" title="Code and Kaizen" type="application/atom+xml">
+  </head>
+
+
+  <body >
+
+    <header>
+      <div class="grid-wrapper">
+  <div class="grid">
+
+    <div class="grid__item two-fifths lap-four-sixths palm-one-whole">
+  <a href="/" class="site-title">Code and Kaizen</a>
+</div>
+
+<div class="grid__item three-fifths lap-two-sixths palm-one-whole">
+  <nav>
+    <input type="checkbox" id="toggle">
+<label for="toggle" class="toggle" data-open="Main Menu" data-close="Close Menu"></label>
+<ul class="menu pull-right">
+  <li><a href="/">Home</a></li>
+  <li><a href="/blog/">Blog</a></li>
+</ul>
+  </nav>
+</div>
+
+  </div>
+</div>
+    </header>
+
+    
+
+    <div class="grid-wrapper">
+      <div class="grid grid-center">
+        
+        <div class="grid__item two-thirds lap-one-whole palm-one-whole">
+        
+
+          
+
+
+  
+  <article class="listing">
+    <header>
+  
+  <h1 class="beta">
+    <a href="/blog/2013/09/19/ruby-and-the-koans/">Ruby and the Koans</a>
+  </h1>
+  
+
+  
+  <div class="meta clearfix">
+    
+
+
+
+
+
+
+
+
+  
+
+
+<time class="pull-left" datetime="2013-09-19T23:26:00-04:00" pubdate data-updated="true"><i class="icon-calendar"></i> Sep 19<span>th</span>, 2013</time>
+    
+
+
+
+  
+  <div class="pull-left">
+    <i class="icon-tags"></i>
+    <ul class="tags unstyled">
+    
+      <li><a href="/blog/categories/blog/">blog</a></li>
+    
+      <li><a href="/blog/categories/web dev/">web dev</a></li>
+    
+      <li><a href="/blog/categories/Ruby/">Ruby</a></li>
+    
+      <li><a href="/blog/categories/Ruby Koans/">Ruby Koans</a></li>
+    
+      <li><a href="/blog/categories/Koans/">Koans</a></li>
+    
+      <li><a href="/blog/categories/Neo Innovation/">Neo Innovation</a></li>
+    
+    </ul>
+  </div>
+  
+
+    
+  </div>
+  
+</header>
+
+
+
+
+  <p>After finishing Codecademy&rsquo;s Web Fundamentals track I immediately started the Ruby track. I knew I wanted to go with Ruby because I had already done plenty of research on the technologies I needed to learn in order to become a web developer. I had used Ruby in the past for a very simple Ride Sharing web application I built while at school; however, I used it simply as a means to work with rails and setup the application quickly. During my student time this was OK; however, now that I have made a serious choice about becoming a web developer I need to master it.
+The authors of the book <a href ="http://www.amazon.com/Apprenticeship-Patterns-Guidance-Aspiring-Craftsman/dp/0596518382/ref=sr_1_1?s=books&ie=UTF8&qid=1379649530&sr=1-1">Apprenticeship Patterns</a> point out that &ldquo;It is important that you carefully weigh the options (between programming languages), as this is the foundation upon which your early career will be built&rdquo;. I have chosen Ruby. I will immerse myself in it, play with it in my free time, solve puzzles and read the documentation until I know it all. It will be a long road but I am ready to take the first steps.
+The Ruby track offered by <a href="http://www.codecademy.com/">Codecademy</a> was very good. It was very simple and easy to understand. It even had a few &ldquo;projects&rdquo; to apply the concepts learned. The sections build on each other and it is easy to go back and review previous concepts and exercises in case you forget something along the way. The Ruby track can be finished very quickly since it just a beginner&rsquo;s course.<br/>
+My conclusion after CodeAcademy&rsquo;s Ruby Track:</p>
+
+<ul>
+<li>This is definitely a beginner&#8217;s course.</li>
+<li>After I was done I felt that even though I could write classes, methods, procs, lambdas, and loops, there was still a lot to learn.</li> 
+</ul>
+
+
+<p>My initial thoughts on Ruby:</p>
+
+<ul>
+<li>I like it.</li> 
+<li>It offers a lot of flexibility (There&#8217;s usually more than one way to do one thing in Ruby)</li>
+<li>Ruby offers a few interesting methods and features like &#8220;each&#8221;, the flexible way to write conditions, and passing blocks.</li>
+<li>It&#8217;s very easy to work with hashes.</li>
+</ul>
+
+
+
+
+<h2>Achieving Zen with the Ruby Koans </h2>
+
+
+<p>&ldquo;If a test runs in the forest, and no one is there to see it. Does it pass?&rdquo;</p>
+
+<p>OK that&rsquo;s enough for my attempts at programming/Zen puns.</p>
+
+<p>After I finished CodeAcademy&rsquo;s Ruby track I felt that there was a lot more I needed to learn about the language. The CodeAcademy tutorial is definitely a beginner&rsquo;s guide. It&rsquo;s meant to get you started, and walk you through the concepts but it does not go deeper. It doesn&rsquo;t even walk the users through installing Ruby in their machines.</p>
+
+<p>This bothered me a lot. I felt that had I learned all the Ruby basics but I couldn&rsquo;t do much with them yet. I continued to feel this way until I reached the end of chapter 4 in <a href="http://ruby.railstutorial.org/">Michel Hartl&rsquo;s Rails tutorial</a>  (I will discuss my adventures with rails later). Hidden in the exercise section at the end of chapter four I found the best resource to help me learn ruby to date: <a href="http://rubykoans.com/">The Ruby Koans</a>.</p>
+
+<p>The Ruby Koans brought to you by the nice folks at <a href="http://www.neo.com/">Neo Innovation</a> are a way to learn Ruby through testing. The Koans are structured as a series of exercises. Each exercise includes one or more tests the user needs to make pass. Each time the user runs the Koans, the program shows the first failed test in the terminal. The user then has to find the file and the specific test that is failing in order to fix it.</p>
+
+<p>The user is not testing a big program in these exercises. The user is testing Ruby! Here is an example of a test in the Koans:</p>
+
+<p>This test fails and the user has to fill replace &ldquo;__&rdquo; with the expected output</p>
+
+<figure class='code'><figcaption><span>Failing Test </span></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="k">def</span> <span class="nf">test_creating_arrays</span>
+</span><span class='line'>  <span class="n">empty_array</span> <span class="o">=</span> <span class="nb">Array</span><span class="o">.</span><span class="n">new</span>
+</span><span class='line'>  <span class="n">assert_equal</span> <span class="n">__</span><span class="p">,</span> <span class="n">empty_array</span><span class="o">.</span><span class="n">class</span>
+</span><span class='line'>  <span class="n">assert_equal</span> <span class="n">__</span><span class="p">,</span> <span class="n">empty_array</span><span class="o">.</span><span class="n">size</span>
+</span><span class='line'><span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>These changes will make the tests pass:</p>
+
+<figure class='code'><figcaption><span>Passing Test </span></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'>
+</span><span class='line'><span class="k">def</span> <span class="nf">test_creating_arrays</span>
+</span><span class='line'>  <span class="n">empty_array</span> <span class="o">=</span> <span class="nb">Array</span><span class="o">.</span><span class="n">new</span>
+</span><span class='line'>  <span class="n">assert_equal</span> <span class="nb">Array</span><span class="p">,</span> <span class="n">empty_array</span><span class="o">.</span><span class="n">class</span>
+</span><span class='line'>  <span class="n">assert_equal</span> <span class="mi">0</span><span class="p">,</span> <span class="n">empty_array</span><span class="o">.</span><span class="n">size</span>
+</span><span class='line'><span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure>
+
+
+<p>There are basically no hints or answer sheets (you can find solved Koans in <a href="https://github.com/">Github</a>, but why ruin these amazing exercises? This way the user is forced to think about the exercises and internalize the concepts with each test.</p>
+
+<p>Another reason I liked the Koans is that they emphasize testing. As you advance you will find small projects and bigger exercises to work one that involve more coding than just replacing words in the text. I got so used to testing by this point that I used <a href="http://en.wikipedia.org/wiki/Test-driven_development">TDD</a> in the projects and even in the <a href="http://en.wikipedia.org/wiki/Farkle">Farkle</a> game at the end.</p>
+
+<p>After finishing the Koans I definitely felt more adept in Ruby and was more confident in my abilities. I would recommend this style of learning to anyone that wants to learn Ruby.</p>
+
+
+  </article>
+  <hr>
+
+  
+  <article class="listing">
+    <header>
+  
+  <h1 class="beta">
+    <a href="/blog/2013/09/19/the-command-line/">The Command Line</a>
+  </h1>
+  
+
+  
+  <div class="meta clearfix">
+    
+
+
+
+
+
+
+
+
+  
+
+
+<time class="pull-left" datetime="2013-09-19T23:25:00-04:00" pubdate data-updated="true"><i class="icon-calendar"></i> Sep 19<span>th</span>, 2013</time>
+    
+
+
+
+  
+  <div class="pull-left">
+    <i class="icon-tags"></i>
+    <ul class="tags unstyled">
+    
+      <li><a href="/blog/categories/blog/">blog</a></li>
+    
+      <li><a href="/blog/categories/cli/">cli</a></li>
+    
+      <li><a href="/blog/categories/command line/">command line</a></li>
+    
+    </ul>
+  </div>
+  
+
+    
+  </div>
+  
+</header>
+
+
+
+
+  <p>This is not completely new to me. I have used the windows and UNIX command lines in the past. I used it in school to compile programs archive them. I hadn&rsquo;t really used for anything other than that. The point is that I wasn&rsquo;t a complete stranger. I debated whether I should skip this section of my road map. However, I decided against it. Since my goal is to be proficient in every aspect of web development I not could afford missing important information in one of the basics skills. Besides I had never had any &ldquo;training&rdquo; in terms of the command line.
+I decided to go with the <a href=” http://cli.learncodethehardway.org/book/”> Command Line Crash Course</a> by Learn code the hard way.
+The course was really useful. It really makes a point of making the readers memorize the commands by practicing with flash cards and doing the exercises over and over again. Doing the exercises over and over again gets repetitive but you can be sure that if you follow the instructions you will be very familiar with the command line by the end of it.
+So yes, the course will make you familiar with the command line and some of its more advanced features such as piping and redirecting; however, if you are already familiar with it. There is not that much more to learn here. I recommend it if you are completely new to it but if you are not complete beginner skip the sections you already know.</p>
+
+
+  </article>
+  <hr>
+
+  
+  <article class="listing">
+    <header>
+  
+  <h1 class="beta">
+    <a href="/blog/2013/09/19/my-thoughts-on-octopress/">My Thoughts on Octopress</a>
+  </h1>
+  
+
+  
+  <div class="meta clearfix">
+    
+
+
+
+
+
+
+
+
+  
+
+
+<time class="pull-left" datetime="2013-09-19T23:25:00-04:00" pubdate data-updated="true"><i class="icon-calendar"></i> Sep 19<span>th</span>, 2013</time>
+    
+
+
+
+  
+  <div class="pull-left">
+    <i class="icon-tags"></i>
+    <ul class="tags unstyled">
+    
+      <li><a href="/blog/categories/blog/">blog</a></li>
+    
+      <li><a href="/blog/categories/about/">about</a></li>
+    
+      <li><a href="/blog/categories/octopress/">octopress</a></li>
+    
+      <li><a href="/blog/categories/git/">git</a></li>
+    
+      <li><a href="/blog/categories/heroku/">heroku</a></li>
+    
+    </ul>
+  </div>
+  
+
+    
+  </div>
+  
+</header>
+
+
+
+
+  <p>Originally I wanted to dedicate an entire post to <a href="http://octopress.org/">Octopress</a> and how I set it up. However, in the interested of moving forward I will just write down my thoughts on it and my experience so far.
+When I made the decision to document my learning progress and put it on the internet, I thought I was going to use a simple blog tool like <a href="http://wordpress.com/"> Wordpress</a> or <a href="http://www.blogger.com/home">Blogger</a>. I was almost ready to build my site using one of those tools when I stumbled on to a blog which influenced my own: <a href="http://learnwithjeff.com/">learnwithjeff</a>. In his blog, Jeff mentioned how he learns by teaching and he documents his learning process as well as assigns exercises for those who want to learn along with him.
+At the bottom of his page, I saw a little label that said &ldquo;Powered by Octopress&rdquo;. I had never heard of Octopress but I was curious. I looked it up and after reading the tagline &ldquo;A blogging framework for hackers&rdquo; I decided to give it shot. I figured that blogging using a tool meant for &ldquo;hackers&rdquo; would make me a better programmer and would expose me to more technologies.
+I was not disappointed. Octopress was easy to setup but in order to get it working and see it live I had to install <a href="https://www.ruby-lang.org/en/">Ruby</a> and <a href="http://git-scm.com/">git</a> on my PC and get <a href="https://www.heroku.com/">Heroku</a> account. This exercise alone exposed me to several new technologies and basically broke the ice. &ldquo;Heroku&rdquo; stopped being a mysterious word I had heard when reading about web development and Git became more approachable. This gave me more confidence to keep moving forward and continue learning. I was making progress and I was happy about it.
+After a few searches I settled on a theme I liked and I was done!</p>
+
+
+  </article>
+  <hr>
+
+  
+  <article class="listing">
+    <header>
+  
+  <h1 class="beta">
+    <a href="/blog/2013/09/19/git-and-github/">Git and Github</a>
+  </h1>
+  
+
+  
+  <div class="meta clearfix">
+    
+
+
+
+
+
+
+
+
+  
+
+
+<time class="pull-left" datetime="2013-09-19T23:25:00-04:00" pubdate data-updated="true"><i class="icon-calendar"></i> Sep 19<span>th</span>, 2013</time>
+    
+
+
+
+  
+  <div class="pull-left">
+    <i class="icon-tags"></i>
+    <ul class="tags unstyled">
+    
+      <li><a href="/blog/categories/blog/">blog</a></li>
+    
+      <li><a href="/blog/categories/web dev/">web dev</a></li>
+    
+      <li><a href="/blog/categories/git/">git</a></li>
+    
+      <li><a href="/blog/categories/github/">github</a></li>
+    
+    </ul>
+  </div>
+  
+
+    
+  </div>
+  
+</header>
+
+
+
+
+  <p>This is pretty straight forward. I had setup a <a href="https://github.com/">Github</a> account in the past. But I had rarely used it. I used the free <a href=” the http://try.github.io/levels/1/challenges/1”>Try git tutorial</a> from <a href=” http://www.codeschool.com/”>Code School</a> to help me started. I started using git with <a href="http://octopress.org/">Octopress</a> and with <a href="http://ruby.railstutorial.org/">Michael Hartl&rsquo;s Rails tutorial</a>.
+I have started using git to version all of the code I am writing. Additionally, I have been uploading all the code I have completed from tutorials to Github.
+The interesting thing about uploading code to Github is that it forced me to <a href="http://en.wikipedia.org/wiki/Code_refactoring">refactor</a> and make my code nicer. The thought that my code was out there for everyone to see, made me push myself to make it better!
+I have used only few of the features Git and Github have to offer. I use it for code versioning mostly.Additionally, <a href="http://git-scm.com/book/en/Git-Branching">branching</a> is a useful feature that I have started to understand. With some discipline and practice I will introduce branching to my everyday coding. However, this is only the tip of the iceberg in terms of Git. Anyone interested in learning more should check out <a href=http://git-scm.com/book> the Pro Git book</a>.</p>
+
+
+  </article>
+  <hr>
+
+  
+  <article class="listing">
+    <header>
+  
+  <h1 class="beta">
+    <a href="/blog/2013/09/19/lots-of-updates-and-diminishing-returns/">Lots of updates and Diminishing Returns</a>
+  </h1>
+  
+
+  
+  <div class="meta clearfix">
+    
+
+
+
+
+
+
+
+
+  
+
+
+<time class="pull-left" datetime="2013-09-19T23:24:00-04:00" pubdate data-updated="true"><i class="icon-calendar"></i> Sep 19<span>th</span>, 2013</time>
+    
+
+
+
+  
+  <div class="pull-left">
+    <i class="icon-tags"></i>
+    <ul class="tags unstyled">
+    
+      <li><a href="/blog/categories/blog/">blog</a></li>
+    
+      <li><a href="/blog/categories/about/">about</a></li>
+    
+    </ul>
+  </div>
+  
+
+    
+  </div>
+  
+</header>
+
+
+
+
+  <p>Over the past couple of few months I have been trying to document my achievements as I went along. I found that reflecting on the things I learned as I write about them really helped me internalize some concepts. However, at some point I reached a point where I was learning and trying new things faster than I could write about them.
+Initially my solution to this was to write quick notes on what I had learned and write the complete blog post later.  This worked for a while but I quickly started falling behind on my blog entries and started accumulating lots of notes on the topics and technologies I had covered.
+One thing to keep in mind when you start learning something new is that &ldquo;Diminishing Returns&rdquo; really apply to this situation. I learned the basics of a lot of technologies very quickly and did not write blog entries on it. However, I have reached a point now in which I am spending quite a bit of time going through the <a href="http://ruby.railstutorial.org/">Michael Hartl&rsquo;s Rails Tutorial</a>  and reading the <a href="http://www.amazon.com/Well-Grounded-Rubyist-David-Black/dp/1933988657/ref=sr_1_1?s=books&ie=UTF8&qid=1379647910&sr=1-1"> Well Grounded Rubyist book</a>. My learning has slowed down. That&rsquo;s not a bad thing. It just means I have covered a lot of topics and is taking me a while to get more in-depth knowledge on some of the advanced concepts. I am going to take advantage of this time and catch quickly catch up my blog with all the technologies I have learned over the past couple of months.
+The next few posts will be uploaded on the same day probably. That&rsquo;s because I wrote them all in a day but learning and experimenting occurred over several weeks.</p>
+
+
+  </article>
+  <hr>
+
+  
+  <article class="listing">
+    <header>
+  
+  <h1 class="beta">
+    <a href="/blog/2013/09/09/html/">HTML, CSS, and Codecademy</a>
+  </h1>
+  
+
+  
+  <div class="meta clearfix">
+    
+
+
+
+
+
+
+
+
+  
+
+
+<time class="pull-left" datetime="2013-09-09T22:39:00-04:00" pubdate data-updated="true"><i class="icon-calendar"></i> Sep 9<span>th</span>, 2013</time>
+    
+
+
+
+  
+  <div class="pull-left">
+    <i class="icon-tags"></i>
+    <ul class="tags unstyled">
+    
+      <li><a href="/blog/categories/blog/">blog</a></li>
+    
+      <li><a href="/blog/categories/about/">about</a></li>
+    
+      <li><a href="/blog/categories/web dev/">web dev</a></li>
+    
+      <li><a href="/blog/categories/HTML/">HTML</a></li>
+    
+      <li><a href="/blog/categories/CSS/">CSS</a></li>
+    
+      <li><a href="/blog/categories/Codecademy/">Codecademy</a></li>
+    
+    </ul>
+  </div>
+  
+
+    
+  </div>
+  
+</header>
+
+
+
+
+  <p>OK so this one is a bit interesting. After playing around with Java, I decided I needed to have a really good grasp of the web fundamentals. So the next step would be HTML and CSS.</p>
+
+<p>I had learned a bit about HTML and CSS before, but I hadn&rsquo;t really dived deep into the subject. After a few Google searches and reading a few reviews I decided to get the book HTML and &amp; CSS Design and build websites by Jon Duckett. This book was great!. Short and concise explanations paired with excellent visual design and great photographs. The book was just so pretty it was a joy to read and to hold. The book has a companion website which you can use to get the source code and images for the examples. Besides core HTML and CSS concepts, the book covers best practices, backwards and cross-browser compatibility. I recommend this book to anyone who wants to learn about HTML and CSS and get acquainted with some design concepts.</p>
+
+<p>I was about all done with the HTML part of the book when I stumbled upon Codecademy. An enlightened internet user mentioned it on Quora and I decided to take a look out of curiosity. What a great find! You really have to give credit to the programming community for building such amazing learning resources and making them available to the public for free. Codecademy offers free coding courses through their interactive online platform, which allows its users to code right on the browser and see immediate results without any previous setup. CodeSchool and Treehouse offer paid versions of this web service. At around $25 a month, access to these websites is a bargain, they offer as similar platforms for learning paired with videos and a lot more courses to choose from. Codecademy does not have as much content as its paid counterparts but it&rsquo;s free!</p>
+
+<p>Codecademy was just what I needed. Reading the books and following along some of the work was great but I needed additional exercises. Codecademy helped me with this. And I was quickly done with their &ldquo;Web Fundamentals&rdquo; track which included HTML and CSS. Codecademy had effectively replaced my book even though it wasn&rsquo;t as detailed. I imagine that the great people at Codecademy will add more advanced courses with time.</p>
+
+<p>After finishing the HTML and CSS course I felt good about what I had learned. Let&rsquo;s be honest, I won&rsquo;t be able to memorize all the tags and syntax unless I use them repeatedly. But there are plenty of resources out there I can use to check for syntax rules when the time comes. I already use HTML while editing these blog posts, but CSS will be a bit harder to use on a regular basis.</p>
+
+<p>At this point I wanted to move forward so I did. I was done with HTML &amp; CSS and Codecademy offered several tracks so I quickly moved onto Ruby.</p>
+
+
+  </article>
+  <hr>
+
+  
+  <article class="listing">
+    <header>
+  
+  <h1 class="beta">
+    <a href="/blog/2013/08/20/a-java-refresher/">A Java Refresher</a>
+  </h1>
+  
+
+  
+  <div class="meta clearfix">
+    
+
+
+
+
+
+
+
+
+  
+
+
+<time class="pull-left" datetime="2013-08-20T13:56:00-04:00" pubdate data-updated="true"><i class="icon-calendar"></i> Aug 20<span>th</span>, 2013</time>
+    
+
+
+
+  
+  <div class="pull-left">
+    <i class="icon-tags"></i>
+    <ul class="tags unstyled">
+    
+      <li><a href="/blog/categories/blog/">blog</a></li>
+    
+      <li><a href="/blog/categories/about/">about</a></li>
+    
+      <li><a href="/blog/categories/web dev/">web dev</a></li>
+    
+      <li><a href="/blog/categories/Java/">Java</a></li>
+    
+    </ul>
+  </div>
+  
+
+    
+  </div>
+  
+</header>
+
+
+
+
+  <p>The first thing I decided to do was to refresh my knowledge of Java and object oriented programming in general. This is probably not the best option for a total beginner. Most of the resources out there that teach Web Dev skills start easy with HTML &amp; CSS as well as web fundamentals. These are great for people who have just started to learn how to code. I am not a beginner though. I am well versed in a lot of technical concepts and I have already been programming for a few years. I just needed to get back in the right mindset. Exploring something familiar would help me do that quickly. So Java it was!</p>
+
+<p>I grabbed a copy of <a href="http://www.amazon.com/Head-First-Java-2nd-Edition/dp/0596009208">Head first: Java</a> and started to quickly going through all the concepts. I became very familiar with Java during my college years. But I have been out of practice for a while. Saying that I was a little rusty would be generous. After some reading I started to remember the concepts faster and faster.
+The book was very unique. It tries to keep you interested by not being a conventional &ldquo;boring&rdquo; book, so it throws pictures at you and keeps you &ldquo;off balance&rdquo; by not following a conventional form. In short, I liked it and if I ever need to reference some Java concepts again I would probably pick it up one more time.</p>
+
+<p>I did not read the whole book. I did not focus on syntax but I did pay a lot of attention to the sections that involved Object Oriented Programming concepts and good practices. I also went to <a href="http://codingbat.com/">CodingBat.com</a> to practice some basic concepts like recursion and solve some puzzles. This was good enough for me and I decided I was ready to move on.
+I thought about starting a bigger project like a simple Android App as a way to practice some more. This was very tempting. The idea of building an App sounded very appealing and fun. Nevertheless, I decided to remain focused and stick to roadmap and topics I laid out.</p>
+
+<p>Next: HTML and CSS</p>
+
+
+  </article>
+  <hr>
+
+  
+  <article class="listing">
+    <header>
+  
+  <h1 class="beta">
+    <a href="/blog/2013/08/15/roadmap-to-the-full-stack/">Roadmap to the Full Stack</a>
+  </h1>
+  
+
+  
+  <div class="meta clearfix">
+    
+
+
+
+
+
+
+
+
+  
+
+
+<time class="pull-left" datetime="2013-08-15T17:25:00-04:00" pubdate data-updated="true"><i class="icon-calendar"></i> Aug 15<span>th</span>, 2013</time>
+    
+
+
+
+  
+  <div class="pull-left">
+    <i class="icon-tags"></i>
+    <ul class="tags unstyled">
+    
+      <li><a href="/blog/categories/blog/">blog</a></li>
+    
+      <li><a href="/blog/categories/about/">about</a></li>
+    
+      <li><a href="/blog/categories/web dev/">web dev</a></li>
+    
+    </ul>
+  </div>
+  
+
+    
+  </div>
+  
+</header>
+
+
+
+
+  <p>After some research I have narrowed down the list of technologies and topics that a junior web developer should know. To put this list together I researched the technologies that the leading web development shops are using, the curricula offered at several popular Web Dev. workshops, and different posts on the web with advice related to this subject.  I am very familiar with several of these concepts; however, I plan spend some time on all of them, I want to be thorough.</p>
+
+<h2>The Stack</h2>
+
+
+<ul>
+<li>Basic programming concepts</li>
+<li>the Ruby programming language</li>
+<li>Rails, the framework to develop web application with Ruby</li>
+<li>Libraries / Ruby Gems</li>
+<li>Rspec, Test Driven Development (TDD) or Behavior Driven Development (BDD) methodologies </li>
+<li>HTML and CSS, I will try HAML and Sass </li>
+<li>JavaScript and jQuery</li>
+<li>Database Concepts</li>
+<li>Web basics - forms, HTTP request / response </li>
+<li>UNIX command line and development environment</li>
+<li>Deployment and Server Management</li>
+<li>Git and Github, Source code version control systems</li>
+<li>Object Oriented Programming (OOP) concepts</li>
+</ul>
+
+
+
+
+<h2>My resources</h2>
+
+
+<ul>
+<li><a href="http://www.codecademy.com/">Codecademy</a></li>
+<li><a href="http://hackercs.com/">Hackcer CS</a></li>
+<li><a href="http://codingbat.com/">CodingBat</li>
+<li><a href="https://www.codeschool.com/">Code School</li>
+<li><a href="http://teamtreehouse.com/">Treehouse</li>
+<li><a href="http://exercism.io/">exercism.io</li>
+<li><a href="http://www.pairprogramwith.me/">Pair Program with Me</li>
+<li><a href="http://www.meetup.com/hackerhours/">Hacker Hours Meetup</li>
+<li><a href="http://www.codetriage.com/">Code Triage</li>
+<li><a href="http://prework.flatironschool.com/">Flatiron School</li>
+</ul>
+
+
+
+
+
+  </article>
+  <hr>
+
+  
+  <article class="listing">
+    <header>
+  
+  <h1 class="beta">
+    <a href="/blog/2013/08/10/the-start-of-the-great-web-development-adventure-of-2013/">The Start of The Great Web Development Adventure of 2013</a>
+  </h1>
+  
+
+  
+  <div class="meta clearfix">
+    
+
+
+
+
+
+
+
+
+  
+
+
+<time class="pull-left" datetime="2013-08-10T17:24:00-04:00" pubdate data-updated="true"><i class="icon-calendar"></i> Aug 10<span>th</span>, 2013</time>
+    
+
+
+
+  
+  <div class="pull-left">
+    <i class="icon-tags"></i>
+    <ul class="tags unstyled">
+    
+      <li><a href="/blog/categories/blog/">blog</a></li>
+    
+      <li><a href="/blog/categories/about/">about</a></li>
+    
+      <li><a href="/blog/categories/web dev/">web dev</a></li>
+    
+    </ul>
+  </div>
+  
+
+    
+  </div>
+  
+</header>
+
+
+
+
+  <p>Do you like my title? I like my goals and projects to sound <strong>EPIC</strong>!</p>
+
+<p>Several weeks ago I decided I wanted to become a full-fledged web developer. After reading about agile development, TDD, and the tools and languages that developers were using nowadays, I got very interested in the subject.
+I made this decision after analyzing what I really liked doing professionally. It took me a couple of years of being in the workforce to really see what options were available to me and to learn what type of job I liked. Being a technology consultant helped with this because I was exposed to many different companies and wore several different throughout multiple projects.</p>
+
+<p>Here is the breakdown:</p>
+
+<ul>
+<li>I like Building things.</li>
+<li>I like programming. At work, I enjoy tasks that involved coding.</li>
+<li>I like programming applications over to process automation or database management.</li>
+</ul>
+
+
+<p>
+So it turns out, I want to be programming all day, building applications and solving problems with code.
+In the next few weeks I will document my progress as I teach myself the skills necessary to be a web developer. Let the adventure begin!</p>
+
+
+  </article>
+  <hr>
+
+  
+  <article class="listing">
+    <header>
+  
+  <h1 class="beta">
+    <a href="/blog/2013/08/08/first-post/">First Post</a>
+  </h1>
+  
+
+  
+  <div class="meta clearfix">
+    
+
+
+
+
+
+
+
+
+  
+
+
+<time class="pull-left" datetime="2013-08-08T17:22:00-04:00" pubdate data-updated="true"><i class="icon-calendar"></i> Aug 8<span>th</span>, 2013</time>
+    
+
+
+
+  
+  <div class="pull-left">
+    <i class="icon-tags"></i>
+    <ul class="tags unstyled">
+    
+      <li><a href="/blog/categories/blog/">blog</a></li>
+    
+      <li><a href="/blog/categories/about/">about</a></li>
+    
+    </ul>
+  </div>
+  
+
+    
+  </div>
+  
+</header>
+
+
+
+
+  <p>I am Rafael.</p>
+
+<p>Welcome to my new blog. Here I will post about my attempts to learn new things and improve myself. I figured that writing about my learning experiences will be a good way to reflect on what I learned and at the same time document my progress.</p>
+
+<p>A little about me:</p>
+
+<p>I am technology consultant out of New York City. I have been working in the financial industry helping companies improve their regulatory processes through technology.</p>
+
+<ul>
+<li>I flew 100,000 miles last year.</li>
+<li>I am from Lima, Peru. I lived there until I was 17.</li>
+<li>I graduated from the University of Richmond with a BS in Computer Science and Mathematical Economics</li>
+<li>I like books, comics, movies, and video games. </li>
+<li>I have played every generation of Pokémon games.  ಠ_ಠ  </li>
+<li>I like tennis but I don&#8217;t watch sports.</li>
+<li>I prefer non-fiction to fiction books.</li>
+</ul>
+
+
+<p>And&hellip;</p>
+
+<p>I love <a href="http://www.instructables.com/">building</a>, <a href="http://www.radiolab.org/">learning</a>, <a href="http://hackaday.com/">hacking</a>, <a href="http://www.codecademy.com/">programming</a>, and <a href="http://www.lifehacker.com">optimizing my life</a>. These last five things are my reason for creating this blog, so you will most likely find posts about them.</p>
+
+<p>That is all for now. Introduction done!</p>
+
+<p>Please comment! I love suggestions and ideas. Please include sources or examples when available.</p>
+
+
+  </article>
+  <hr>
+
+        
+        </div>
+        
+        
+        <aside id="sidebar" class="grid__item one-third lap-one-whole palm-one-whole">
+          <div class="grid">
+
+  
+<section class="social aside-module grid__item one-whole lap-one-half">
+  <h1 class="title delta">
+    Follow me!
+  </h1>
+  <ul class="unstyled">
+    
+    
+    <li><a class="github" href="//github.com/rafahuaman"><i class="icon-github"></i> Github</a></li>
+    
+    
+    
+    
+    
+    <li><a class="twitter" href="//twitter.com/rhuaman"><i class="icon-twitter"></i> Twitter</a></li>
+    
+  </ul>
+</section>
+
+
+  <section id="recent-posts" class="aside-module grid__item one-whole lap-one-half">
+  <h1 class="title delta">Recent Posts</h1>
+  <ul class="divided">
+    
+      <li class="post">
+        <a href="/blog/2013/09/19/ruby-and-the-koans/">Ruby and the Koans</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/09/19/the-command-line/">The Command Line</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/09/19/my-thoughts-on-octopress/">My Thoughts on Octopress</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/09/19/git-and-github/">Git and Github</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/09/19/lots-of-updates-and-diminishing-returns/">Lots of updates and Diminishing Returns</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section id="github-repos" class="aside-module grid__item one-whole lap-one-half">
+  <h1 class="title delta">
+    GitHub Repos
+    
+    <small class="pull-right">
+      <a class="btn" href="//github.com/rafahuaman" title="@rafahuaman on GitHub" target="_blank">
+        <i class="icon-external-link"></i>
+      </a>
+    </small>
+    
+  </h1>
+  <ul id="gh_repos" class="divided">
+    <li class="loading">
+      <i class="icon-spinner icon-spin"></i>
+    </li>
+  </ul>
+</section>
+
+
+
+
+</div>
+
+        </aside>
+        
+      </div>
+    </div>
+    
+    <footer>
+      <div class="grid-wrapper">
+  <div class="grid">
+    <div class="grid__item">
+      <p class="copyright">
+  All content by Rafael Huaman and licenced under <a href="//creativecommons.org/licenses/by-nc-sa/3.0/ie/">Creative Commons</a>.<br>
+  Code under <a href="//github.com/coogie/oscailte/blob/master/README.md">MIT Licence</a>.
+</p>
+    </div>
+  </div>
+</div>
+
+    </footer>
+
+    <!--[if lt IE 7]>
+      <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script src="//crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/md5.js"></script>
+<script defer src="/javascripts/octopress.js"></script>
+
+
+
+
+
+
+
+<script>
+  $(document).ready(function(){
+    if (!window.jXHR){
+      var jxhr = document.createElement('script');
+      jxhr.type = 'text/javascript';
+      jxhr.src = '/javascripts/libs/jXHR.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jxhr, s);
+    }
+
+    github.showRepos({
+      user: 'rafahuaman',
+      count: 0,
+      skip_forks: true,
+      target: '#gh_repos'
+    });
+  });
+</script>
+<script src="/javascripts/github.js"></script>
+
+
+
+
+
+
+  </body>
+</html>

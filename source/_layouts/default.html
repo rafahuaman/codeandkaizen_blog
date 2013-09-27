@@ -1,32 +1,48 @@
 {% capture root_url %}{{ site.root | strip_slash }}{% endcapture %}
-{% include head.html %}
-<body {% if page.body_id %} id="{{ page.body_id }}" {% endif %} {% if page.sidebar == false %} class="no-sidebar" {% endif %} {% if page.sidebar == 'collapse' or site.sidebar == 'collapse' %} class="collapse-sidebar sidebar-footer" {% endif %}>
-  <div class="navbar navbar-inverse navbar-static-top">
-  	<div class="navbar-inner">
-  	  <div class="container">
-        <a class="btn btn-navbar" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-          <span class="fui-menu-24"></span>
-        </a>
-  	  	<div class="nav-collapse collapse navbar-responsive-collapse" style="height:0;">
-  	      {% include navigation.html %}
-  	    </div>
-  	  </div>
-  	</div>
-  </div>
-  <div class="container" id="main">
-    <div class="span12">
-      <div class="row-fluid">
-        <div id="content">
+
+{% include site/head.html %}
+
+  <body {% if page.body_id %} id="{{ page.body_id }}"{% endif %}>
+
+    <header>
+      {% include site/header.html %}
+    </header>
+
+    {% if page.hero_unit %}
+      {% include site/hero_unit.html %}
+    {% endif %}
+
+    <div class="grid-wrapper">
+      <div class="grid grid-center">
+        {% if page.is_post and page.sidebar == false %}
+        <div class="grid__item four-fifths lap-one-whole palm-one-whole">
+        {% elsif page.is_homepage %}
+        <div class="grid__item one-whole">
+        {% else %}
+        <div class="grid__item two-thirds lap-one-whole palm-one-whole">
+        {% endif %}
+
           {{ content | expand_urls: root_url }}
+        
         </div>
-      </div>
-      <div class="row-fluid">
-        <footer class="footer-page" role="contentinfo">
-          {% include footer.html %}
-        </footer>
+        
+        {% unless page.sidebar == false %}
+        <aside id="sidebar" class="grid__item one-third lap-one-whole palm-one-whole">
+          {% include site/sidebar.html %}
+        </aside>
+        {% endunless %}
       </div>
     </div>
-  </div>
-  {% include after_footer.html %}
-</body>
+    
+    <footer>
+      {% include site/footer.html %}
+    </footer>
+
+    <!--[if lt IE 7]>
+      <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
+
+    {% include javascripts/scripts.html %}
+
+  </body>
 </html>

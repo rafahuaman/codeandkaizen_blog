@@ -19,7 +19,7 @@ date_format: "ordinal"
 subscribe_rss: /atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
-email:
+email: info@codeandkaizen.com
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -103,3 +103,17 @@ facebook_like: false
 navigation:
 - text: Blog
   url: /index.html
+
+# Oscailte Theme 
+social:
+  title: # Defaults to "Follow me!" if not present
+  adn: # App.net
+  dribbble: 
+  facebook: 
+  github: rafahuaman
+  googleplus: 
+  linkedin: 
+  pinterest: 
+  stackoverflow: 
+  twitter: rhuaman
+  youtube: 

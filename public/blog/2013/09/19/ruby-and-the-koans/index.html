@@ -1,86 +1,69 @@
 
-<!DOCTYPE html>
-<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
-<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
-<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-  <title>Ruby and the Koans - Code and Kaizen</title>
-  <meta name="author" content="Rafael Huaman">
 
-  
-  <meta name="description" content="Ruby and the Koans Sep 19th, 2013 After finishing Codecademy&rsquo;s Web Fundamentals track I immediately started the Ruby track. I knew I wanted to &hellip;">
-  
-
-  <!-- http://t.co/dKP3o1e -->
-  <meta name="HandheldFriendly" content="True">
-  <meta name="MobileOptimized" content="320">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  
-  <link rel="canonical" href="http://codeandkaizen.herokuapp.com/blog/2013/09/19/ruby-and-the-koans">
-  <link href="/favicon.png" rel="icon">
-  <link href='http://fonts.googleapis.com/css?family=Quicksand:300,400' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
-  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
-  <link href="/atom.xml" rel="alternate" title="Code and Kaizen" type="application/atom+xml">
-  <script src="/js/jquery.js"></script>
-  <script src="/js/bootstrap-collapse.js"></script>
-  <script src="/js/modernizr-2.0.js"></script>
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/lib/jquery.min.js"%3E%3C/script%3E'))</script>
-  <script src="/js/octopress.js" type="text/javascript"></script>
-  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
-<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
-
-  
-
-</head>
-
-<body   >
-  <div class="navbar navbar-inverse navbar-static-top">
-  	<div class="navbar-inner">
-  	  <div class="container">
-        <a class="btn btn-navbar" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-          <span class="fui-menu-24"></span>
-        </a>
-  	  	<div class="nav-collapse collapse navbar-responsive-collapse" style="height:0;">
-  	      <ul class="nav">
+<!doctype html>
+  <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+  <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+  <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+  <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Ruby and the Koans - Code and Kaizen</title>
+    <meta name="author" content="Rafael Huaman">
     
-        <li ><a href="/index.html">Blog</a></li>
+    <meta name="description" content="Ruby and the Koans Sep 19th, 2013 blog web dev Ruby Ruby Koans Koans Neo Innovation After finishing Codecademy&rsquo;s Web Fundamentals track I &hellip;">
     
+    <meta name="viewport" content="width=device-width">
+    
+    <link rel="canonical" href="http://codeandkaizen.herokuapp.com/blog/2013/09/19/ruby-and-the-koans">
+    <link href="/favicon.png" rel="icon">
+    <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet">
+    <link href="//atom.xml" rel="alternate" title="Code and Kaizen" type="application/atom+xml">
+  </head>
+
+
+  <body >
+
+    <header>
+      <div class="grid-wrapper">
+  <div class="grid">
+
+    <div class="grid__item two-fifths lap-four-sixths palm-one-whole">
+  <a href="/" class="site-title">Code and Kaizen</a>
+</div>
+
+<div class="grid__item three-fifths lap-two-sixths palm-one-whole">
+  <nav>
+    <input type="checkbox" id="toggle">
+<label for="toggle" class="toggle" data-open="Main Menu" data-close="Close Menu"></label>
+<ul class="menu pull-right">
+  <li><a href="/">Home</a></li>
+  <li><a href="/blog/">Blog</a></li>
 </ul>
+  </nav>
+</div>
 
-<ul class="nav pull-right">
-    
-    <li><a href="http://github.com/rafahuaman" title="Github Profile"><i class="icon-github-sign social-navbar"></i></a></li>
-    
-    
-    
-    <li><a href="http://twitter.com/rhuaman" title="Twitter Profile"><i class="icon-twitter-sign social-navbar"></i></a></li>
-    
-    
-    
-    
-</ul>
-
-  	    </div>
-  	  </div>
-  	</div>
   </div>
-  <div class="container" id="main">
-    <div class="span12">
-      <div class="row-fluid">
-        <div id="content">
-          <div>
-<article class="hentry" role="article">
-  
+</div>
+    </header>
 
+    
+
+    <div class="grid-wrapper">
+      <div class="grid grid-center">
+        
+        <div class="grid__item two-thirds lap-one-whole palm-one-whole">
+        
+
+          <article class="post">
   <header>
-  <div class="jumbotron">
-    Ruby and the Koans
-	<h5>
+  
+  <h1 class="title indent">Ruby and the Koans</h1>
+  
+
+  
+  <div class="meta clearfix">
+    
 
 
 
@@ -92,12 +75,41 @@
   
 
 
-<i class="icon-calendar-empty"></i> <time datetime="2013-09-19T23:26:00-04:00" pubdate data-updated="true">Sep 19<span>th</span>, 2013</time></h5>
+<time class="pull-left" datetime="2013-09-19T23:26:00-04:00" pubdate data-updated="true"><i class="icon-calendar"></i> Sep 19<span>th</span>, 2013</time>
+    
+
+
+
+  
+  <div class="pull-left">
+    <i class="icon-tags"></i>
+    <ul class="tags unstyled">
+    
+      <li><a href="/blog/categories/blog/">blog</a></li>
+    
+      <li><a href="/blog/categories/web dev/">web dev</a></li>
+    
+      <li><a href="/blog/categories/Ruby/">Ruby</a></li>
+    
+      <li><a href="/blog/categories/Ruby Koans/">Ruby Koans</a></li>
+    
+      <li><a href="/blog/categories/Koans/">Koans</a></li>
+    
+      <li><a href="/blog/categories/Neo Innovation/">Neo Innovation</a></li>
+    
+    </ul>
   </div>
+  
+
+    
+  </div>
+  
 </header>
-  <div class="row-fluid">
-    <div class="span12">
-      <p>After finishing Codecademy&rsquo;s Web Fundamentals track I immediately started the Ruby track. I knew I wanted to go with Ruby because I had already done plenty of research on the technologies I needed to learn in order to become a web developer. I had used Ruby in the past for a very simple Ride Sharing web application I built while at school; however, I used it simply as a means to work with rails and setup the application quickly. During my student time this was OK; however, now that I have made a serious choice about becoming a web developer I need to master it.
+
+
+
+
+  <p>After finishing Codecademy&rsquo;s Web Fundamentals track I immediately started the Ruby track. I knew I wanted to go with Ruby because I had already done plenty of research on the technologies I needed to learn in order to become a web developer. I had used Ruby in the past for a very simple Ride Sharing web application I built while at school; however, I used it simply as a means to work with rails and setup the application quickly. During my student time this was OK; however, now that I have made a serious choice about becoming a web developer I need to master it.
 The authors of the book <a href ="http://www.amazon.com/Apprenticeship-Patterns-Guidance-Aspiring-Craftsman/dp/0596518382/ref=sr_1_1?s=books&ie=UTF8&qid=1379649530&sr=1-1">Apprenticeship Patterns</a> point out that &ldquo;It is important that you carefully weigh the options (between programming languages), as this is the foundation upon which your early career will be built&rdquo;. I have chosen Ruby. I will immerse myself in it, play with it in my free time, solve puzzles and read the documentation until I know it all. It will be a long road but I am ready to take the first steps.
 The Ruby track offered by <a href="http://www.codecademy.com/">Codecademy</a> was very good. It was very simple and easy to understand. It even had a few &ldquo;projects&rdquo; to apply the concepts learned. The sections build on each other and it is easy to go back and review previous concepts and exercises in case you forget something along the way. The Ruby track can be finished very quickly since it just a beginner&rsquo;s course.<br/>
 My conclusion after CodeAcademy&rsquo;s Ruby Track:</p>
@@ -175,91 +187,113 @@ My conclusion after CodeAcademy&rsquo;s Ruby Track:</p>
 
 <p>After finishing the Koans I definitely felt more adept in Ruby and was more confident in my abilities. I would recommend this style of learning to anyone that wants to learn Ruby.</p>
 
-    </div>
-  </div>
 
-
-
-  <footer>
-    <hr>
-    
-    <div class="row-fluid">
-      
-      <div class="span6">
-        <p class="meta">
-        
-        
-
-
-
-  <a href="/blog/categories/Koans/"><span class="badge">Koans</span></a>
-
-  <a href="/blog/categories/Neo Innovation/"><span class="badge">Neo Innovation</span></a>
-
-  <a href="/blog/categories/Ruby/"><span class="badge">Ruby</span></a>
-
-  <a href="/blog/categories/Ruby Koans/"><span class="badge">Ruby Koans</span></a>
-
-  <a href="/blog/categories/blog/"><span class="badge">blog</span></a>
-
-  <a href="/blog/categories/web dev/"><span class="badge">web dev</span></a>
-
-
-
-
-        </p>
-      </div>
-      
-      <div class="span6 social-sharing">
-        <div class="sharing">
-  <div class="addthis_toolbox addthis_default_style ">
-  
-  
-  <a class="addthis_button_tweet"></a>
-  
-  
-  <a class="addthis_counter addthis_pill_style"></a>
-  </div>
-  <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid="></script>
-</div>
-
-      </div>
-      
-      
-    </div>
-    
-    <div class="row-fluid">
-      <div class="span12">
-        <p class="meta">
-          
-            <a class="basic-alignment left" href="/blog/2013/09/19/the-command-line/" title="Previous Post: The Command Line">&laquo; The Command Line</a>
-          
-          
-        </p>
-      </div>
-    </div>
-  </footer>
 </article>
 
+
+        
+        </div>
+        
+        
+        <aside id="sidebar" class="grid__item one-third lap-one-whole palm-one-whole">
+          <div class="grid">
+
+  
+<section class="social aside-module grid__item one-whole lap-one-half">
+  <h1 class="title delta">
+    Follow me!
+  </h1>
+  <ul class="unstyled">
+    
+    
+    <li><a class="github" href="//github.com/rafahuaman"><i class="icon-github"></i> Github</a></li>
+    
+    
+    
+    
+    
+    <li><a class="twitter" href="//twitter.com/rhuaman"><i class="icon-twitter"></i> Twitter</a></li>
+    
+  </ul>
+</section>
+
+
+  <section id="recent-posts" class="aside-module grid__item one-whole lap-one-half">
+  <h1 class="title delta">Recent Posts</h1>
+  <ul class="divided">
+    
+      <li class="post">
+        <a href="/blog/2013/09/19/ruby-and-the-koans/">Ruby and the Koans</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/09/19/the-command-line/">The Command Line</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/09/19/my-thoughts-on-octopress/">My Thoughts on Octopress</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/09/19/git-and-github/">Git and Github</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/09/19/lots-of-updates-and-diminishing-returns/">Lots of updates and Diminishing Returns</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section id="github-repos" class="aside-module grid__item one-whole lap-one-half">
+  <h1 class="title delta">
+    GitHub Repos
+    
+    <small class="pull-right">
+      <a class="btn" href="//github.com/rafahuaman" title="@rafahuaman on GitHub" target="_blank">
+        <i class="icon-external-link"></i>
+      </a>
+    </small>
+    
+  </h1>
+  <ul id="gh_repos" class="divided">
+    <li class="loading">
+      <i class="icon-spinner icon-spin"></i>
+    </li>
+  </ul>
+</section>
+
+
+
+
 </div>
 
-
-
-        </div>
-      </div>
-      <div class="row-fluid">
-        <footer class="footer-page" role="contentinfo">
-          <p>
-  Copyright &copy; 2013 - Rafael Huaman -
-  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span> - Theme by <a href="http://alexgaribay.com">Alex Garibay</a>
-</p>
-
-
-        </footer>
+        </aside>
+        
       </div>
     </div>
+    
+    <footer>
+      <div class="grid-wrapper">
+  <div class="grid">
+    <div class="grid__item">
+      <p class="copyright">
+  All content by Rafael Huaman and licenced under <a href="//creativecommons.org/licenses/by-nc-sa/3.0/ie/">Creative Commons</a>.<br>
+  Code under <a href="//github.com/coogie/oscailte/blob/master/README.md">MIT Licence</a>.
+</p>
+    </div>
   </div>
-  
+</div>
+
+    </footer>
+
+    <!--[if lt IE 7]>
+      <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script src="//crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/md5.js"></script>
+<script defer src="/javascripts/octopress.js"></script>
 
 
 
@@ -267,19 +301,30 @@ My conclusion after CodeAcademy&rsquo;s Ruby Track:</p>
 
 
 
-  <script type="text/javascript">
-    (function(){
-      var twitterWidgets = document.createElement('script');
-      twitterWidgets.type = 'text/javascript';
-      twitterWidgets.async = true;
-      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
-      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
-    })();
-  </script>
+<script>
+  $(document).ready(function(){
+    if (!window.jXHR){
+      var jxhr = document.createElement('script');
+      jxhr.type = 'text/javascript';
+      jxhr.src = '/javascripts/libs/jXHR.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jxhr, s);
+    }
+
+    github.showRepos({
+      user: 'rafahuaman',
+      count: 0,
+      skip_forks: true,
+      target: '#gh_repos'
+    });
+  });
+</script>
+<script src="/javascripts/github.js"></script>
 
 
 
 
 
-</body>
+
+  </body>
 </html>

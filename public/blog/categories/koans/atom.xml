@@ -4,11 +4,11 @@
   <title><![CDATA[Category: Koans | Code and Kaizen]]></title>
   <link href="http://codeandkaizen.herokuapp.com/blog/categories/koans/atom.xml" rel="self"/>
   <link href="http://codeandkaizen.herokuapp.com/"/>
-  <updated>2013-09-22T21:22:14-04:00</updated>
+  <updated>2013-09-26T23:55:30-04:00</updated>
   <id>http://codeandkaizen.herokuapp.com/</id>
   <author>
     <name><![CDATA[Rafael Huaman]]></name>
-    
+    <email><![CDATA[info@codeandkaizen.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
