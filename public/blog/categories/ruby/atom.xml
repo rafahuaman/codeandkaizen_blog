@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Ruby | Code and Kaizen]]></title>
   <link href="http://codeandkaizen.herokuapp.com/blog/categories/ruby/atom.xml" rel="self"/>
   <link href="http://codeandkaizen.herokuapp.com/"/>
-  <updated>2013-09-26T23:55:30-04:00</updated>
+  <updated>2013-09-28T08:48:29-04:00</updated>
   <id>http://codeandkaizen.herokuapp.com/</id>
   <author>
     <name><![CDATA[Rafael Huaman]]></name>
@@ -58,35 +58,23 @@ My conclusion after CodeAcademy&rsquo;s Ruby Track:</p>
 
 <p>This test fails and the user has to fill replace &ldquo;__&rdquo; with the expected output</p>
 
-<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>Failing Test </span></figcaption>
- <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="k">def</span> <span class="nf">test_creating_arrays</span>
-</span><span class='line'>  <span class="n">empty_array</span> <span class="o">=</span> <span class="nb">Array</span><span class="o">.</span><span class="n">new</span>
-</span><span class='line'>  <span class="n">assert_equal</span> <span class="o">&lt;</span><span class="n">strong</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">empty_array</span><span class="o">.</span><span class="n">class</span>
-</span><span class='line'>  <span class="n">assert_equal</span> <span class="o">&lt;</span><span class="sr">/strong&gt;, empty_array.size</span>
-</span><span class='line'><span class="sr">end</span>
-</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+<p>{% codeblock Failing Test lang:ruby %}
+def test_creating_arrays
+  empty_array = Array.new
+  assert_equal <strong>, empty_array.class
+  assert_equal </strong>, empty_array.size
+end
+{% endcodeblock %}</p>
 
 <p>These changes will make the tests pass:</p>
 
-<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>Passing Test </span></figcaption>
- <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="o">&lt;</span><span class="n">br</span><span class="o">/&gt;</span>
-</span><span class='line'><span class="k">def</span> <span class="nf">test_creating_arrays</span>
-</span><span class='line'>  <span class="n">empty_array</span> <span class="o">=</span> <span class="nb">Array</span><span class="o">.</span><span class="n">new</span>
-</span><span class='line'>  <span class="n">assert_equal</span> <span class="nb">Array</span><span class="p">,</span> <span class="n">empty_array</span><span class="o">.</span><span class="n">class</span>
-</span><span class='line'>  <span class="n">assert_equal</span> <span class="mi">0</span><span class="p">,</span> <span class="n">empty_array</span><span class="o">.</span><span class="n">size</span>
-</span><span class='line'><span class="k">end</span>
-</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+<p>{% codeblock Passing Test lang:ruby %}<br/>
+def test_creating_arrays
+  empty_array = Array.new
+  assert_equal Array, empty_array.class
+  assert_equal 0, empty_array.size
+end
+{% endcodeblock %}</p>
 
 <p>There are basically no hints or answer sheets (you can find solved Koans in <a href="https://github.com/">Github</a>, but why ruin these amazing exercises? This way the user is forced to think about the exercises and internalize the concepts with each test.</p>
 
