@@ -4,7 +4,7 @@
   <title><![CDATA[Category: about | Code and Kaizen]]></title>
   <link href="http://codeandkaizen.herokuapp.com/blog/categories/about/atom.xml" rel="self"/>
   <link href="http://codeandkaizen.herokuapp.com/"/>
-  <updated>2013-09-28T08:48:29-04:00</updated>
+  <updated>2013-10-06T00:53:31-04:00</updated>
   <id>http://codeandkaizen.herokuapp.com/</id>
   <author>
     <name><![CDATA[Rafael Huaman]]></name>
@@ -83,17 +83,16 @@ I thought about starting a bigger project like a simple Android App as a way to 
 
 <h2>The Stack</h2>
 
-
 <ul>
 <li>Basic programming concepts</li>
 <li>the Ruby programming language</li>
 <li>Rails, the framework to develop web application with Ruby</li>
 <li>Libraries / Ruby Gems</li>
-<li>Rspec, Test Driven Development (TDD) or Behavior Driven Development (BDD) methodologies </li>
-<li>HTML and CSS, I will try HAML and Sass </li>
+<li>Rspec, Test Driven Development (TDD) or Behavior Driven Development (BDD) methodologies</li>
+<li>HTML and CSS, I will try HAML and Sass</li>
 <li>JavaScript and jQuery</li>
 <li>Database Concepts</li>
-<li>Web basics - forms, HTTP request / response </li>
+<li>Web basics &ndash; forms, HTTP request / response</li>
 <li>UNIX command line and development environment</li>
 <li>Deployment and Server Management</li>
 <li>Git and Github, Source code version control systems</li>
@@ -101,25 +100,20 @@ I thought about starting a bigger project like a simple Android App as a way to 
 </ul>
 
 
-
-
 <h2>My resources</h2>
-
 
 <ul>
 <li><a href="http://www.codecademy.com/">Codecademy</a></li>
 <li><a href="http://hackercs.com/">Hackcer CS</a></li>
-<li><a href="http://codingbat.com/">CodingBat</li>
-<li><a href="https://www.codeschool.com/">Code School</li>
-<li><a href="http://teamtreehouse.com/">Treehouse</li>
-<li><a href="http://exercism.io/">exercism.io</li>
-<li><a href="http://www.pairprogramwith.me/">Pair Program with Me</li>
-<li><a href="http://www.meetup.com/hackerhours/">Hacker Hours Meetup</li>
-<li><a href="http://www.codetriage.com/">Code Triage</li>
-<li><a href="http://prework.flatironschool.com/">Flatiron School</li>
+<li><a href="http://codingbat.com/">CodingBat</a></li>
+<li><a href="https://www.codeschool.com/">Code School</a></li>
+<li><a href="http://teamtreehouse.com/">Treehouse</a></li>
+<li><a href="http://exercism.io/">exercism.io</a></li>
+<li><a href="http://www.pairprogramwith.me/">Pair Program with Me</a></li>
+<li><a href="http://www.meetup.com/hackerhours/">Hacker Hours Meetup</a></li>
+<li><a href="http://www.codetriage.com/">Code Triage</a></li>
+<li><a href="http://prework.flatironschool.com/">Flatiron School</a></li>
 </ul>
-
-
 
 ]]></content>
   </entry>
