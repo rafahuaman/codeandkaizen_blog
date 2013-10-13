@@ -4,7 +4,7 @@
   <title><![CDATA[Category: web dev | Code and Kaizen]]></title>
   <link href="http://codeandkaizen.herokuapp.com/blog/categories/web-dev/atom.xml" rel="self"/>
   <link href="http://codeandkaizen.herokuapp.com/"/>
-  <updated>2013-10-06T00:53:31-04:00</updated>
+  <updated>2013-10-13T15:34:40-04:00</updated>
   <id>http://codeandkaizen.herokuapp.com/</id>
   <author>
     <name><![CDATA[Rafael Huaman]]></name>
@@ -12,6 +12,141 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Updating My Learing Plan]]></title>
+    <link href="http://codeandkaizen.herokuapp.com/blog/2013/10/13/updating-my-learing-plan/"/>
+    <updated>2013-10-13T15:05:00-04:00</updated>
+    <id>http://codeandkaizen.herokuapp.com/blog/2013/10/13/updating-my-learing-plan</id>
+    <content type="html"><![CDATA[<p>When I started this learning process, I had a goal in mind and built a plan to help me achieve it. A plan can help you think methodically about how to achieve your goal and keep track of your progress. The learning plan I designed was based on what I knew at the time. Since then I have reached many milestones and have learned a lot from others. It is time now to revisit this plan and see if it is still relevant.</p>
+
+<h2>Step one: Check Progress</h2>
+
+<ul>
+<li>Basic programming concepts (Done &ndash; Head First Java for quick references)</li>
+<li>The Ruby programming language
+
+<ul>
+<li>Basics syntax and concepts (Done &ndash; codecademy and Ruby Koans)</li>
+</ul>
+</li>
+<li>Rails, the framework to develop web application with Ruby
+
+<ul>
+<li>Chapter 8 of Michael Hartl&rsquo;s tutorial</li>
+</ul>
+</li>
+<li>Libraries / Ruby Gems
+
+<ul>
+<li>Revaluated</li>
+</ul>
+</li>
+<li>Rspec, Test Driven Development (TDD) or Behavior Driven Development (BDD) methodologies
+
+<ul>
+<li>I participated in a code retreat and had the chance to try out testing and rspec through different exercises.</li>
+</ul>
+</li>
+<li>HTML and CSS, I will try HAML and Sass
+
+<ul>
+<li>Finished foundational HTML and CSS. I have used Sass briefly through Hartl&rsquo;s tutorial</li>
+<li>Have not tried HAML</li>
+</ul>
+</li>
+<li>JavaScript and jQuery
+
+<ul>
+<li>Not addressed</li>
+</ul>
+</li>
+<li>Database Concepts
+
+<ul>
+<li>Basics Covered</li>
+</ul>
+</li>
+<li>Web basics &ndash; forms, HTTP request / response
+
+<ul>
+<li>Covered partially by Michael Hartl&rsquo;s tutorial</li>
+</ul>
+</li>
+<li>UNIX command line and development environment (Done &ndash; currently working with Ubuntu)</li>
+<li>Deployment and Server Management</li>
+<li>Heroku (Done &ndash; I use Heroku to host this blog and I am using it in Michael Hartl&rsquo;s tutorial)</li>
+<li>Git and Github, Source code version control systems
+
+<ul>
+<li>Basics (Done &ndash; Michael Hartl&rsquo;s tutorial)</li>
+<li>Creating a repository</li>
+<li>Adding changes and committing them</li>
+<li>Branching and simple merging</li>
+<li>Pull requests (Added some simple changes to the theme I use for my blog)</li>
+</ul>
+</li>
+<li>Object Oriented Programming (OOP) concepts
+
+<ul>
+<li>Reviewed inheritance, encapsulationa, and polymorphism</li>
+</ul>
+</li>
+</ul>
+
+
+<h2>Step Two: Evaluate and Redesing Plan</h2>
+
+<p>I covered a lot of ground and I learned a lot in the process. During the past few months I have met a lot of people who have helped in one way or another. I had the chance to have short conversation with <a href="https://twitter.com/blainsmith">Blain Smith</a> from <a href="http://www.madglory.com/">Mad Glory</a>. He single handedly turned my plan upside down and was the main inspiration for this post. He told me about the importance of being framework agnostic and the benefits of focusing on learning the techniques of a software craftsman instead of just becoming adept with different technologies.</p>
+
+<p>If you look at my initial plan, I had specially focused on learning how to use different technologies: rspec, git, Ruby, Rails, etc. I had placed a lot of importance on becoming an expert with all of these technologies. What Blain helped me realize is that while knowing how to use the tools is important, learning the techniques of a Software Craftsman what really sets one apart. The techniques he was referring to are the more abstract concepts and knowledge that a good developer should have. He was referring to techniques such as design patterns, test driven development, object oriented solutions, agile methodologies, and following best programming practices in order to write good code.</p>
+
+<p>With this in mind I have come up with an updated version of the plan with a different set of priorities. After a little extra research I identified some resources that would help me with this revised plan.</p>
+
+<ul>
+<li>Design Patterns and Object Oriented Design
+
+<ul>
+<li><a href="http://www.amazon.com/Design-Patterns-Ruby-Russ-Olsen/dp/0321490452">Design Patterns in Ruby</a>
+
+<ul>
+<li> This will help me learn design patterns while at the same time polishing ruby skills</li>
+</ul>
+</li>
+<li><a href="http://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612/ref=tmm_hrd_title_0">Design Patterns: Elements of Reusable Object-Oriented Software</a></li>
+</ul>
+</li>
+<li>Writing good code
+
+<ul>
+<li><a href="http://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670">Code Complete</a></li>
+<li><a href="http://www.amazon.com/The-Pragmatic-Programmer-Journeyman-Master/dp/020161622X">The Pragmatic Programmer</a></li>
+</ul>
+</li>
+<li>Testing
+
+<ul>
+<li>Practice Test driven development through small projects and exercises.</li>
+</ul>
+</li>
+<li>Ruby &ndash; Next steps
+  &ndash;* Metaprogramming</li>
+<li>Techniques for Web Design
+
+<ul>
+<li>Practice web design concepts and techniques and learn more HTML and CSS (HAML and Sass) through it</li>
+</ul>
+</li>
+</ul>
+
+
+<p>So this is my new approach. Moving forward I will emphasize techniques and methodlogies instead of specific technologies. From now on the way I will learn a new language or framework is through the exploration of a new programming concept. For example, I will focus on Ruby while learning design patterns and I try Javascript when practicing web design.</p>
+
+<h3>Learning tip</h3>
+
+<p>In the past few months I found that the learning plan I created. It will keep you on track and show your progress. Furthermore, it&rsquo;s important to keep it flexible and continue to reevaluate it as you learn more about the topics.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Ruby and the Koans]]></title>
@@ -141,50 +276,6 @@ The book was very unique. It tries to keep you interested by not being a convent
 I thought about starting a bigger project like a simple Android App as a way to practice some more. This was very tempting. The idea of building an App sounded very appealing and fun. Nevertheless, I decided to remain focused and stick to roadmap and topics I laid out.</p>
 
 <p>Next: HTML and CSS</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Roadmap to the Full Stack]]></title>
-    <link href="http://codeandkaizen.herokuapp.com/blog/2013/08/15/roadmap-to-the-full-stack/"/>
-    <updated>2013-08-15T17:25:00-04:00</updated>
-    <id>http://codeandkaizen.herokuapp.com/blog/2013/08/15/roadmap-to-the-full-stack</id>
-    <content type="html"><![CDATA[<p>After some research I have narrowed down the list of technologies and topics that a junior web developer should know. To put this list together I researched the technologies that the leading web development shops are using, the curricula offered at several popular Web Dev. workshops, and different posts on the web with advice related to this subject.  I am very familiar with several of these concepts; however, I plan spend some time on all of them, I want to be thorough.</p>
-
-<h2>The Stack</h2>
-
-<ul>
-<li>Basic programming concepts</li>
-<li>the Ruby programming language</li>
-<li>Rails, the framework to develop web application with Ruby</li>
-<li>Libraries / Ruby Gems</li>
-<li>Rspec, Test Driven Development (TDD) or Behavior Driven Development (BDD) methodologies</li>
-<li>HTML and CSS, I will try HAML and Sass</li>
-<li>JavaScript and jQuery</li>
-<li>Database Concepts</li>
-<li>Web basics &ndash; forms, HTTP request / response</li>
-<li>UNIX command line and development environment</li>
-<li>Deployment and Server Management</li>
-<li>Git and Github, Source code version control systems</li>
-<li>Object Oriented Programming (OOP) concepts</li>
-</ul>
-
-
-<h2>My resources</h2>
-
-<ul>
-<li><a href="http://www.codecademy.com/">Codecademy</a></li>
-<li><a href="http://hackercs.com/">Hackcer CS</a></li>
-<li><a href="http://codingbat.com/">CodingBat</a></li>
-<li><a href="https://www.codeschool.com/">Code School</a></li>
-<li><a href="http://teamtreehouse.com/">Treehouse</a></li>
-<li><a href="http://exercism.io/">exercism.io</a></li>
-<li><a href="http://www.pairprogramwith.me/">Pair Program with Me</a></li>
-<li><a href="http://www.meetup.com/hackerhours/">Hacker Hours Meetup</a></li>
-<li><a href="http://www.codetriage.com/">Code Triage</a></li>
-<li><a href="http://prework.flatironschool.com/">Flatiron School</a></li>
-</ul>
-
 ]]></content>
   </entry>
   
