@@ -70,4 +70,5 @@ So this is my new approach. Moving forward I will emphasize techniques and metho
 
 ### Learning tip
 
-In the past few months I found that the learning plan I created. It will keep you on track and show your progress. Furthermore, it's important to keep it flexible and continue to reevaluate it as you learn more about the topics.
+In the past few months I found that the learning plan I created was very helpful. It will keep you on track and show your progress.
+As a beginner it is very possible that your first learning plan will not be the best. This is why it's important to keep your plan flexible and continue to reevaluate it as you learn more about the topics you are exploring. 
