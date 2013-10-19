@@ -32,7 +32,7 @@ Step one: Check Progress
     - Covered partially by Michael Hartl's tutorial
 * UNIX command line and development environment (Done - currently working with Ubuntu)
 * Deployment and Server Management
-* Heroku (Done - I use Heroku to host this blog and I am using it in Michael Hartl's tutorial)
+    - Heroku (Done - I use Heroku to host this blog and I am using it in Michael Hartl's tutorial)
 * Git and Github, Source code version control systems
     - Basics (Done - Michael Hartl's tutorial)
     - Creating a repository

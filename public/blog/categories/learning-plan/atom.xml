@@ -4,7 +4,7 @@
   <title><![CDATA[Category: learning plan | Code and Kaizen]]></title>
   <link href="http://codeandkaizen.herokuapp.com/blog/categories/learning-plan/atom.xml" rel="self"/>
   <link href="http://codeandkaizen.herokuapp.com/"/>
-  <updated>2013-10-13T15:53:29-04:00</updated>
+  <updated>2013-10-19T11:28:59-04:00</updated>
   <id>http://codeandkaizen.herokuapp.com/</id>
   <author>
     <name><![CDATA[Rafael Huaman]]></name>
@@ -74,8 +74,12 @@
 </ul>
 </li>
 <li>UNIX command line and development environment (Done &ndash; currently working with Ubuntu)</li>
-<li>Deployment and Server Management</li>
+<li>Deployment and Server Management
+
+<ul>
 <li>Heroku (Done &ndash; I use Heroku to host this blog and I am using it in Michael Hartl&rsquo;s tutorial)</li>
+</ul>
+</li>
 <li>Git and Github, Source code version control systems
 
 <ul>
