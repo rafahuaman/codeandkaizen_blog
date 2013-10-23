@@ -43,7 +43,7 @@ Step one: Check Progress
     - Reviewed inheritance, encapsulationa, and polymorphism
 
 
-Step Two: Evaluate and Redesing Plan
+Step Two: Evaluate and Redesign Plan
 ------------------------------------
 
 I covered a lot of ground and I learned a lot in the process. During the past few months I have met a lot of people who have helped in one way or another. I had the chance to have short conversation with [Blain Smith](https://twitter.com/blainsmith) from [Mad Glory](http://www.madglory.com/). He single handedly turned my plan upside down and was the main inspiration for this post. He told me about the importance of being framework agnostic and the benefits of focusing on learning the techniques of a software craftsman instead of just becoming adept with different technologies.
