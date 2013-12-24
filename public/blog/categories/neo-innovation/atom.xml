@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Neo Innovation | Code and Kaizen]]></title>
   <link href="http://codeandkaizen.herokuapp.com/blog/categories/neo-innovation/atom.xml" rel="self"/>
   <link href="http://codeandkaizen.herokuapp.com/"/>
-  <updated>2013-10-23T00:46:33-04:00</updated>
+  <updated>2013-12-24T05:39:24+00:00</updated>
   <id>http://codeandkaizen.herokuapp.com/</id>
   <author>
     <name><![CDATA[Rafael Huaman]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Ruby and the Koans]]></title>
     <link href="http://codeandkaizen.herokuapp.com/blog/2013/09/19/ruby-and-the-koans/"/>
-    <updated>2013-09-19T23:26:00-04:00</updated>
+    <updated>2013-09-19T23:26:00+00:00</updated>
     <id>http://codeandkaizen.herokuapp.com/blog/2013/09/19/ruby-and-the-koans</id>
     <content type="html"><![CDATA[<p>After finishing Codecademy&rsquo;s Web Fundamentals track I immediately started the Ruby track. I knew I wanted to go with Ruby because I had already done plenty of research on the technologies I needed to learn in order to become a web developer. I had used Ruby in the past for a very simple Ride Sharing web application I built while at school; however, I used it simply as a means to work with rails and setup the application quickly. During my student time this was OK; however, now that I have made a serious choice about becoming a web developer I need to master it.
 The authors of the book <a href ="http://www.amazon.com/Apprenticeship-Patterns-Guidance-Aspiring-Craftsman/dp/0596518382/ref=sr_1_1?s=books&ie=UTF8&qid=1379649530&sr=1-1">Apprenticeship Patterns</a> point out that &ldquo;It is important that you carefully weigh the options (between programming languages), as this is the foundation upon which your early career will be built&rdquo;. I have chosen Ruby. I will immerse myself in it, play with it in my free time, solve puzzles and read the documentation until I know it all. It will be a long road but I am ready to take the first steps.
@@ -58,23 +58,35 @@ My conclusion after CodeAcademy&rsquo;s Ruby Track:</p>
 
 <p>This test fails and the user has to fill replace &ldquo;__&rdquo; with the expected output</p>
 
-<p>{% codeblock Failing Test lang:ruby %}
-def test_creating_arrays
-  empty_array = Array.new
-  assert_equal <strong>, empty_array.class
-  assert_equal </strong>, empty_array.size
-end
-{% endcodeblock %}</p>
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>Failing Test </span></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="k">def</span> <span class="nf">test_creating_arrays</span>
+</span><span class='line'>  <span class="n">empty_array</span> <span class="o">=</span> <span class="nb">Array</span><span class="o">.</span><span class="n">new</span>
+</span><span class='line'>  <span class="n">assert_equal</span> <span class="o">&lt;</span><span class="n">strong</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">empty_array</span><span class="o">.</span><span class="n">class</span>
+</span><span class='line'>  <span class="n">assert_equal</span> <span class="o">&lt;</span><span class="sr">/strong&gt;, empty_array.size</span>
+</span><span class='line'><span class="sr">end</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
 <p>These changes will make the tests pass:</p>
 
-<p>{% codeblock Passing Test lang:ruby %}<br/>
-def test_creating_arrays
-  empty_array = Array.new
-  assert_equal Array, empty_array.class
-  assert_equal 0, empty_array.size
-end
-{% endcodeblock %}</p>
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>Passing Test </span></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="o">&lt;</span><span class="n">br</span><span class="o">/&gt;</span>
+</span><span class='line'><span class="k">def</span> <span class="nf">test_creating_arrays</span>
+</span><span class='line'>  <span class="n">empty_array</span> <span class="o">=</span> <span class="nb">Array</span><span class="o">.</span><span class="n">new</span>
+</span><span class='line'>  <span class="n">assert_equal</span> <span class="nb">Array</span><span class="p">,</span> <span class="n">empty_array</span><span class="o">.</span><span class="n">class</span>
+</span><span class='line'>  <span class="n">assert_equal</span> <span class="mi">0</span><span class="p">,</span> <span class="n">empty_array</span><span class="o">.</span><span class="n">size</span>
+</span><span class='line'><span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
 <p>There are basically no hints or answer sheets (you can find solved Koans in <a href="https://github.com/">Github</a>, but why ruin these amazing exercises? This way the user is forced to think about the exercises and internalize the concepts with each test.</p>
 

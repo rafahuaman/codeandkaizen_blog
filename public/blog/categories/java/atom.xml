@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Java | Code and Kaizen]]></title>
   <link href="http://codeandkaizen.herokuapp.com/blog/categories/java/atom.xml" rel="self"/>
   <link href="http://codeandkaizen.herokuapp.com/"/>
-  <updated>2013-10-23T00:46:33-04:00</updated>
+  <updated>2013-12-24T05:39:24+00:00</updated>
   <id>http://codeandkaizen.herokuapp.com/</id>
   <author>
     <name><![CDATA[Rafael Huaman]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[A Java Refresher]]></title>
     <link href="http://codeandkaizen.herokuapp.com/blog/2013/08/20/a-java-refresher/"/>
-    <updated>2013-08-20T13:56:00-04:00</updated>
+    <updated>2013-08-20T13:56:00+00:00</updated>
     <id>http://codeandkaizen.herokuapp.com/blog/2013/08/20/a-java-refresher</id>
     <content type="html"><![CDATA[<p>The first thing I decided to do was to refresh my knowledge of Java and object oriented programming in general. This is probably not the best option for a total beginner. Most of the resources out there that teach Web Dev skills start easy with HTML &amp; CSS as well as web fundamentals. These are great for people who have just started to learn how to code. I am not a beginner though. I am well versed in a lot of technical concepts and I have already been programming for a few years. I just needed to get back in the right mindset. Exploring something familiar would help me do that quickly. So Java it was!</p>
 

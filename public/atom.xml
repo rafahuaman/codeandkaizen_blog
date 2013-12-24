@@ -4,7 +4,7 @@
   <title><![CDATA[Code and Kaizen]]></title>
   <link href="http://codeandkaizen.herokuapp.com/atom.xml" rel="self"/>
   <link href="http://codeandkaizen.herokuapp.com/"/>
-  <updated>2013-10-23T00:46:29-04:00</updated>
+  <updated>2013-12-24T05:39:24+00:00</updated>
   <id>http://codeandkaizen.herokuapp.com/</id>
   <author>
     <name><![CDATA[Rafael Huaman]]></name>
@@ -16,7 +16,7 @@
   <entry>
     <title type="html"><![CDATA[Updating My Learing Plan]]></title>
     <link href="http://codeandkaizen.herokuapp.com/blog/2013/10/13/updating-my-learing-plan/"/>
-    <updated>2013-10-13T15:05:00-04:00</updated>
+    <updated>2013-10-13T15:05:00+00:00</updated>
     <id>http://codeandkaizen.herokuapp.com/blog/2013/10/13/updating-my-learing-plan</id>
     <content type="html"><![CDATA[<p>When I started this learning process, I had a goal in mind and built a plan to help me achieve it. A plan can help you think methodically about how to achieve your goal and keep track of your progress. The learning plan I designed was based on what I knew at the time. Since then I have reached many milestones and have learned a lot from others. It is time now to revisit this plan and see if it is still relevant.</p>
 
@@ -156,7 +156,7 @@ As a beginner it is very possible that your first learning plan will not be the 
   <entry>
     <title type="html"><![CDATA[My Ubuntu Laptop]]></title>
     <link href="http://codeandkaizen.herokuapp.com/blog/2013/10/06/my-ubuntu-laptop/"/>
-    <updated>2013-10-06T00:39:00-04:00</updated>
+    <updated>2013-10-06T00:39:00+00:00</updated>
     <id>http://codeandkaizen.herokuapp.com/blog/2013/10/06/my-ubuntu-laptop</id>
     <content type="html"><![CDATA[<h2>Windows Woes</h2>
 
@@ -187,7 +187,7 @@ As a beginner it is very possible that your first learning plan will not be the 
   <entry>
     <title type="html"><![CDATA[Ruby and the Koans]]></title>
     <link href="http://codeandkaizen.herokuapp.com/blog/2013/09/19/ruby-and-the-koans/"/>
-    <updated>2013-09-19T23:26:00-04:00</updated>
+    <updated>2013-09-19T23:26:00+00:00</updated>
     <id>http://codeandkaizen.herokuapp.com/blog/2013/09/19/ruby-and-the-koans</id>
     <content type="html"><![CDATA[<p>After finishing Codecademy&rsquo;s Web Fundamentals track I immediately started the Ruby track. I knew I wanted to go with Ruby because I had already done plenty of research on the technologies I needed to learn in order to become a web developer. I had used Ruby in the past for a very simple Ride Sharing web application I built while at school; however, I used it simply as a means to work with rails and setup the application quickly. During my student time this was OK; however, now that I have made a serious choice about becoming a web developer I need to master it.
 The authors of the book <a href ="http://www.amazon.com/Apprenticeship-Patterns-Guidance-Aspiring-Craftsman/dp/0596518382/ref=sr_1_1?s=books&ie=UTF8&qid=1379649530&sr=1-1">Apprenticeship Patterns</a> point out that &ldquo;It is important that you carefully weigh the options (between programming languages), as this is the foundation upon which your early career will be built&rdquo;. I have chosen Ruby. I will immerse myself in it, play with it in my free time, solve puzzles and read the documentation until I know it all. It will be a long road but I am ready to take the first steps.
@@ -272,56 +272,68 @@ My conclusion after CodeAcademy&rsquo;s Ruby Track:</p>
   <entry>
     <title type="html"><![CDATA[The Command Line]]></title>
     <link href="http://codeandkaizen.herokuapp.com/blog/2013/09/19/the-command-line/"/>
-    <updated>2013-09-19T23:25:00-04:00</updated>
+    <updated>2013-09-19T23:25:00+00:00</updated>
     <id>http://codeandkaizen.herokuapp.com/blog/2013/09/19/the-command-line</id>
-    <content type="html"><![CDATA[<p>This is not completely new to me. I have used the windows and UNIX command lines in the past. I used it in school to compile programs archive them. I hadn&rsquo;t really used for anything other than that. The point is that I wasn&rsquo;t a complete stranger. I debated whether I should skip this section of my road map. However, I decided against it. Since my goal is to be proficient in every aspect of web development I not could afford missing important information in one of the basics skills. Besides I had never had any &ldquo;training&rdquo; in terms of the command line.
-I decided to go with the <a href=” http://cli.learncodethehardway.org/book/”> Command Line Crash Course</a> by Learn code the hard way.
-The course was really useful. It really makes a point of making the readers memorize the commands by practicing with flash cards and doing the exercises over and over again. Doing the exercises over and over again gets repetitive but you can be sure that if you follow the instructions you will be very familiar with the command line by the end of it.
-So yes, the course will make you familiar with the command line and some of its more advanced features such as piping and redirecting; however, if you are already familiar with it. There is not that much more to learn here. I recommend it if you are completely new to it but if you are not complete beginner skip the sections you already know.</p>
+    <content type="html"><![CDATA[<p>This is not completely new to me. I have used the windows and UNIX command lines in the past. I used it in school to compile programs archive them. I hadn&rsquo;t really used for anything other than that. The point is that I wasn&rsquo;t a complete stranger. I debated whether I should skip this section of my road map. However, I decided against it. Since my goal is to be proficient in every aspect of web development I not could afford missing important information in one of the basics skills. Besides I had never had any &ldquo;training&rdquo; in terms of the command line.</p>
+
+<p>I decided to go with the <a href=” http://cli.learncodethehardway.org/book/”> Command Line Crash Course</a> by Learn code the hard way.</p>
+
+<p>The course was really useful. It really makes a point of making the readers memorize the commands by practicing with flash cards and doing the exercises over and over again. Doing the exercises over and over again gets repetitive but you can be sure that if you follow the instructions you will be very familiar with the command line by the end of it.</p>
+
+<p>So yes, the course will make you familiar with the command line and some of its more advanced features such as piping and redirecting; however, if you are already familiar with it. There is not that much more to learn here. I recommend it if you are completely new to it but if you are not complete beginner skip the sections you already know.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[My Thoughts on Octopress]]></title>
     <link href="http://codeandkaizen.herokuapp.com/blog/2013/09/19/my-thoughts-on-octopress/"/>
-    <updated>2013-09-19T23:25:00-04:00</updated>
+    <updated>2013-09-19T23:25:00+00:00</updated>
     <id>http://codeandkaizen.herokuapp.com/blog/2013/09/19/my-thoughts-on-octopress</id>
-    <content type="html"><![CDATA[<p>Originally I wanted to dedicate an entire post to <a href="http://octopress.org/">Octopress</a> and how I set it up. However, in the interested of moving forward I will just write down my thoughts on it and my experience so far.
-When I made the decision to document my learning progress and put it on the internet, I thought I was going to use a simple blog tool like <a href="http://wordpress.com/"> Wordpress</a> or <a href="http://www.blogger.com/home">Blogger</a>. I was almost ready to build my site using one of those tools when I stumbled on to a blog which influenced my own: <a href="http://learnwithjeff.com/">learnwithjeff</a>. In his blog, Jeff mentioned how he learns by teaching and he documents his learning process as well as assigns exercises for those who want to learn along with him.
-At the bottom of his page, I saw a little label that said &ldquo;Powered by Octopress&rdquo;. I had never heard of Octopress but I was curious. I looked it up and after reading the tagline &ldquo;A blogging framework for hackers&rdquo; I decided to give it shot. I figured that blogging using a tool meant for &ldquo;hackers&rdquo; would make me a better programmer and would expose me to more technologies.
-I was not disappointed. Octopress was easy to setup but in order to get it working and see it live I had to install <a href="https://www.ruby-lang.org/en/">Ruby</a> and <a href="http://git-scm.com/">git</a> on my PC and get <a href="https://www.heroku.com/">Heroku</a> account. This exercise alone exposed me to several new technologies and basically broke the ice. &ldquo;Heroku&rdquo; stopped being a mysterious word I had heard when reading about web development and Git became more approachable. This gave me more confidence to keep moving forward and continue learning. I was making progress and I was happy about it.
-After a few searches I settled on a theme I liked and I was done!</p>
+    <content type="html"><![CDATA[<p>Originally I wanted to dedicate an entire post to <a href="http://octopress.org/">Octopress</a> and how I set it up. However, in the interested of moving forward I will just write down my thoughts on it and my experience so far.</p>
+
+<p>When I made the decision to document my learning progress and put it on the internet, I thought I was going to use a simple blog tool like <a href="http://wordpress.com/"> Wordpress</a> or <a href="http://www.blogger.com/home">Blogger</a>. I was almost ready to build my site using one of those tools when I stumbled on to a blog which influenced my own: <a href="http://learnwithjeff.com/">learnwithjeff</a>. In his blog, Jeff mentioned how he learns by teaching and he documents his learning process as well as assigns exercises for those who want to learn along with him.</p>
+
+<p>At the bottom of his page, I saw a little label that read &ldquo;Powered by Octopress&rdquo;. I had never heard of Octopress but I was curious. I looked it up and after reading the tagline &ldquo;A blogging framework for hackers&rdquo; I decided to give it shot. I figured that blogging using a tool meant for &ldquo;hackers&rdquo; would make me a better programmer and would expose me to more technologies.</p>
+
+<p>I was not disappointed. Octopress was easy to setup but in order to get it working and see it live I had to install <a href="https://www.ruby-lang.org/en/">Ruby</a> and <a href="http://git-scm.com/">git</a> on my PC and get <a href="https://www.heroku.com/">Heroku</a> account. This exercise alone exposed me to several new technologies and basically broke the ice. &ldquo;Heroku&rdquo; stopped being a mysterious word I had heard when reading about web development and Git became more approachable. This gave me more confidence to keep moving forward and continue learning. I was making progress and I was happy about it.</p>
+
+<p>After a few searches I settled on a theme I liked and I was done!</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Git and Github]]></title>
     <link href="http://codeandkaizen.herokuapp.com/blog/2013/09/19/git-and-github/"/>
-    <updated>2013-09-19T23:25:00-04:00</updated>
+    <updated>2013-09-19T23:25:00+00:00</updated>
     <id>http://codeandkaizen.herokuapp.com/blog/2013/09/19/git-and-github</id>
-    <content type="html"><![CDATA[<p>This is pretty straight forward. I had setup a <a href="https://github.com/">Github</a> account in the past. But I had rarely used it. I used the free <a href=” the http://try.github.io/levels/1/challenges/1”>Try git tutorial</a> from <a href=” http://www.codeschool.com/”>Code School</a> to help me started. I started using git with <a href="http://octopress.org/">Octopress</a> and with <a href="http://ruby.railstutorial.org/">Michael Hartl&rsquo;s Rails tutorial</a>.
-I have started using git to version all of the code I am writing. Additionally, I have been uploading all the code I have completed from tutorials to Github.
-The interesting thing about uploading code to Github is that it forced me to <a href="http://en.wikipedia.org/wiki/Code_refactoring">refactor</a> and make my code nicer. The thought that my code was out there for everyone to see, made me push myself to make it better!
-I have used only few of the features Git and Github have to offer. I use it for code versioning mostly.Additionally, <a href="http://git-scm.com/book/en/Git-Branching">branching</a> is a useful feature that I have started to understand. With some discipline and practice I will introduce branching to my everyday coding. However, this is only the tip of the iceberg in terms of Git. Anyone interested in learning more should check out <a href=http://git-scm.com/book> the Pro Git book</a>.</p>
+    <content type="html"><![CDATA[<p>This is pretty straight forward. I had setup a <a href="https://github.com/">Github</a> account in the past. But I had rarely used it. I used the free <a href=” the http://try.github.io/levels/1/challenges/1”>Try git tutorial</a> from <a href=” http://www.codeschool.com/”>Code School</a> to help me started. I started using git with <a href="http://octopress.org/">Octopress</a> and with <a href="http://ruby.railstutorial.org/">Michael Hartl&rsquo;s Rails tutorial</a>.</p>
+
+<p>I have started using git to version all of the code I am writing. Additionally, I have been uploading all the code I have completed from tutorials to Github.
+The interesting thing about uploading code to Github is that it forced me to <a href="http://en.wikipedia.org/wiki/Code_refactoring">refactor</a> and make my code nicer. The thought that my code was out there for everyone to see, made me push myself to make it better!</p>
+
+<p>I have used only few of the features Git and Github have to offer. I use it for code versioning mostly.Additionally, <a href="http://git-scm.com/book/en/Git-Branching">branching</a> is a useful feature that I have started to understand. With some discipline and practice I will introduce branching to my everyday coding. However, this is only the tip of the iceberg in terms of Git. Anyone interested in learning more should check out <a href=http://git-scm.com/book> the Pro Git book</a>.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Lots of updates and Diminishing Returns]]></title>
     <link href="http://codeandkaizen.herokuapp.com/blog/2013/09/19/lots-of-updates-and-diminishing-returns/"/>
-    <updated>2013-09-19T23:24:00-04:00</updated>
+    <updated>2013-09-19T23:24:00+00:00</updated>
     <id>http://codeandkaizen.herokuapp.com/blog/2013/09/19/lots-of-updates-and-diminishing-returns</id>
-    <content type="html"><![CDATA[<p>Over the past couple of few months I have been trying to document my achievements as I went along. I found that reflecting on the things I learned as I write about them really helped me internalize some concepts. However, at some point I reached a point where I was learning and trying new things faster than I could write about them.
-Initially my solution to this was to write quick notes on what I had learned and write the complete blog post later.  This worked for a while but I quickly started falling behind on my blog entries and started accumulating lots of notes on the topics and technologies I had covered.
-One thing to keep in mind when you start learning something new is that &ldquo;Diminishing Returns&rdquo; really apply to this situation. I learned the basics of a lot of technologies very quickly and did not write blog entries on it. However, I have reached a point now in which I am spending quite a bit of time going through the <a href="http://ruby.railstutorial.org/">Michael Hartl&rsquo;s Rails Tutorial</a>  and reading the <a href="http://www.amazon.com/Well-Grounded-Rubyist-David-Black/dp/1933988657/ref=sr_1_1?s=books&ie=UTF8&qid=1379647910&sr=1-1"> Well Grounded Rubyist book</a>. My learning has slowed down. That&rsquo;s not a bad thing. It just means I have covered a lot of topics and is taking me a while to get more in-depth knowledge on some of the advanced concepts. I am going to take advantage of this time and catch quickly catch up my blog with all the technologies I have learned over the past couple of months.
-The next few posts will be uploaded on the same day probably. That&rsquo;s because I wrote them all in a day but learning and experimenting occurred over several weeks.</p>
+    <content type="html"><![CDATA[<p>Over the past couple of months I have been trying to document my achievements as I went along. I found that reflecting on the things I learned as I write about them really helped me internalize some concepts. However, after some time I reached a point where I was learning and trying new things faster than I could write about them.</p>
+
+<p>Initially my solution to this was to write quick notes on what I had learned and write the complete blog post later.  This worked for a while but I quickly started falling behind on my blog entries and started accumulating lots of notes on the topics and technologies I had covered.</p>
+
+<p>One thing to keep in mind when you start learning something new is that &ldquo;Diminishing Returns&rdquo; really apply to this situation. I learned the basics of a lot of technologies very quickly and did not write blog entries on it. However, I have reached a point now in which I am spending quite a bit of time going through the <a href="http://ruby.railstutorial.org/">Michael Hartl&rsquo;s Rails Tutorial</a>  and reading the <a href="http://www.amazon.com/Well-Grounded-Rubyist-David-Black/dp/1933988657/ref=sr_1_1?s=books&ie=UTF8&qid=1379647910&sr=1-1"> Well Grounded Rubyist book</a>. My learning has slowed down. That&rsquo;s not a bad thing. It just means I have covered a lot of topics and is taking me a while to get more in-depth knowledge on some of the advanced concepts. I am going to take advantage of this time and quickly catch up my blog with all the technologies I have learned over the past couple of months.</p>
+
+<p>The next few posts will be uploaded on the same day probably. That&rsquo;s because I wrote them all in a day but the learning and experimenting occurred over several weeks.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[HTML, CSS, and Codecademy]]></title>
     <link href="http://codeandkaizen.herokuapp.com/blog/2013/09/09/html/"/>
-    <updated>2013-09-09T22:39:00-04:00</updated>
+    <updated>2013-09-09T22:39:00+00:00</updated>
     <id>http://codeandkaizen.herokuapp.com/blog/2013/09/09/html</id>
     <content type="html"><![CDATA[<p>OK so this one is a bit interesting. After playing around with Java, I decided I needed to have a really good grasp of the web fundamentals. So the next step would be HTML and CSS.</p>
 
@@ -340,7 +352,7 @@ The next few posts will be uploaded on the same day probably. That&rsquo;s becau
   <entry>
     <title type="html"><![CDATA[A Java Refresher]]></title>
     <link href="http://codeandkaizen.herokuapp.com/blog/2013/08/20/a-java-refresher/"/>
-    <updated>2013-08-20T13:56:00-04:00</updated>
+    <updated>2013-08-20T13:56:00+00:00</updated>
     <id>http://codeandkaizen.herokuapp.com/blog/2013/08/20/a-java-refresher</id>
     <content type="html"><![CDATA[<p>The first thing I decided to do was to refresh my knowledge of Java and object oriented programming in general. This is probably not the best option for a total beginner. Most of the resources out there that teach Web Dev skills start easy with HTML &amp; CSS as well as web fundamentals. These are great for people who have just started to learn how to code. I am not a beginner though. I am well versed in a lot of technical concepts and I have already been programming for a few years. I just needed to get back in the right mindset. Exploring something familiar would help me do that quickly. So Java it was!</p>
 
@@ -357,7 +369,7 @@ I thought about starting a bigger project like a simple Android App as a way to 
   <entry>
     <title type="html"><![CDATA[Roadmap to the Full Stack]]></title>
     <link href="http://codeandkaizen.herokuapp.com/blog/2013/08/15/roadmap-to-the-full-stack/"/>
-    <updated>2013-08-15T17:25:00-04:00</updated>
+    <updated>2013-08-15T17:25:00+00:00</updated>
     <id>http://codeandkaizen.herokuapp.com/blog/2013/08/15/roadmap-to-the-full-stack</id>
     <content type="html"><![CDATA[<p>After some research I have narrowed down the list of technologies and topics that a junior web developer should know. To put this list together I researched the technologies that the leading web development shops are using, the curricula offered at several popular Web Dev. workshops, and different posts on the web with advice related to this subject.  I am very familiar with several of these concepts; however, I plan spend some time on all of them, I want to be thorough.</p>
 
@@ -401,7 +413,7 @@ I thought about starting a bigger project like a simple Android App as a way to 
   <entry>
     <title type="html"><![CDATA[The Start of The Great Web Development Adventure of 2013]]></title>
     <link href="http://codeandkaizen.herokuapp.com/blog/2013/08/10/the-start-of-the-great-web-development-adventure-of-2013/"/>
-    <updated>2013-08-10T17:24:00-04:00</updated>
+    <updated>2013-08-10T17:24:00+00:00</updated>
     <id>http://codeandkaizen.herokuapp.com/blog/2013/08/10/the-start-of-the-great-web-development-adventure-of-2013</id>
     <content type="html"><![CDATA[<p>Do you like my title? I like my goals and projects to sound <strong>EPIC</strong>!</p>
 
@@ -426,7 +438,7 @@ In the next few weeks I will document my progress as I teach myself the skills n
   <entry>
     <title type="html"><![CDATA[First Post]]></title>
     <link href="http://codeandkaizen.herokuapp.com/blog/2013/08/08/first-post/"/>
-    <updated>2013-08-08T17:22:00-04:00</updated>
+    <updated>2013-08-08T17:22:00+00:00</updated>
     <id>http://codeandkaizen.herokuapp.com/blog/2013/08/08/first-post</id>
     <content type="html"><![CDATA[<p>I am Rafael.</p>
 

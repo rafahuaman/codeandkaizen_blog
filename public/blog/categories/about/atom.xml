@@ -4,7 +4,7 @@
   <title><![CDATA[Category: about | Code and Kaizen]]></title>
   <link href="http://codeandkaizen.herokuapp.com/blog/categories/about/atom.xml" rel="self"/>
   <link href="http://codeandkaizen.herokuapp.com/"/>
-  <updated>2013-10-23T00:46:33-04:00</updated>
+  <updated>2013-12-24T05:39:24+00:00</updated>
   <id>http://codeandkaizen.herokuapp.com/</id>
   <author>
     <name><![CDATA[Rafael Huaman]]></name>
@@ -16,32 +16,39 @@
   <entry>
     <title type="html"><![CDATA[My Thoughts on Octopress]]></title>
     <link href="http://codeandkaizen.herokuapp.com/blog/2013/09/19/my-thoughts-on-octopress/"/>
-    <updated>2013-09-19T23:25:00-04:00</updated>
+    <updated>2013-09-19T23:25:00+00:00</updated>
     <id>http://codeandkaizen.herokuapp.com/blog/2013/09/19/my-thoughts-on-octopress</id>
-    <content type="html"><![CDATA[<p>Originally I wanted to dedicate an entire post to <a href="http://octopress.org/">Octopress</a> and how I set it up. However, in the interested of moving forward I will just write down my thoughts on it and my experience so far.
-When I made the decision to document my learning progress and put it on the internet, I thought I was going to use a simple blog tool like <a href="http://wordpress.com/"> Wordpress</a> or <a href="http://www.blogger.com/home">Blogger</a>. I was almost ready to build my site using one of those tools when I stumbled on to a blog which influenced my own: <a href="http://learnwithjeff.com/">learnwithjeff</a>. In his blog, Jeff mentioned how he learns by teaching and he documents his learning process as well as assigns exercises for those who want to learn along with him.
-At the bottom of his page, I saw a little label that said &ldquo;Powered by Octopress&rdquo;. I had never heard of Octopress but I was curious. I looked it up and after reading the tagline &ldquo;A blogging framework for hackers&rdquo; I decided to give it shot. I figured that blogging using a tool meant for &ldquo;hackers&rdquo; would make me a better programmer and would expose me to more technologies.
-I was not disappointed. Octopress was easy to setup but in order to get it working and see it live I had to install <a href="https://www.ruby-lang.org/en/">Ruby</a> and <a href="http://git-scm.com/">git</a> on my PC and get <a href="https://www.heroku.com/">Heroku</a> account. This exercise alone exposed me to several new technologies and basically broke the ice. &ldquo;Heroku&rdquo; stopped being a mysterious word I had heard when reading about web development and Git became more approachable. This gave me more confidence to keep moving forward and continue learning. I was making progress and I was happy about it.
-After a few searches I settled on a theme I liked and I was done!</p>
+    <content type="html"><![CDATA[<p>Originally I wanted to dedicate an entire post to <a href="http://octopress.org/">Octopress</a> and how I set it up. However, in the interested of moving forward I will just write down my thoughts on it and my experience so far.</p>
+
+<p>When I made the decision to document my learning progress and put it on the internet, I thought I was going to use a simple blog tool like <a href="http://wordpress.com/"> Wordpress</a> or <a href="http://www.blogger.com/home">Blogger</a>. I was almost ready to build my site using one of those tools when I stumbled on to a blog which influenced my own: <a href="http://learnwithjeff.com/">learnwithjeff</a>. In his blog, Jeff mentioned how he learns by teaching and he documents his learning process as well as assigns exercises for those who want to learn along with him.</p>
+
+<p>At the bottom of his page, I saw a little label that read &ldquo;Powered by Octopress&rdquo;. I had never heard of Octopress but I was curious. I looked it up and after reading the tagline &ldquo;A blogging framework for hackers&rdquo; I decided to give it shot. I figured that blogging using a tool meant for &ldquo;hackers&rdquo; would make me a better programmer and would expose me to more technologies.</p>
+
+<p>I was not disappointed. Octopress was easy to setup but in order to get it working and see it live I had to install <a href="https://www.ruby-lang.org/en/">Ruby</a> and <a href="http://git-scm.com/">git</a> on my PC and get <a href="https://www.heroku.com/">Heroku</a> account. This exercise alone exposed me to several new technologies and basically broke the ice. &ldquo;Heroku&rdquo; stopped being a mysterious word I had heard when reading about web development and Git became more approachable. This gave me more confidence to keep moving forward and continue learning. I was making progress and I was happy about it.</p>
+
+<p>After a few searches I settled on a theme I liked and I was done!</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Lots of updates and Diminishing Returns]]></title>
     <link href="http://codeandkaizen.herokuapp.com/blog/2013/09/19/lots-of-updates-and-diminishing-returns/"/>
-    <updated>2013-09-19T23:24:00-04:00</updated>
+    <updated>2013-09-19T23:24:00+00:00</updated>
     <id>http://codeandkaizen.herokuapp.com/blog/2013/09/19/lots-of-updates-and-diminishing-returns</id>
-    <content type="html"><![CDATA[<p>Over the past couple of few months I have been trying to document my achievements as I went along. I found that reflecting on the things I learned as I write about them really helped me internalize some concepts. However, at some point I reached a point where I was learning and trying new things faster than I could write about them.
-Initially my solution to this was to write quick notes on what I had learned and write the complete blog post later.  This worked for a while but I quickly started falling behind on my blog entries and started accumulating lots of notes on the topics and technologies I had covered.
-One thing to keep in mind when you start learning something new is that &ldquo;Diminishing Returns&rdquo; really apply to this situation. I learned the basics of a lot of technologies very quickly and did not write blog entries on it. However, I have reached a point now in which I am spending quite a bit of time going through the <a href="http://ruby.railstutorial.org/">Michael Hartl&rsquo;s Rails Tutorial</a>  and reading the <a href="http://www.amazon.com/Well-Grounded-Rubyist-David-Black/dp/1933988657/ref=sr_1_1?s=books&ie=UTF8&qid=1379647910&sr=1-1"> Well Grounded Rubyist book</a>. My learning has slowed down. That&rsquo;s not a bad thing. It just means I have covered a lot of topics and is taking me a while to get more in-depth knowledge on some of the advanced concepts. I am going to take advantage of this time and catch quickly catch up my blog with all the technologies I have learned over the past couple of months.
-The next few posts will be uploaded on the same day probably. That&rsquo;s because I wrote them all in a day but learning and experimenting occurred over several weeks.</p>
+    <content type="html"><![CDATA[<p>Over the past couple of months I have been trying to document my achievements as I went along. I found that reflecting on the things I learned as I write about them really helped me internalize some concepts. However, after some time I reached a point where I was learning and trying new things faster than I could write about them.</p>
+
+<p>Initially my solution to this was to write quick notes on what I had learned and write the complete blog post later.  This worked for a while but I quickly started falling behind on my blog entries and started accumulating lots of notes on the topics and technologies I had covered.</p>
+
+<p>One thing to keep in mind when you start learning something new is that &ldquo;Diminishing Returns&rdquo; really apply to this situation. I learned the basics of a lot of technologies very quickly and did not write blog entries on it. However, I have reached a point now in which I am spending quite a bit of time going through the <a href="http://ruby.railstutorial.org/">Michael Hartl&rsquo;s Rails Tutorial</a>  and reading the <a href="http://www.amazon.com/Well-Grounded-Rubyist-David-Black/dp/1933988657/ref=sr_1_1?s=books&ie=UTF8&qid=1379647910&sr=1-1"> Well Grounded Rubyist book</a>. My learning has slowed down. That&rsquo;s not a bad thing. It just means I have covered a lot of topics and is taking me a while to get more in-depth knowledge on some of the advanced concepts. I am going to take advantage of this time and quickly catch up my blog with all the technologies I have learned over the past couple of months.</p>
+
+<p>The next few posts will be uploaded on the same day probably. That&rsquo;s because I wrote them all in a day but the learning and experimenting occurred over several weeks.</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[HTML, CSS, and Codecademy]]></title>
     <link href="http://codeandkaizen.herokuapp.com/blog/2013/09/09/html/"/>
-    <updated>2013-09-09T22:39:00-04:00</updated>
+    <updated>2013-09-09T22:39:00+00:00</updated>
     <id>http://codeandkaizen.herokuapp.com/blog/2013/09/09/html</id>
     <content type="html"><![CDATA[<p>OK so this one is a bit interesting. After playing around with Java, I decided I needed to have a really good grasp of the web fundamentals. So the next step would be HTML and CSS.</p>
 
@@ -60,7 +67,7 @@ The next few posts will be uploaded on the same day probably. That&rsquo;s becau
   <entry>
     <title type="html"><![CDATA[A Java Refresher]]></title>
     <link href="http://codeandkaizen.herokuapp.com/blog/2013/08/20/a-java-refresher/"/>
-    <updated>2013-08-20T13:56:00-04:00</updated>
+    <updated>2013-08-20T13:56:00+00:00</updated>
     <id>http://codeandkaizen.herokuapp.com/blog/2013/08/20/a-java-refresher</id>
     <content type="html"><![CDATA[<p>The first thing I decided to do was to refresh my knowledge of Java and object oriented programming in general. This is probably not the best option for a total beginner. Most of the resources out there that teach Web Dev skills start easy with HTML &amp; CSS as well as web fundamentals. These are great for people who have just started to learn how to code. I am not a beginner though. I am well versed in a lot of technical concepts and I have already been programming for a few years. I just needed to get back in the right mindset. Exploring something familiar would help me do that quickly. So Java it was!</p>
 
@@ -77,7 +84,7 @@ I thought about starting a bigger project like a simple Android App as a way to 
   <entry>
     <title type="html"><![CDATA[Roadmap to the Full Stack]]></title>
     <link href="http://codeandkaizen.herokuapp.com/blog/2013/08/15/roadmap-to-the-full-stack/"/>
-    <updated>2013-08-15T17:25:00-04:00</updated>
+    <updated>2013-08-15T17:25:00+00:00</updated>
     <id>http://codeandkaizen.herokuapp.com/blog/2013/08/15/roadmap-to-the-full-stack</id>
     <content type="html"><![CDATA[<p>After some research I have narrowed down the list of technologies and topics that a junior web developer should know. To put this list together I researched the technologies that the leading web development shops are using, the curricula offered at several popular Web Dev. workshops, and different posts on the web with advice related to this subject.  I am very familiar with several of these concepts; however, I plan spend some time on all of them, I want to be thorough.</p>
 
