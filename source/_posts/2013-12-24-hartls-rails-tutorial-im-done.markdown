@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Hartls Rails Tutorial - Im Done!"
+title: "Hartl's Rails Tutorial - I'm Done!"
 date: 2013-12-24 06:02
 comments: true
 categories: [blog, web dev, learning, hartl tutorial] 
