@@ -4,7 +4,7 @@
   <title><![CDATA[Category: web dev | Code and Kaizen]]></title>
   <link href="http://codeandkaizen.herokuapp.com/blog/categories/web-dev/atom.xml" rel="self"/>
   <link href="http://codeandkaizen.herokuapp.com/"/>
-  <updated>2013-12-24T05:39:24+00:00</updated>
+  <updated>2013-12-24T06:05:15+00:00</updated>
   <id>http://codeandkaizen.herokuapp.com/</id>
   <author>
     <name><![CDATA[Rafael Huaman]]></name>
@@ -12,6 +12,99 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Hartls Rails Tutorial - Im Done!]]></title>
+    <link href="http://codeandkaizen.herokuapp.com/blog/2013/12/24/hartls-rails-tutorial-im-done/"/>
+    <updated>2013-12-24T06:02:00+00:00</updated>
+    <id>http://codeandkaizen.herokuapp.com/blog/2013/12/24/hartls-rails-tutorial-im-done</id>
+    <content type="html"><![CDATA[<p>So after a few months of coding on the weekend and late at night, I am finally done with the Hartl Rails tutorial. It was a great experience and I feel great about doing pretty much everything on the book. There was a lot to cover and I am not going to review it (there are plenty of reviews out there), but I am going to write about my biggest takeaways.</p>
+
+<h2>The Ruby Koans</h2>
+
+<p>This little jewel was hidden in the exercise section of chapter 4. This resource was excellent and should have been more prominent. Someone who skipped the ruby section exercises could miss this great resource.</p>
+
+<h2>Rails covers everything</h2>
+
+<p>Rails makes it possible for one person to do lots very fast. It is great, but sometimes it feels like &ldquo;magic&rdquo;. In order to really understand the magic you have to really understand rails (this is hard, there is a lot there).</p>
+
+<h2>Active Record is important</h2>
+
+<p>ActiveRecord is the heart and soul of Rails. Understanding Object-Relational Mapping goes a long way.</p>
+
+<h2>Gems can be addictive</h2>
+
+<p>Gems are a great part of the Ruby community; however, they should be used sparingly. Putting too many gems in an application is like filling a system with a lot of black boxes you have no control over.</p>
+
+<h2>TDD for the win!</h2>
+
+<p>I love that this tutorial emphasizes TDD. I love testing and this book rarely writes a feature without a test. I am currently working through the <a href="http://pragprog.com/book/rails4/agile-web-development-with-rails-4">Agile Development with Rails 4</a> book and I do not like how little testing there is in that book. Hartl really knocks it out of the park here.</p>
+
+<p>Those are my thoughts for now. I may update this entry later. However, I don&rsquo;t want to spend too much time on this. I have moved on to a different book: <a href="http://pragprog.com/book/rails4/agile-web-development-with-rails-4">Agile Development with Rails 4</a>. This is helping me internalize many of the concepts and see different ways to work with Rails. I feel that once I am done with this book I will have the Rails expertise to start playing with a few personal projects I have in mind. These are exciting times.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Nitrous.io and How I Stopped Carrying Two Laptops]]></title>
+    <link href="http://codeandkaizen.herokuapp.com/blog/2013/12/12/nitrous-dot-io-and-how-i-stopped-carrying-two-laptops/"/>
+    <updated>2013-12-12T05:54:00+00:00</updated>
+    <id>http://codeandkaizen.herokuapp.com/blog/2013/12/12/nitrous-dot-io-and-how-i-stopped-carrying-two-laptops</id>
+    <content type="html"><![CDATA[<p>This post is bittersweet.</p>
+
+<p>Not too long ago I wrote about how <a href="/blog/2013/10/06/my-ubuntu-laptop/">I breathed new life to my old college laptop</a> by turning it into my development/learning computer. When I was done, I was happy. I started using it all the time and even bringing with me when I traveled for work which meant carrying two laptops. I did not care though. My Ubuntu laptop was worth it!</p>
+
+<p>This lasted about two months. A few weeks ago I attended a programming workshop at Full Stack Academy. We spent a few hours working through a few exercises in JavaScript and sharing our solutions. The workshop was good and the instructors were fun; however, they showed me one thing that changed my life. They introduced me to <a href="https://www.nitrous.io/">nitrous.io</a>. Nitrous.io is cloud based development environment with a web-based IDE and cloud VMs. What does this mean? You get a Linux box in your browser (Mind blown!). Maybe I am little late to the party but this literally changed my life. I do not carry two laptops when I travel for work anymore. I travel weekly so this is huge for me.</p>
+
+<p>I recently transferred all my projects to nitrous.io (this blog too!) and life has been much easier that way (Sweet!).</p>
+
+<p>My old laptop is still awesome but I don&rsquo;t use it that much and is back to collecting dust (Bitter!).</p>
+
+<p>Anyway&hellip; cloud based IDEs are the <strong>future</strong>! In fact a quick google search just confirmed that you can use the <a href="http://www.raspberrypi.org/phpBB3/viewtopic.php?t=9984">Raspberry Pi</a> and <a href="https://c9.io/">Cloud9</a> &ndash; another popular web based IDE &ndash; to get a development environment for $35. This is extremely exciting.</p>
+
+<p>That is all for now.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[My First Code Retreat]]></title>
+    <link href="http://codeandkaizen.herokuapp.com/blog/2013/11/28/my-first-code-retreat/"/>
+    <updated>2013-11-28T05:44:00+00:00</updated>
+    <id>http://codeandkaizen.herokuapp.com/blog/2013/11/28/my-first-code-retreat</id>
+    <content type="html"><![CDATA[<p>This is a post about my <a href="http://coderetreat.org/">code retreat</a> experience a few months ago. For those who don&rsquo;t know what a Code Retreat is please visit <a href="http://coderetreat.org/">coderetreat.org</a>.</p>
+
+<p>This is not going be extensive. I don&rsquo;t want to go into the details and the specific exercises because that would be like spoilers. I am just going to focus on the new things I learned/tried that day and my overall conclusion.</p>
+
+<h2>Pair Programming</h2>
+
+<p>To those that have never tried it, a code retreat is a great way to pair program for the first time. The first time I paired was during a job interview. When I told some people this, I got some raised eyebrows and some &ldquo;Yikes! I bet that was intimidating&rdquo;. It didn&rsquo;t think so at the time but afterwards while analyzing my performance I concluded that my interactions were little awkward. I could have used some practice&hellip; well this retreat was just what I needed. In a single day I paired over and over again. I paired with both industry veterans and beginners and I learned a lot with each one. The best part is that everyone was always friendly and fun willing to teach and be open to criticism.</p>
+
+<p>I even found myself in a situation where my partner was flying through code and he got stuck and couldn&rsquo;t find the problem. He didn&rsquo;t quite stop though and was flying through tests and switching screens between the Ruby documentation and our program. I had to found a way to put the brakes on his speed and slowly take a few steps back to where I thought the bug was. I was abrupt but polite, all the time hoping he wouldn&rsquo;t take it the wrong way. In the end he thanked me for it! It those little learning moments that make code retreats a valuable experience</p>
+
+<h2>Retrospectives</h2>
+
+<p>Actually looking back at what we did at every step of the way. This was neat; it really drove the point of Agile and refactoring home. We shouldn&rsquo;t just refactor code but also try to improve ourselves and our practices.</p>
+
+<h2>VIM</h2>
+
+<p>Most people at the retreat were fine with using Sublime and this was working fine until one of pairs said &ldquo;Have you ever used VIM? You will learn today.&rdquo; How can you say no to a free VIM lightning class? It was definitely a challenge at first but I got the basics down easy enough. I can see how with practice and a few neat features productivity can increase dramatically. I have not converted completely but ever since the retreat I have been practicing with vimtutor whenever I have a few free minutes. I will switch completely once I feel I am not super slow (especially now that I am using nitrous.io &mdash; more to come on this).</p>
+
+<h2>Flexing coding muscles</h2>
+
+<p>Those exercises really make you think. The exercises are designed to teach and they are good at that. Every exercise makes you think hard and a lot and in different ways too. Simple constraints like telling you not to use a particular statement can really help you explore the limits of a programming paradigm or the features of a particular programming language. By end of the day you will be tired and you will feel great!</p>
+
+<h2>Programming Styles</h2>
+
+<p>This comes with pairing. I had seen other people&rsquo;s code before at school, but they all had a style similar to mine. I guess this is expected since my classmates and I learned together.  But pairing with people who think differently is just eye-opening. Seeing different styles helped me learn new things about the Ruby programming language and showed me different ways to address problems. I had several &ldquo;wow&rdquo; moments when my partners suggested quick and simple solutions that I had not thought about before.</p>
+
+<h2>Fun</h2>
+
+<p>It was all fun. What can I say? I love coding and a full day of challenges with great people was excellent.</p>
+
+<h1>Conclusion</h1>
+
+<p>I recommend it to everybody. Programmers need practice too and retreats are an excellent way to do it and discover many things in the process.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Updating My Learing Plan]]></title>
@@ -198,91 +291,29 @@ My conclusion after CodeAcademy&rsquo;s Ruby Track:</p>
 
 <p>This test fails and the user has to fill replace &ldquo;__&rdquo; with the expected output</p>
 
-<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>Failing Test </span></figcaption>
- <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="k">def</span> <span class="nf">test_creating_arrays</span>
-</span><span class='line'>  <span class="n">empty_array</span> <span class="o">=</span> <span class="nb">Array</span><span class="o">.</span><span class="n">new</span>
-</span><span class='line'>  <span class="n">assert_equal</span> <span class="o">&lt;</span><span class="n">strong</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">empty_array</span><span class="o">.</span><span class="n">class</span>
-</span><span class='line'>  <span class="n">assert_equal</span> <span class="o">&lt;</span><span class="sr">/strong&gt;, empty_array.size</span>
-</span><span class='line'><span class="sr">end</span>
-</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+<p>{% codeblock Failing Test lang:ruby %}
+def test_creating_arrays
+  empty_array = Array.new
+  assert_equal <strong>, empty_array.class
+  assert_equal </strong>, empty_array.size
+end
+{% endcodeblock %}</p>
 
 <p>These changes will make the tests pass:</p>
 
-<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>Passing Test </span></figcaption>
- <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="o">&lt;</span><span class="n">br</span><span class="o">/&gt;</span>
-</span><span class='line'><span class="k">def</span> <span class="nf">test_creating_arrays</span>
-</span><span class='line'>  <span class="n">empty_array</span> <span class="o">=</span> <span class="nb">Array</span><span class="o">.</span><span class="n">new</span>
-</span><span class='line'>  <span class="n">assert_equal</span> <span class="nb">Array</span><span class="p">,</span> <span class="n">empty_array</span><span class="o">.</span><span class="n">class</span>
-</span><span class='line'>  <span class="n">assert_equal</span> <span class="mi">0</span><span class="p">,</span> <span class="n">empty_array</span><span class="o">.</span><span class="n">size</span>
-</span><span class='line'><span class="k">end</span>
-</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+<p>{% codeblock Passing Test lang:ruby %}<br/>
+def test_creating_arrays
+  empty_array = Array.new
+  assert_equal Array, empty_array.class
+  assert_equal 0, empty_array.size
+end
+{% endcodeblock %}</p>
 
 <p>There are basically no hints or answer sheets (you can find solved Koans in <a href="https://github.com/">Github</a>, but why ruin these amazing exercises? This way the user is forced to think about the exercises and internalize the concepts with each test.</p>
 
 <p>Another reason I liked the Koans is that they emphasize testing. As you advance you will find small projects and bigger exercises to work one that involve more coding than just replacing words in the text. I got so used to testing by this point that I used <a href="http://en.wikipedia.org/wiki/Test-driven_development">TDD</a> in the projects and even in the <a href="http://en.wikipedia.org/wiki/Farkle">Farkle</a> game at the end.</p>
 
 <p>After finishing the Koans I definitely felt more adept in Ruby and was more confident in my abilities. I would recommend this style of learning to anyone that wants to learn Ruby.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Git and Github]]></title>
-    <link href="http://codeandkaizen.herokuapp.com/blog/2013/09/19/git-and-github/"/>
-    <updated>2013-09-19T23:25:00+00:00</updated>
-    <id>http://codeandkaizen.herokuapp.com/blog/2013/09/19/git-and-github</id>
-    <content type="html"><![CDATA[<p>This is pretty straight forward. I had setup a <a href="https://github.com/">Github</a> account in the past. But I had rarely used it. I used the free <a href=” the http://try.github.io/levels/1/challenges/1”>Try git tutorial</a> from <a href=” http://www.codeschool.com/”>Code School</a> to help me started. I started using git with <a href="http://octopress.org/">Octopress</a> and with <a href="http://ruby.railstutorial.org/">Michael Hartl&rsquo;s Rails tutorial</a>.</p>
-
-<p>I have started using git to version all of the code I am writing. Additionally, I have been uploading all the code I have completed from tutorials to Github.
-The interesting thing about uploading code to Github is that it forced me to <a href="http://en.wikipedia.org/wiki/Code_refactoring">refactor</a> and make my code nicer. The thought that my code was out there for everyone to see, made me push myself to make it better!</p>
-
-<p>I have used only few of the features Git and Github have to offer. I use it for code versioning mostly.Additionally, <a href="http://git-scm.com/book/en/Git-Branching">branching</a> is a useful feature that I have started to understand. With some discipline and practice I will introduce branching to my everyday coding. However, this is only the tip of the iceberg in terms of Git. Anyone interested in learning more should check out <a href=http://git-scm.com/book> the Pro Git book</a>.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[HTML, CSS, and Codecademy]]></title>
-    <link href="http://codeandkaizen.herokuapp.com/blog/2013/09/09/html/"/>
-    <updated>2013-09-09T22:39:00+00:00</updated>
-    <id>http://codeandkaizen.herokuapp.com/blog/2013/09/09/html</id>
-    <content type="html"><![CDATA[<p>OK so this one is a bit interesting. After playing around with Java, I decided I needed to have a really good grasp of the web fundamentals. So the next step would be HTML and CSS.</p>
-
-<p>I had learned a bit about HTML and CSS before, but I hadn&rsquo;t really dived deep into the subject. After a few Google searches and reading a few reviews I decided to get the book HTML and &amp; CSS Design and build websites by Jon Duckett. This book was great!. Short and concise explanations paired with excellent visual design and great photographs. The book was just so pretty it was a joy to read and to hold. The book has a companion website which you can use to get the source code and images for the examples. Besides core HTML and CSS concepts, the book covers best practices, backwards and cross-browser compatibility. I recommend this book to anyone who wants to learn about HTML and CSS and get acquainted with some design concepts.</p>
-
-<p>I was about all done with the HTML part of the book when I stumbled upon Codecademy. An enlightened internet user mentioned it on Quora and I decided to take a look out of curiosity. What a great find! You really have to give credit to the programming community for building such amazing learning resources and making them available to the public for free. Codecademy offers free coding courses through their interactive online platform, which allows its users to code right on the browser and see immediate results without any previous setup. CodeSchool and Treehouse offer paid versions of this web service. At around $25 a month, access to these websites is a bargain, they offer as similar platforms for learning paired with videos and a lot more courses to choose from. Codecademy does not have as much content as its paid counterparts but it&rsquo;s free!</p>
-
-<p>Codecademy was just what I needed. Reading the books and following along some of the work was great but I needed additional exercises. Codecademy helped me with this. And I was quickly done with their &ldquo;Web Fundamentals&rdquo; track which included HTML and CSS. Codecademy had effectively replaced my book even though it wasn&rsquo;t as detailed. I imagine that the great people at Codecademy will add more advanced courses with time.</p>
-
-<p>After finishing the HTML and CSS course I felt good about what I had learned. Let&rsquo;s be honest, I won&rsquo;t be able to memorize all the tags and syntax unless I use them repeatedly. But there are plenty of resources out there I can use to check for syntax rules when the time comes. I already use HTML while editing these blog posts, but CSS will be a bit harder to use on a regular basis.</p>
-
-<p>At this point I wanted to move forward so I did. I was done with HTML &amp; CSS and Codecademy offered several tracks so I quickly moved onto Ruby.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[A Java Refresher]]></title>
-    <link href="http://codeandkaizen.herokuapp.com/blog/2013/08/20/a-java-refresher/"/>
-    <updated>2013-08-20T13:56:00+00:00</updated>
-    <id>http://codeandkaizen.herokuapp.com/blog/2013/08/20/a-java-refresher</id>
-    <content type="html"><![CDATA[<p>The first thing I decided to do was to refresh my knowledge of Java and object oriented programming in general. This is probably not the best option for a total beginner. Most of the resources out there that teach Web Dev skills start easy with HTML &amp; CSS as well as web fundamentals. These are great for people who have just started to learn how to code. I am not a beginner though. I am well versed in a lot of technical concepts and I have already been programming for a few years. I just needed to get back in the right mindset. Exploring something familiar would help me do that quickly. So Java it was!</p>
-
-<p>I grabbed a copy of <a href="http://www.amazon.com/Head-First-Java-2nd-Edition/dp/0596009208">Head first: Java</a> and started to quickly going through all the concepts. I became very familiar with Java during my college years. But I have been out of practice for a while. Saying that I was a little rusty would be generous. After some reading I started to remember the concepts faster and faster.
-The book was very unique. It tries to keep you interested by not being a conventional &ldquo;boring&rdquo; book, so it throws pictures at you and keeps you &ldquo;off balance&rdquo; by not following a conventional form. In short, I liked it and if I ever need to reference some Java concepts again I would probably pick it up one more time.</p>
-
-<p>I did not read the whole book. I did not focus on syntax but I did pay a lot of attention to the sections that involved Object Oriented Programming concepts and good practices. I also went to <a href="http://codingbat.com/">CodingBat.com</a> to practice some basic concepts like recursion and solve some puzzles. This was good enough for me and I decided I was ready to move on.
-I thought about starting a bigger project like a simple Android App as a way to practice some more. This was very tempting. The idea of building an App sounded very appealing and fun. Nevertheless, I decided to remain focused and stick to roadmap and topics I laid out.</p>
-
-<p>Next: HTML and CSS</p>
 ]]></content>
   </entry>
   

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: learning | Code and Kaizen]]></title>
+  <link href="http://codeandkaizen.herokuapp.com/blog/categories/learning/atom.xml" rel="self"/>
+  <link href="http://codeandkaizen.herokuapp.com/"/>
+  <updated>2013-12-24T06:05:15+00:00</updated>
+  <id>http://codeandkaizen.herokuapp.com/</id>
+  <author>
+    <name><![CDATA[Rafael Huaman]]></name>
+    <email><![CDATA[info@codeandkaizen.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Hartls Rails Tutorial - Im Done!]]></title>
+    <link href="http://codeandkaizen.herokuapp.com/blog/2013/12/24/hartls-rails-tutorial-im-done/"/>
+    <updated>2013-12-24T06:02:00+00:00</updated>
+    <id>http://codeandkaizen.herokuapp.com/blog/2013/12/24/hartls-rails-tutorial-im-done</id>
+    <content type="html"><![CDATA[<p>So after a few months of coding on the weekend and late at night, I am finally done with the Hartl Rails tutorial. It was a great experience and I feel great about doing pretty much everything on the book. There was a lot to cover and I am not going to review it (there are plenty of reviews out there), but I am going to write about my biggest takeaways.</p>
+
+<h2>The Ruby Koans</h2>
+
+<p>This little jewel was hidden in the exercise section of chapter 4. This resource was excellent and should have been more prominent. Someone who skipped the ruby section exercises could miss this great resource.</p>
+
+<h2>Rails covers everything</h2>
+
+<p>Rails makes it possible for one person to do lots very fast. It is great, but sometimes it feels like &ldquo;magic&rdquo;. In order to really understand the magic you have to really understand rails (this is hard, there is a lot there).</p>
+
+<h2>Active Record is important</h2>
+
+<p>ActiveRecord is the heart and soul of Rails. Understanding Object-Relational Mapping goes a long way.</p>
+
+<h2>Gems can be addictive</h2>
+
+<p>Gems are a great part of the Ruby community; however, they should be used sparingly. Putting too many gems in an application is like filling a system with a lot of black boxes you have no control over.</p>
+
+<h2>TDD for the win!</h2>
+
+<p>I love that this tutorial emphasizes TDD. I love testing and this book rarely writes a feature without a test. I am currently working through the <a href="http://pragprog.com/book/rails4/agile-web-development-with-rails-4">Agile Development with Rails 4</a> book and I do not like how little testing there is in that book. Hartl really knocks it out of the park here.</p>
+
+<p>Those are my thoughts for now. I may update this entry later. However, I don&rsquo;t want to spend too much time on this. I have moved on to a different book: <a href="http://pragprog.com/book/rails4/agile-web-development-with-rails-4">Agile Development with Rails 4</a>. This is helping me internalize many of the concepts and see different ways to work with Rails. I feel that once I am done with this book I will have the Rails expertise to start playing with a few personal projects I have in mind. These are exciting times.</p>
+]]></content>
+  </entry>
+  
+</feed>

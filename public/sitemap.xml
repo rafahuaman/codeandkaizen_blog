@@ -53,16 +53,32 @@
         <lastmod>2013-12-19T17:58:05+00:00</lastmod>
     </url>
     <url>
+        <loc>http://codeandkaizen.herokuapp.com/blog/2013/11/28/my-first-code-retreat/</loc>
+        <lastmod>2013-12-24T05:59:19+00:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://codeandkaizen.herokuapp.com/blog/2013/12/12/nitrous-dot-io-and-how-i-stopped-carrying-two-laptops/
+        </loc>
+        <lastmod>2013-12-24T05:59:26+00:00</lastmod>
+    </url>
+    <url>
+        <loc>
+            http://codeandkaizen.herokuapp.com/blog/2013/12/24/hartls-rails-tutorial-im-done/
+        </loc>
+        <lastmod>2013-12-24T06:04:13+00:00</lastmod>
+    </url>
+    <url>
         <loc>http://codeandkaizen.herokuapp.com/humans.txt</loc>
         <lastmod>2013-12-19T17:58:05+00:00</lastmod>
     </url>
     <url>
         <loc>http://codeandkaizen.herokuapp.com/blog/archives/</loc>
-        <lastmod>2013-12-19T17:58:05+00:00</lastmod>
+        <lastmod>2013-12-24T06:04:13+00:00</lastmod>
     </url>
     <url>
         <loc>http://codeandkaizen.herokuapp.com/blog/</loc>
-        <lastmod>2013-12-19T17:58:05+00:00</lastmod>
+        <lastmod>2013-12-24T06:04:13+00:00</lastmod>
     </url>
     <url>
         <loc>http://codeandkaizen.herokuapp.com/robots.txt</loc>
@@ -70,6 +86,6 @@
     </url>
     <url>
         <loc>http://codeandkaizen.herokuapp.com/</loc>
-        <lastmod>2013-12-19T19:12:52+00:00</lastmod>
+        <lastmod>2013-12-24T06:04:13+00:00</lastmod>
     </url>
 </urlset>

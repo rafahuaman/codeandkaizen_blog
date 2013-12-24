@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: code retreat | Code and Kaizen]]></title>
+  <link href="http://codeandkaizen.herokuapp.com/blog/categories/code-retreat/atom.xml" rel="self"/>
+  <link href="http://codeandkaizen.herokuapp.com/"/>
+  <updated>2013-12-24T06:05:15+00:00</updated>
+  <id>http://codeandkaizen.herokuapp.com/</id>
+  <author>
+    <name><![CDATA[Rafael Huaman]]></name>
+    <email><![CDATA[info@codeandkaizen.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[My First Code Retreat]]></title>
+    <link href="http://codeandkaizen.herokuapp.com/blog/2013/11/28/my-first-code-retreat/"/>
+    <updated>2013-11-28T05:44:00+00:00</updated>
+    <id>http://codeandkaizen.herokuapp.com/blog/2013/11/28/my-first-code-retreat</id>
+    <content type="html"><![CDATA[<p>This is a post about my <a href="http://coderetreat.org/">code retreat</a> experience a few months ago. For those who don&rsquo;t know what a Code Retreat is please visit <a href="http://coderetreat.org/">coderetreat.org</a>.</p>
+
+<p>This is not going be extensive. I don&rsquo;t want to go into the details and the specific exercises because that would be like spoilers. I am just going to focus on the new things I learned/tried that day and my overall conclusion.</p>
+
+<h2>Pair Programming</h2>
+
+<p>To those that have never tried it, a code retreat is a great way to pair program for the first time. The first time I paired was during a job interview. When I told some people this, I got some raised eyebrows and some &ldquo;Yikes! I bet that was intimidating&rdquo;. It didn&rsquo;t think so at the time but afterwards while analyzing my performance I concluded that my interactions were little awkward. I could have used some practice&hellip; well this retreat was just what I needed. In a single day I paired over and over again. I paired with both industry veterans and beginners and I learned a lot with each one. The best part is that everyone was always friendly and fun willing to teach and be open to criticism.</p>
+
+<p>I even found myself in a situation where my partner was flying through code and he got stuck and couldn&rsquo;t find the problem. He didn&rsquo;t quite stop though and was flying through tests and switching screens between the Ruby documentation and our program. I had to found a way to put the brakes on his speed and slowly take a few steps back to where I thought the bug was. I was abrupt but polite, all the time hoping he wouldn&rsquo;t take it the wrong way. In the end he thanked me for it! It those little learning moments that make code retreats a valuable experience</p>
+
+<h2>Retrospectives</h2>
+
+<p>Actually looking back at what we did at every step of the way. This was neat; it really drove the point of Agile and refactoring home. We shouldn&rsquo;t just refactor code but also try to improve ourselves and our practices.</p>
+
+<h2>VIM</h2>
+
+<p>Most people at the retreat were fine with using Sublime and this was working fine until one of pairs said &ldquo;Have you ever used VIM? You will learn today.&rdquo; How can you say no to a free VIM lightning class? It was definitely a challenge at first but I got the basics down easy enough. I can see how with practice and a few neat features productivity can increase dramatically. I have not converted completely but ever since the retreat I have been practicing with vimtutor whenever I have a few free minutes. I will switch completely once I feel I am not super slow (especially now that I am using nitrous.io &mdash; more to come on this).</p>
+
+<h2>Flexing coding muscles</h2>
+
+<p>Those exercises really make you think. The exercises are designed to teach and they are good at that. Every exercise makes you think hard and a lot and in different ways too. Simple constraints like telling you not to use a particular statement can really help you explore the limits of a programming paradigm or the features of a particular programming language. By end of the day you will be tired and you will feel great!</p>
+
+<h2>Programming Styles</h2>
+
+<p>This comes with pairing. I had seen other people&rsquo;s code before at school, but they all had a style similar to mine. I guess this is expected since my classmates and I learned together.  But pairing with people who think differently is just eye-opening. Seeing different styles helped me learn new things about the Ruby programming language and showed me different ways to address problems. I had several &ldquo;wow&rdquo; moments when my partners suggested quick and simple solutions that I had not thought about before.</p>
+
+<h2>Fun</h2>
+
+<p>It was all fun. What can I say? I love coding and a full day of challenges with great people was excellent.</p>
+
+<h1>Conclusion</h1>
+
+<p>I recommend it to everybody. Programmers need practice too and retreats are an excellent way to do it and discover many things in the process.</p>
+]]></content>
+  </entry>
+  
+</feed>
