@@ -4,7 +4,7 @@
   <title><![CDATA[Category: blog | Code and Kaizen]]></title>
   <link href="http://codeandkaizen.herokuapp.com/blog/categories/blog/atom.xml" rel="self"/>
   <link href="http://codeandkaizen.herokuapp.com/"/>
-  <updated>2013-12-24T06:05:15+00:00</updated>
+  <updated>2013-12-27T15:31:31+00:00</updated>
   <id>http://codeandkaizen.herokuapp.com/</id>
   <author>
     <name><![CDATA[Rafael Huaman]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[Hartls Rails Tutorial - Im Done!]]></title>
+    <title type="html"><![CDATA[Hartl's Rails Tutorial - I'm Done!]]></title>
     <link href="http://codeandkaizen.herokuapp.com/blog/2013/12/24/hartls-rails-tutorial-im-done/"/>
     <updated>2013-12-24T06:02:00+00:00</updated>
     <id>http://codeandkaizen.herokuapp.com/blog/2013/12/24/hartls-rails-tutorial-im-done</id>
@@ -28,7 +28,7 @@
 
 <p>Rails makes it possible for one person to do lots very fast. It is great, but sometimes it feels like &ldquo;magic&rdquo;. In order to really understand the magic you have to really understand rails (this is hard, there is a lot there).</p>
 
-<h2>Active Record is important</h2>
+<h2>ActiveRecord is important</h2>
 
 <p>ActiveRecord is the heart and soul of Rails. Understanding Object-Relational Mapping goes a long way.</p>
 
