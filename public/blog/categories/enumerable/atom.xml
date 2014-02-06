@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Enumerable | Code and Kaizen]]></title>
   <link href="http://codeandkaizen.herokuapp.com/blog/categories/enumerable/atom.xml" rel="self"/>
   <link href="http://codeandkaizen.herokuapp.com/"/>
-  <updated>2014-02-06T02:40:26+00:00</updated>
+  <updated>2014-02-06T02:57:36+00:00</updated>
   <id>http://codeandkaizen.herokuapp.com/</id>
   <author>
     <name><![CDATA[Rafael Huaman]]></name>
@@ -18,7 +18,7 @@
     <link href="http://codeandkaizen.herokuapp.com/blog/2014/02/05/lessons-in-ruby-from-exercism-dot-io/"/>
     <updated>2014-02-05T23:44:00+00:00</updated>
     <id>http://codeandkaizen.herokuapp.com/blog/2014/02/05/lessons-in-ruby-from-exercism-dot-io</id>
-    <content type="html"><![CDATA[<h1>Exercism.io and Patience</h1>
+    <content type="html"><![CDATA[<h2>Exercism.io and Patience</h2>
 
 <p>When I started my path of personal development I gathered a lot of information on online resources to improve my skills as a programmer. That&rsquo;s when I first learned about <a href="http://exercism.io/">Exercism.io.</a> It seemed like a popular and useful resource which would introduce feedback to my learning. I bookmarked and archived it; however, I didn&rsquo;t use it right away. I got more involved with the <a href="http://ruby.railstutorial.org/">Hartl Tutorial</a>, the <a href="http://pragprog.com/book/rails4/agile-web-development-with-rails-4">Agile Web Development with Rails 4</a> book, and a few more <a href="http://www.amazon.com/Design-Patterns-Ruby-Russ-Olsen/dp/0321490452">books</a>.</p>
 
@@ -28,9 +28,9 @@
 
 <p>The following exercises went much better. I waited patiently for some feedback which would eventually arrive and improve my code and teach me more about the Ruby language.</p>
 
-<h1>My Lessons</h1>
+<h2>My Lessons</h2>
 
-<h2>Adding Elements to a Hash of Arrays</h2>
+<h3>Adding Elements to a Hash of Arrays</h3>
 
 <p>In one of the problems I had to implement a class that could classify students based on their grades. The straight forward solution: a hash where the grade is the key and an array of students is the value. Here&rsquo;s the catch: when looking for the students in a grade with no students assigned I should return and empty array <code>[]</code> instead of <code>null</code>.</p>
 
@@ -71,7 +71,36 @@ end
 
 <p>The interesting part was finding out why <code>@db[grade] &lt;&lt; [name]</code> was not working. This expression is essentially <code>@db[grade].push([name])</code>. This statement directly modifies the default value for the hash whenever <code>@db[grade]</code> has not been assigned a value. This was great find! It showed me difference between <code>+=</code> and <code>&lt;&lt;</code> as well how default values for a hash work.</p>
 
-<h2>The Powerful Ruby Library</h2>
+<p>My code looked like this in the end:</p>
+
+<p>{% codeblock Passing Test lang:ruby %}
+class School
+  attr_reader :db</p>
+
+<p>  def initialize</p>
+
+<pre><code>@db = Hash.new([])
+</code></pre>
+
+<p>  end</p>
+
+<p>  def add(name, grade)</p>
+
+<pre><code>@db[grade] += [name]
+</code></pre>
+
+<p>  end</p>
+
+<p>  def grade(grade)</p>
+
+<pre><code>@db[grade]
+</code></pre>
+
+<p>  end
+end
+{% endcodeblock %}</p>
+
+<h3>The Powerful Ruby Library</h3>
 
 <p>The second problem I had with my code was the sort method for the same exercise. The sort method was supposed to return a hash with the grades and the names of the students in the grade sorted. I had implemented this method in the following way:</p>
 
@@ -102,7 +131,7 @@ end
 
 <p>Combining all this methods makes it possible to get the full functionality of the sort method implemented in one very readable line.</p>
 
-<h2>Enumerable to the rescue</h2>
+<h3>Enumerable to the rescue</h3>
 
 <p>I learned my third lesson in a different exercise. This exercise was very straightforward. Given two strings count the differences between them at every position. For example, CAT and CAP have a difference of 1. One condition of the problem was to stop the counting at the end of the shorter string. For instance, CATS and CAP have a difference of 1.  Simple enough. This was first attempt.</p>
 
@@ -137,7 +166,7 @@ end
 
 <p>The compute method could have been expressed in one line; however, this way the method separates the two main &ldquo;ideas&rdquo; in the code: finding the maximum length for the comparison and the counting loop. I believe that separating the ideas makes it into a very readable implementation.</p>
 
-<h1>Conclusion</h1>
+<h2>Conclusion</h2>
 
 <p><a href="http://exercism.io/">Exercism.io</a> is not meant for you to plough through all the exercises. It is meant for careful review, collaboration, and revision so that you can learn how to write the best code possible. The users in the site will be helpful but you just have to be a little patient and wait for their input.</p>
 ]]></content>
