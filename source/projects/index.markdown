@@ -7,6 +7,13 @@ sharing: true
 footer: true
 ---
 
+## Agile Development with Rails 4
+The sample web store application built following the book: [Agile Web Development with Rails 4](http://pragprog.com/book/rails4/agile-web-development-with-rails-4).
+
+* [Live link](http://agilewebdevwithrails4.herokuapp.com/)
+* [Github link](https://github.com/rafahuaman/agile_dev_rails_depot)
+***
+
 ## Exercism.io Ruby exercises
 
 My answers to the practice problems on [Exercism.io](http://exercism.io/).
@@ -16,7 +23,7 @@ My answers to the practice problems on [Exercism.io](http://exercism.io/).
 ***
 ## Michael Hartl's Ruby on Rails Tutorial
 
-The sample application built following [Michael Hartl's Ruby on Rails tutorial](http://ruby.railstutorial.org/).
+The sample micro-post application built following [Michael Hartl's Ruby on Rails tutorial](http://ruby.railstutorial.org/).
 
 * [Live link](https://sampleappubuntu.herokuapp.com/)
 ***
