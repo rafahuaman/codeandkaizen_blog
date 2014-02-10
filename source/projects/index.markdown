@@ -11,6 +11,9 @@ footer: true
 The sample web store application built following the book: [Agile Web Development with Rails 4](http://pragprog.com/book/rails4/agile-web-development-with-rails-4).
 
 * [Live link](http://agilewebdevwithrails4.herokuapp.com/)
+  * Admin Login 
+    * Name: Dave
+    * Password: foobar
 * [Github link](https://github.com/rafahuaman/agile_dev_rails_depot)
 ***
 

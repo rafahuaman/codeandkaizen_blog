@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Hash | Code and Kaizen]]></title>
   <link href="http://codeandkaizen.herokuapp.com/blog/categories/hash/atom.xml" rel="self"/>
   <link href="http://codeandkaizen.herokuapp.com/"/>
-  <updated>2014-02-09T05:02:54+00:00</updated>
+  <updated>2014-02-10T16:39:03+00:00</updated>
   <id>http://codeandkaizen.herokuapp.com/</id>
   <author>
     <name><![CDATA[Rafael Huaman]]></name>
@@ -36,32 +36,58 @@
 
 <p>Here&rsquo;s my approach:</p>
 
-<p>{% codeblock Passing Test lang:ruby %}<br/>
-class School
-  attr_reader :db</p>
-
-<p>  def initialize</p>
-
-<pre><code>@db = Hash.new([])
-</code></pre>
-
-<p>  end</p>
-
-<p>  def add(name, grade)</p>
-
-<pre><code>@db[grade].empty? ? @db[grade] = [name] : @db[grade] &lt;&lt; name
-</code></pre>
-
-<p>  end</p>
-
-<p>  def grade(grade)</p>
-
-<pre><code>@db[grade]
-</code></pre>
-
-<p>  end
-end
-{% endcodeblock %}</p>
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>Passing Test </span></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="o">&lt;</span><span class="n">br</span><span class="o">/&gt;</span>
+</span><span class='line'><span class="k">class</span> <span class="nc">School</span>
+</span><span class='line'>  <span class="kp">attr_reader</span> <span class="ss">:db</span><span class="o">&lt;</span><span class="sr">/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="sr">&lt;p&gt;  def initialize&lt;/</span><span class="nb">p</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="n">pre</span><span class="o">&gt;&lt;</span><span class="n">code</span><span class="o">&gt;</span><span class="vi">@db</span> <span class="o">=</span> <span class="no">Hash</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="o">[]</span><span class="p">)</span>
+</span><span class='line'><span class="o">&lt;</span><span class="sr">/code&gt;&lt;/</span><span class="n">pre</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="nb">p</span><span class="o">&gt;</span>  <span class="k">end</span><span class="o">&lt;</span><span class="sr">/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="sr">&lt;p&gt;  def add(name, grade)&lt;/</span><span class="nb">p</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="n">pre</span><span class="o">&gt;&lt;</span><span class="n">code</span><span class="o">&gt;</span><span class="vi">@db</span><span class="o">[</span><span class="n">grade</span><span class="o">].</span><span class="n">empty?</span> <span class="p">?</span> <span class="vi">@db</span><span class="o">[</span><span class="n">grade</span><span class="o">]</span> <span class="o">=</span> <span class="o">[</span><span class="nb">name</span><span class="o">]</span> <span class="p">:</span> <span class="vi">@db</span><span class="o">[</span><span class="n">grade</span><span class="o">]</span> <span class="o">&amp;</span><span class="n">lt</span><span class="p">;</span><span class="o">&amp;</span><span class="n">lt</span><span class="p">;</span> <span class="nb">name</span>
+</span><span class='line'><span class="o">&lt;</span><span class="sr">/code&gt;&lt;/</span><span class="n">pre</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="nb">p</span><span class="o">&gt;</span>  <span class="k">end</span><span class="o">&lt;</span><span class="sr">/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="sr">&lt;p&gt;  def grade(grade)&lt;/</span><span class="nb">p</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="n">pre</span><span class="o">&gt;&lt;</span><span class="n">code</span><span class="o">&gt;</span><span class="vi">@db</span><span class="o">[</span><span class="n">grade</span><span class="o">]</span>
+</span><span class='line'><span class="o">&lt;</span><span class="sr">/code&gt;&lt;/</span><span class="n">pre</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="nb">p</span><span class="o">&gt;</span>  <span class="k">end</span>
+</span><span class='line'><span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
 <p>I believe this covered the requirements. <code>Hash.new([])</code> returns a new, empty hash; if this hash is subsequently accessed by a key that doesn’t correspond to a hash entry, the single object <code>[]</code> will be used for all default values. So if <code>@db</code> is empty, then <code>@db[wibble]</code> will return <code>[]</code>. Looking good!</p>
 
@@ -73,52 +99,88 @@ end
 
 <p>My code looked like this in the end:</p>
 
-<p>{% codeblock Passing Test lang:ruby %}
-class School
-  attr_reader :db</p>
-
-<p>  def initialize</p>
-
-<pre><code>@db = Hash.new([])
-</code></pre>
-
-<p>  end</p>
-
-<p>  def add(name, grade)</p>
-
-<pre><code>@db[grade] += [name]
-</code></pre>
-
-<p>  end</p>
-
-<p>  def grade(grade)</p>
-
-<pre><code>@db[grade]
-</code></pre>
-
-<p>  end
-end
-{% endcodeblock %}</p>
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>Passing Test </span></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="k">class</span> <span class="nc">School</span>
+</span><span class='line'>  <span class="kp">attr_reader</span> <span class="ss">:db</span><span class="o">&lt;</span><span class="sr">/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="sr">&lt;p&gt;  def initialize&lt;/</span><span class="nb">p</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="n">pre</span><span class="o">&gt;&lt;</span><span class="n">code</span><span class="o">&gt;</span><span class="vi">@db</span> <span class="o">=</span> <span class="no">Hash</span><span class="o">.</span><span class="n">new</span><span class="p">(</span><span class="o">[]</span><span class="p">)</span>
+</span><span class='line'><span class="o">&lt;</span><span class="sr">/code&gt;&lt;/</span><span class="n">pre</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="nb">p</span><span class="o">&gt;</span>  <span class="k">end</span><span class="o">&lt;</span><span class="sr">/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="sr">&lt;p&gt;  def add(name, grade)&lt;/</span><span class="nb">p</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="n">pre</span><span class="o">&gt;&lt;</span><span class="n">code</span><span class="o">&gt;</span><span class="vi">@db</span><span class="o">[</span><span class="n">grade</span><span class="o">]</span> <span class="o">+=</span> <span class="o">[</span><span class="nb">name</span><span class="o">]</span>
+</span><span class='line'><span class="o">&lt;</span><span class="sr">/code&gt;&lt;/</span><span class="n">pre</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="nb">p</span><span class="o">&gt;</span>  <span class="k">end</span><span class="o">&lt;</span><span class="sr">/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="sr">&lt;p&gt;  def grade(grade)&lt;/</span><span class="nb">p</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="n">pre</span><span class="o">&gt;&lt;</span><span class="n">code</span><span class="o">&gt;</span><span class="vi">@db</span><span class="o">[</span><span class="n">grade</span><span class="o">]</span>
+</span><span class='line'><span class="o">&lt;</span><span class="sr">/code&gt;&lt;/</span><span class="n">pre</span><span class="o">&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">&lt;</span><span class="nb">p</span><span class="o">&gt;</span>  <span class="k">end</span>
+</span><span class='line'><span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
 <h3>The Powerful Ruby Library</h3>
 
 <p>The second problem I had with my code was the sort method for the same exercise. The sort method was supposed to return a hash with the grades and the names of the students in the grade sorted. I had implemented this method in the following way:</p>
 
-<p>{% codeblock Passing Test lang:ruby %}<br/>
-def sort
-  sorted = {}
-  @db.keys.sort.each { |key| sorted[key] = @db[key].sort }
-  sorted
-end
-{% endcodeblock %}</p>
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>Passing Test </span></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="o">&lt;</span><span class="n">br</span><span class="o">/&gt;</span>
+</span><span class='line'><span class="k">def</span> <span class="nf">sort</span>
+</span><span class='line'>  <span class="n">sorted</span> <span class="o">=</span> <span class="p">{}</span>
+</span><span class='line'>  <span class="vi">@db</span><span class="o">.</span><span class="n">keys</span><span class="o">.</span><span class="n">sort</span><span class="o">.</span><span class="n">each</span> <span class="p">{</span> <span class="o">|</span><span class="n">key</span><span class="o">|</span> <span class="n">sorted</span><span class="o">[</span><span class="n">key</span><span class="o">]</span> <span class="o">=</span> <span class="vi">@db</span><span class="o">[</span><span class="n">key</span><span class="o">].</span><span class="n">sort</span> <span class="p">}</span>
+</span><span class='line'>  <span class="n">sorted</span>
+</span><span class='line'><span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
 <p>This worked but it didn&rsquo;t seem right to me. Ruby is a very powerful language and I have seen pretty clever of ways of solving problems like this one. My solution seemed like a clunky way of doing things. Luckily someone suggested a different approach. This is the final version of the method. One line! Yey!</p>
 
-<p>{% codeblock Passing Test lang:ruby %}<br/>
-def sort
-   Hash[@db.sort.map { |grade,name| [grade, name.sort] }]
-end
-{% endcodeblock %}</p>
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>Passing Test </span></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="o">&lt;</span><span class="n">br</span><span class="o">/&gt;</span>
+</span><span class='line'><span class="k">def</span> <span class="nf">sort</span>
+</span><span class='line'>   <span class="no">Hash</span><span class="o">[</span><span class="vi">@db</span><span class="o">.</span><span class="n">sort</span><span class="o">.</span><span class="n">map</span> <span class="p">{</span> <span class="o">|</span><span class="n">grade</span><span class="p">,</span><span class="nb">name</span><span class="o">|</span> <span class="o">[</span><span class="n">grade</span><span class="p">,</span> <span class="nb">name</span><span class="o">.</span><span class="n">sort</span><span class="o">]</span> <span class="p">}</span><span class="o">]</span>
+</span><span class='line'><span class="k">end</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
 <p>Let&rsquo;s break it down.</p>
 
@@ -135,34 +197,57 @@ end
 
 <p>I learned my third lesson in a different exercise. This exercise was very straightforward. Given two strings count the differences between them at every position. For example, CAT and CAP have a difference of 1. One condition of the problem was to stop the counting at the end of the shorter string. For instance, CATS and CAP have a difference of 1.  Simple enough. This was first attempt.</p>
 
-<p>{% codeblock Passing Test lang:ruby %}<br/>
-class Hamming
-  def self.compute(base, test)</p>
-
-<pre><code>hamming_diff = 0
-[base.size,test.size].min.times do  |i| 
-  hamming_diff += 1 if base[i] != test[i]
-end
-hamming_diff
-</code></pre>
-
-<p>  end
-end
-{% endcodeblock %}</p>
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>Passing Test </span></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="o">&lt;</span><span class="n">br</span><span class="o">/&gt;</span>
+</span><span class='line'><span class="k">class</span> <span class="nc">Hamming</span>
+</span><span class='line'>  <span class="k">def</span> <span class="nc">self</span><span class="o">.</span><span class="nf">compute</span><span class="p">(</span><span class="n">base</span><span class="p">,</span> <span class="nb">test</span><span class="p">)</span><span class="o">&lt;</span><span class="sr">/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="sr">&lt;pre&gt;&lt;code&gt;hamming_diff = 0</span>
+</span><span class='line'><span class="sr">[base.size,test.size].min.times do  |i| </span>
+</span><span class='line'><span class="sr">  hamming_diff += 1 if base[i] != test[i]</span>
+</span><span class='line'><span class="sr">end</span>
+</span><span class='line'><span class="sr">hamming_diff</span>
+</span><span class='line'><span class="sr">&lt;/</span><span class="n">code</span><span class="o">&gt;&lt;</span><span class="sr">/pre&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="sr">&lt;p&gt;  end</span>
+</span><span class='line'><span class="sr">end</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
 <p>This was effective. However, I was able to improve it by using the special features of the Enumerable class pointed out by another user. In Ruby, most methods that take block return an Enumerable if no block is given. Additionally, one can apply the <code>Enumerable#count</code> method which takes a block as a parameter to determine when to count an item.  Following these insights my final implementation looked like this.</p>
 
-<p>{% codeblock Passing Test lang:ruby %}
-class Hamming
-  def self.compute(base, test)</p>
-
-<pre><code>max_length_to_compare = [base.size,test.size].min
-max_length_to_compare.times.count { |i| base[i] != test[i] } 
-</code></pre>
-
-<p>  end
-end
-{% endcodeblock %}</p>
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>Passing Test </span></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="k">class</span> <span class="nc">Hamming</span>
+</span><span class='line'>  <span class="k">def</span> <span class="nc">self</span><span class="o">.</span><span class="nf">compute</span><span class="p">(</span><span class="n">base</span><span class="p">,</span> <span class="nb">test</span><span class="p">)</span><span class="o">&lt;</span><span class="sr">/p&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="sr">&lt;pre&gt;&lt;code&gt;max_length_to_compare = [base.size,test.size].min</span>
+</span><span class='line'><span class="sr">max_length_to_compare.times.count { |i| base[i] != test[i] } </span>
+</span><span class='line'><span class="sr">&lt;/</span><span class="n">code</span><span class="o">&gt;&lt;</span><span class="sr">/pre&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="sr">&lt;p&gt;  end</span>
+</span><span class='line'><span class="sr">end</span>
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
 <p>The compute method could have been expressed in one line; however, this way the method separates the two main &ldquo;ideas&rdquo; in the code: finding the maximum length for the comparison and the counting loop. I believe that separating the ideas makes it into a very readable implementation.</p>
 
