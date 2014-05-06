@@ -13,7 +13,7 @@ I am exploring different ways to have debates on the web.
 
 * [Github link](https://github.com/rafahuaman/debater)
 * [Live link](https://debaterproject.herokuapp.com/)
-
+***
 
 ## Agile Development with Rails 4
 The sample web store application built following the book: [Agile Web Development with Rails 4](http://pragprog.com/book/rails4/agile-web-development-with-rails-4).
