@@ -4,7 +4,7 @@
   <title><![CDATA[Category: blog | Code and Kaizen]]></title>
   <link href="http://codeandkaizen.herokuapp.com/blog/categories/blog/atom.xml" rel="self"/>
   <link href="http://codeandkaizen.herokuapp.com/"/>
-  <updated>2014-05-06T16:46:21+00:00</updated>
+  <updated>2014-08-03T23:18:13+00:00</updated>
   <id>http://codeandkaizen.herokuapp.com/</id>
   <author>
     <name><![CDATA[Rafael Huaman]]></name>
@@ -12,6 +12,107 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Applying what I learned to my job]]></title>
+    <link href="http://codeandkaizen.herokuapp.com/blog/2014/05/13/applying-what-i-learned-to-my-job/"/>
+    <updated>2014-05-13T23:00:00+00:00</updated>
+    <id>http://codeandkaizen.herokuapp.com/blog/2014/05/13/applying-what-i-learned-to-my-job</id>
+    <content type="html"><![CDATA[<p>I am writing this post because I want to document what I consider one of my biggest victories in this learning journey of mine. Additionally, I want to share how learning something new can impact your job even if they are seemingly unrelated. In this post I will briefly explain how I built a custom <a href="http://en.wikipedia.org/wiki/Object-relational_mapping">ORM</a> solution for <a href="http://www.teradata.com/?LangType=1033">Teradata</a> in VB.Net.</p>
+
+<h3>Legacy and when non-coders code</h3>
+
+<p>Recently I was a given control of a project at work. This project was a simple automation tool which read and wrote to a database and accepted user input through a GUI. Pretty standard stuff. It was been written by business analysts who knew how to code a little but had no further interest in software development. The lack of good technical direction allowed for a few bad practices. As a result, some of the things that <em>got the job done</em> in beginning did not seem acceptable going forward.</p>
+
+<p>One of the areas in which the tool was noticeably weak was communication with the database. Back when there was only one use-case, the developers did not think it was a big deal to duplicate code when connecting to the DB. After all they were only doing this a handful of times.  This means that for each database interaction the developer was defining a connection string, opening the database connection, defining a query, executing it, iterating through the resulting set, and closing the connection. This is a lot of code for just one query.</p>
+
+<h3>Rails and Research</h3>
+
+<p>Not too long ago I finished working through two rails tutorials and started working on my own application (more on that later). Since them I have become very familiar with rails.  Rails introduced me to the concept of <a href="http://en.wikipedia.org/wiki/Object-relational_mapping">Object Relational Mapping</a>. As I became better at Rails and learned more about <a href="http://guides.rubyonrails.org/active_record_basics.html">Active Record</a> (Rails ORM solution) I appreciated it more.</p>
+
+<p>Armed with my recent knowledge about ORM frameworks I started to research open-source solutions that would work with the database we were using. Teradata is not an open source and it is relatively new; consequently there is not a lot of free stuff out there that supports it. After a couple of hours I came up empty handed.</p>
+
+<p>This is when I decided I was going to build my own ORM framework. It seemed daunting at first, but  I was going to abstract a lot of the connection code anyway in order to make the code <a href="http://en.wikipedia.org/wiki/Don't_repeat_yourself">DRY</a>. After that abstraction, it seemed that I was only a few steps away from having an ORM. SO I decided to give it shot.</p>
+
+<h3>My first ORM</h3>
+
+<p>So here&rsquo;s what I did.</p>
+
+<ul>
+<li>First I put all of the connection handling logic in one class. So this class would be in charge of opening and closing connections.</li>
+<li>Then I built a couple of Agent classes to handle queries and non-queries. They would send the queries to the connections, loop through the results; and return them in a standard format.</li>
+</ul>
+
+
+<p>These two things combined pretty much solved my initial problem. Instead of writing out all that connection code I mentioned at first I could write QueryAgent.execute(&ldquo;SELECT * FROM Users&rdquo;) and get a standard Datatable object as a result. All the connection opening and closing would be handled automatically. The hassle of connecting to the databse became a one-liner. This was good start.</p>
+
+<ul>
+<li>The next thing I did was to start working on an Active Record class. At the same time I worked on a queryBuilder class.</li>
+</ul>
+
+
+<p>I based my active records class on my knowledge of Rails. This class handled all the generic <a href="http://en.wikipedia.org/wiki/Create,_read,_update_and_delete">CRUD</a> functionality for all my models and would make a lot of use of my query and non-query agent classes. Essensiattly the AR class provided an API which turned CRUD actions into SQL statements. For example, <em>create</em> would become QueryAgent.execute(&ldquo;Insert into &hellip;.&rdquo;).</p>
+
+<p>My AR class used the queryBuilder class to build all the custom queries it needed in order to be able to support several many tables with different schemas. The QueryBuilder class would differentiate between models using some key variables and build the appropriate queries. In other words it was the QueryBuilder&rsquo;s job to produce &ldquo;INSERT INTO Users&hellip;&rdquo; and &ldquo;INSERT INTO Products&hellip;&rdquo; correctly.</p>
+
+<h3>Done and done!</h3>
+
+<p>So that&rsquo;s the quick explanation. It took a few days to put all of this together. As an added bonus I built this using TDD so all the functionality of my Active Record class was tested and gave me a lot of confidence in the solution I was implemented.</p>
+
+<p>I was very proud of this. Building my own ORM solution made me feel more like a real hacker, gave me a lot of confidence in my own abilities, and validated the time and effort I spend learning and practicing outside of work.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Working through two Rails tutorials]]></title>
+    <link href="http://codeandkaizen.herokuapp.com/blog/2014/03/01/working-through-two-rails-tutorials/"/>
+    <updated>2014-03-01T22:16:00+00:00</updated>
+    <id>http://codeandkaizen.herokuapp.com/blog/2014/03/01/working-through-two-rails-tutorials</id>
+    <content type="html"><![CDATA[<h3>After the first one</h3>
+
+<p>A few months ago I completed the Hartl’s rails tutorial. I bragged a little about it on this post right <a href="blog/2013/12/24/hartls-rails-tutorial-im-done/">here</a>.  I felt really good about it; however, I noticed that once I was done with the book I could hardly remember many of the details I had learned at the beginning. I realized that I had a better intuition about how it all went together and was very familiar with the Rails environment but I still had look up a lot of things and go back in the book to remember how to do specific things. All things considered, I couldn&rsquo;t expect more; I was starting out and that had been my first venture with Rails. I considered it successful.</p>
+
+<p>One of the things that made it a succes for me was that the project demystified Rails for me. After I was done, Rails (and full stack web development) didn&rsquo;t seem as scary and on the way I picked up new technologies and techniques. Even though I wasn&rsquo;t a Rails guru, I was pretty confident I could get many things done as long as I looked them up.</p>
+
+<h3>Now what?</h3>
+
+<p>Long before I had finished the Hartl tutorial I had already decided I was going to work on a <a href="http://pragprog.com/book/rails4/agile-web-development-with-rails-4">second book</a> in pretty much the same way. I wanted the second tutorial to offer a different perspective and at the same time reinforce the things I had learned with the first book. I have to say this worked very well. Not only did working through a second book accomplished what I was looking for but it also showed me my strong and weak areas. Basically if while reading the second book I found myself nodding and thinking <em>&ldquo;Yes, this makes sense&rdquo;</em>, then I had a good grasp on the concept; on the other hand, if I read something and with a blank stare, thinking <em>&ldquo;I have never heard of this before&rdquo;</em>, then it was something to which I needed to pay extra attention.</p>
+
+<h3>Comparing the tutorials</h3>
+
+<p>With that little introduction out of the way I will proceed to comment on the differences that jumped out at me.</p>
+
+<p><em>Disclaimer</em>: I have to add the disclaimer that I only worked through part 1 and 2 of the &ldquo;Agile Web Development with Rails 4&rdquo; (AWDWR4) these sections essentially walk you through building a sample application like the Hartl tutorial; part 3 of the book covers additional Rails topics more in-depth does not included <em>code-along</em> exercises.</p>
+
+<h4>Testing</h4>
+
+<p>One of the main differences I noticed was that the Hartl tutorial is more focused on testing than AWDWR4. Hartl&rsquo;s <a href="http://en.wikipedia.org/wiki/Test-driven_development">red-green-refactor cycle</a> is present throughout the book and he spends a more time on using tools that help with testing. Hartl works with Rspec and FactoryGirl as opposed to AWDWR4 which uses the Rails out-of-the-box test solution as well as Fixtures to accomplish the same things. AWDWR4 does not test everything and only tests a few big changes and walks the user through one test user story.</p>
+
+<p>I think Hartl&rsquo;s book does a better job with testing especially since beginners should be exposed to good practices when discovering Rails.</p>
+
+<h4>CSS magic</h4>
+
+<p>Hartl&rsquo;s tutorial uses <a href="http://getbootstrap.com/">Bootstrap</a> whereas AWDWR4 does not. The simple introduction of Bootstrap makes Hartl&rsquo;s tutorial project look better than the AWDWR4 counterpart. AWDWR4 does not focus on looks and it shows; the final project ends up looking like a website from the 90s.  However, in order to get Hartl&rsquo;s project to look nice one has to copy and paste a lot of CSS styling. This felt like cheating. On this regard AWDWR4 feels more honest. AWDWR4 does not fool you into thinking that you will be able to create good-looking websites; that&rsquo;s a different topic completely. However, Hartl introduces his readers to front-end frameworks. This might be enough to let his readers know that such tools exist and are freely available.</p>
+
+<h4>Scaffolding</h4>
+
+<p>For those who don&rsquo;t know, <a href="http://guides.rubyonrails.org/v3.2.13/getting_started.html#getting-up-and-running-quickly-with-scaffolding">scaffolding</a> is the Rails feature that automates the creation of a lot of necessary files to enable <a href="http://en.wikipedia.org/wiki/Create,_read,_update_and_delete">CRUD</a> acctions for your data models. Think about it as a button that says &ldquo;create engine&rdquo; when building a car, once you press it a working engine appears in front of you ready to be customized for your needs.</p>
+
+<p>Hartl explains his approach early on in the book. In the demo chapter he shows the users how quickly he can build something by using rails scaffolding. After this he proceeds to build everything manually for the rest of his book. Hartl explains that this automation, although powerful and useful, is not conducive to teaching because the automation ends up doing a lot of things for you that rails developers need to learn in order to work effectively with the framework.</p>
+
+<p>AWDWR4 uses scaffolding right from the beginning. I agree with Hartl here. If Hartl&rsquo;s tutorial had not explained everything that was going on under the hood before trying AWDWR4, I would have been really lost.</p>
+
+<h4>Sending Mail and Internationalization</h4>
+
+<p>AWDWR4 spends the additional time it gains by not focusing on testing and by using scaffolding on exploring additional features. AWDWR4 will walk you through send mail and internationalization. These were neat topics that will come in handy later.</p>
+
+<h3>Conclusion</h3>
+
+<p>After doing this myself, my advice to all Rails beginners out there would be to take the time to work through two different Rails tutorials. This exercise showed me that there are different ways of working with Rails and several ways to reach the same goal. This is extremely valuable for someone (me) who is starting out and may mistakenly believe that the Hartl way is the only correct way of writing Rails application.</p>
+
+<p>I met someone at a meetup who recommended working through the Rails tutorial twice. I believe this would is helpful too since many of the chapters that were nebulous when first starting will be suddenly clear and make more sense on the second go. Nevertheless, I feel that working through the same book twice without exposure to other methods may delay the realization that there multiple ways of working with Rails.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Lessons in Ruby from Exercism.io]]></title>
@@ -221,187 +322,6 @@ end
 <p>Anyway&hellip; cloud based IDEs are the <strong>future</strong>! In fact a quick google search just confirmed that you can use the <a href="http://www.raspberrypi.org/phpBB3/viewtopic.php?t=9984">Raspberry Pi</a> and <a href="https://c9.io/">Cloud9</a> &ndash; another popular web based IDE &ndash; to get a development environment for $35. This is extremely exciting.</p>
 
 <p>That is all for now.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[My First Code Retreat]]></title>
-    <link href="http://codeandkaizen.herokuapp.com/blog/2013/11/28/my-first-code-retreat/"/>
-    <updated>2013-11-28T05:44:00+00:00</updated>
-    <id>http://codeandkaizen.herokuapp.com/blog/2013/11/28/my-first-code-retreat</id>
-    <content type="html"><![CDATA[<p>This is a post about my <a href="http://coderetreat.org/">code retreat</a> experience a few months ago. For those who don&rsquo;t know what a Code Retreat is please visit <a href="http://coderetreat.org/">coderetreat.org</a>.</p>
-
-<p>This is not going be extensive. I don&rsquo;t want to go into the details and the specific exercises because that would be like spoilers. I am just going to focus on the new things I learned/tried that day and my overall conclusion.</p>
-
-<h2>Pair Programming</h2>
-
-<p>To those that have never tried it, a code retreat is a great way to pair program for the first time. The first time I paired was during a job interview. When I told some people this, I got some raised eyebrows and some &ldquo;Yikes! I bet that was intimidating&rdquo;. It didn&rsquo;t think so at the time but afterwards while analyzing my performance I concluded that my interactions were little awkward. I could have used some practice&hellip; well this retreat was just what I needed. In a single day I paired over and over again. I paired with both industry veterans and beginners and I learned a lot with each one. The best part is that everyone was always friendly and fun willing to teach and be open to criticism.</p>
-
-<p>I even found myself in a situation where my partner was flying through code and he got stuck and couldn&rsquo;t find the problem. He didn&rsquo;t quite stop though and was flying through tests and switching screens between the Ruby documentation and our program. I had to found a way to put the brakes on his speed and slowly take a few steps back to where I thought the bug was. I was abrupt but polite, all the time hoping he wouldn&rsquo;t take it the wrong way. In the end he thanked me for it! It those little learning moments that make code retreats a valuable experience</p>
-
-<h2>Retrospectives</h2>
-
-<p>Actually looking back at what we did at every step of the way. This was neat; it really drove the point of Agile and refactoring home. We shouldn&rsquo;t just refactor code but also try to improve ourselves and our practices.</p>
-
-<h2>VIM</h2>
-
-<p>Most people at the retreat were fine with using Sublime and this was working fine until one of pairs said &ldquo;Have you ever used VIM? You will learn today.&rdquo; How can you say no to a free VIM lightning class? It was definitely a challenge at first but I got the basics down easy enough. I can see how with practice and a few neat features productivity can increase dramatically. I have not converted completely but ever since the retreat I have been practicing with vimtutor whenever I have a few free minutes. I will switch completely once I feel I am not super slow (especially now that I am using nitrous.io &mdash; more to come on this).</p>
-
-<h2>Flexing coding muscles</h2>
-
-<p>Those exercises really make you think. The exercises are designed to teach and they are good at that. Every exercise makes you think hard and a lot and in different ways too. Simple constraints like telling you not to use a particular statement can really help you explore the limits of a programming paradigm or the features of a particular programming language. By end of the day you will be tired and you will feel great!</p>
-
-<h2>Programming Styles</h2>
-
-<p>This comes with pairing. I had seen other people&rsquo;s code before at school, but they all had a style similar to mine. I guess this is expected since my classmates and I learned together.  But pairing with people who think differently is just eye-opening. Seeing different styles helped me learn new things about the Ruby programming language and showed me different ways to address problems. I had several &ldquo;wow&rdquo; moments when my partners suggested quick and simple solutions that I had not thought about before.</p>
-
-<h2>Fun</h2>
-
-<p>It was all fun. What can I say? I love coding and a full day of challenges with great people was excellent.</p>
-
-<h1>Conclusion</h1>
-
-<p>I recommend it to everybody. Programmers need practice too and retreats are an excellent way to do it and discover many things in the process.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Updating My Learing Plan]]></title>
-    <link href="http://codeandkaizen.herokuapp.com/blog/2013/10/13/updating-my-learing-plan/"/>
-    <updated>2013-10-13T15:05:00+00:00</updated>
-    <id>http://codeandkaizen.herokuapp.com/blog/2013/10/13/updating-my-learing-plan</id>
-    <content type="html"><![CDATA[<p>When I started this learning process, I had a goal in mind and built a plan to help me achieve it. A plan can help you think methodically about how to achieve your goal and keep track of your progress. The learning plan I designed was based on what I knew at the time. Since then I have reached many milestones and have learned a lot from others. It is time now to revisit this plan and see if it is still relevant.</p>
-
-<h2>Step one: Check Progress</h2>
-
-<ul>
-<li>Basic programming concepts (Done &ndash; Head First Java for quick references)</li>
-<li>The Ruby programming language
-
-<ul>
-<li>Basics syntax and concepts (Done &ndash; codecademy and Ruby Koans)</li>
-</ul>
-</li>
-<li>Rails, the framework to develop web application with Ruby
-
-<ul>
-<li>Chapter 8 of Michael Hartl&rsquo;s tutorial</li>
-</ul>
-</li>
-<li>Libraries / Ruby Gems
-
-<ul>
-<li>Revaluated</li>
-</ul>
-</li>
-<li>Rspec, Test Driven Development (TDD) or Behavior Driven Development (BDD) methodologies
-
-<ul>
-<li>I participated in a code retreat and had the chance to try out testing and rspec through different exercises.</li>
-</ul>
-</li>
-<li>HTML and CSS, I will try HAML and Sass
-
-<ul>
-<li>Finished foundational HTML and CSS. I have used Sass briefly through Hartl&rsquo;s tutorial</li>
-<li>Have not tried HAML</li>
-</ul>
-</li>
-<li>JavaScript and jQuery
-
-<ul>
-<li>Not addressed</li>
-</ul>
-</li>
-<li>Database Concepts
-
-<ul>
-<li>Basics Covered</li>
-</ul>
-</li>
-<li>Web basics &ndash; forms, HTTP request / response
-
-<ul>
-<li>Covered partially by Michael Hartl&rsquo;s tutorial</li>
-</ul>
-</li>
-<li>UNIX command line and development environment (Done &ndash; currently working with Ubuntu)</li>
-<li>Deployment and Server Management
-
-<ul>
-<li>Heroku (Done &ndash; I use Heroku to host this blog and I am using it in Michael Hartl&rsquo;s tutorial)</li>
-</ul>
-</li>
-<li>Git and Github, Source code version control systems
-
-<ul>
-<li>Basics (Done &ndash; Michael Hartl&rsquo;s tutorial)</li>
-<li>Creating a repository</li>
-<li>Adding changes and committing them</li>
-<li>Branching and simple merging</li>
-<li>Pull requests (Added some simple changes to the theme I use for my blog)</li>
-</ul>
-</li>
-<li>Object Oriented Programming (OOP) concepts
-
-<ul>
-<li>Reviewed inheritance, encapsulationa, and polymorphism</li>
-</ul>
-</li>
-</ul>
-
-
-<h2>Step Two: Evaluate and Redesign Plan</h2>
-
-<p>I covered a lot of ground and I learned a lot in the process. During the past few months I have met a lot of people who have helped in one way or another. I had the chance to have short conversation with <a href="https://twitter.com/blainsmith">Blain Smith</a> from <a href="http://www.madglory.com/">Mad Glory</a>. He single handedly turned my plan upside down and was the main inspiration for this post. He told me about the importance of being framework agnostic and the benefits of focusing on learning the techniques of a software craftsman instead of just becoming adept with different technologies.</p>
-
-<p>If you look at my initial plan, I had specially focused on learning how to use different technologies: rspec, git, Ruby, Rails, etc. I had placed a lot of importance on becoming an expert with all of these technologies. What Blain helped me realize is that while knowing how to use the tools is important, learning the techniques of a Software Craftsman what really sets one apart. The techniques he was referring to are the more abstract concepts and knowledge that a good developer should have. He was referring to techniques such as design patterns, test driven development, object oriented solutions, agile methodologies, and following best programming practices in order to write good code.</p>
-
-<p>With this in mind I have come up with an updated version of the plan with a different set of priorities. After a little extra research I identified some resources that would help me with this revised plan.</p>
-
-<ul>
-<li>Design Patterns and Object Oriented Design
-
-<ul>
-<li><a href="http://www.amazon.com/Design-Patterns-Ruby-Russ-Olsen/dp/0321490452">Design Patterns in Ruby</a>
-
-<ul>
-<li> This will help me learn design patterns while at the same time polishing ruby skills</li>
-</ul>
-</li>
-<li><a href="http://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612/ref=tmm_hrd_title_0">Design Patterns: Elements of Reusable Object-Oriented Software</a></li>
-</ul>
-</li>
-<li>Writing good code
-
-<ul>
-<li><a href="http://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670">Code Complete</a></li>
-<li><a href="http://www.amazon.com/The-Pragmatic-Programmer-Journeyman-Master/dp/020161622X">The Pragmatic Programmer</a></li>
-</ul>
-</li>
-<li>Testing
-
-<ul>
-<li>Practice Test driven development through small projects and exercises.</li>
-</ul>
-</li>
-<li>Ruby &ndash; Next steps
-  &ndash;* Metaprogramming</li>
-<li>Techniques for Web Design
-
-<ul>
-<li>Practice web design concepts and techniques and learn more HTML and CSS (HAML and Sass) through it</li>
-</ul>
-</li>
-</ul>
-
-
-<p>So this is my new approach. Moving forward I will emphasize techniques and methodlogies instead of specific technologies. From now on the way I will learn a new language or framework is through the exploration of a new programming concept. For example, I will focus on Ruby while learning design patterns and I try Javascript when practicing web design.</p>
-
-<h3>Learning tip</h3>
-
-<p>In the past few months I found that the learning plan I created was very helpful. It will keep you on track and show your progress.
-As a beginner it is very possible that your first learning plan will not be the best. This is why it&rsquo;s important to keep your plan flexible and continue to reevaluate it as you learn more about the topics you are exploring.</p>
 ]]></content>
   </entry>
   

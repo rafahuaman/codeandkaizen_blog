@@ -1,0 +1,296 @@
+
+
+<!doctype html>
+  <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+  <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+  <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+  <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Applying what I learned to my job - Code and Kaizen</title>
+    <meta name="author" content="Rafael Huaman">
+    
+    <meta name="description" content="Applying what I learned to my job May 13th, 2014 blog web dev ORM Active Record Teradata learning I am writing this post because I want to document &hellip;">
+    
+    <meta name="viewport" content="width=device-width">
+    
+    <link rel="canonical" href="http://codeandkaizen.herokuapp.com/blog/2014/05/13/applying-what-i-learned-to-my-job">
+    <link href="/favicon.png" rel="icon">
+    <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet">
+    <link href="//atom.xml" rel="alternate" title="Code and Kaizen" type="application/atom+xml">
+  </head>
+
+
+  <body >
+
+    <header>
+      <div class="grid-wrapper">
+  <div class="grid">
+
+    <div class="grid__item two-fifths lap-four-sixths palm-one-whole">
+  <a href="/" class="site-title">Code and Kaizen</a>
+</div>
+
+<div class="grid__item three-fifths lap-two-sixths palm-one-whole">
+  <nav>
+    <input type="checkbox" id="toggle">
+<label for="toggle" class="toggle" data-open="Main Menu" data-close="Close Menu"></label>
+<ul class="menu pull-right">
+  <li><a href="/">Home</a></li>
+  <li><a href="/blog/">Blog</a></li>
+  <li><a href="/projects/">Projects</a></li>
+</ul>
+  </nav>
+</div>
+
+  </div>
+</div>
+    </header>
+
+    
+
+    <div class="grid-wrapper">
+      <div class="grid grid-center">
+        
+        <div class="grid__item two-thirds lap-one-whole palm-one-whole">
+        
+
+          <article class="post">
+  <header>
+  
+  <h1 class="title indent">Applying what I learned to my job</h1>
+  
+
+  
+  <div class="meta clearfix">
+    
+
+
+
+
+
+
+
+
+  
+
+
+<time class="pull-left" datetime="2014-05-13T23:00:00+00:00" pubdate data-updated="true"><i class="icon-calendar"></i> May 13<span>th</span>, 2014</time>
+    
+
+
+
+  
+  <div class="pull-left">
+    <i class="icon-tags"></i>
+    <ul class="tags unstyled">
+    
+      <li><a href="/blog/categories/blog/">blog</a></li>
+    
+      <li><a href="/blog/categories/web dev/">web dev</a></li>
+    
+      <li><a href="/blog/categories/ORM/">ORM</a></li>
+    
+      <li><a href="/blog/categories/Active Record/">Active Record</a></li>
+    
+      <li><a href="/blog/categories/Teradata/">Teradata</a></li>
+    
+      <li><a href="/blog/categories/learning/">learning</a></li>
+    
+    </ul>
+  </div>
+  
+
+    
+  </div>
+  
+</header>
+
+
+
+
+  <p>I am writing this post because I want to document what I consider one of my biggest victories in this learning journey of mine. Additionally, I want to share how learning something new can impact your job even if they are seemingly unrelated. In this post I will briefly explain how I built a custom <a href="http://en.wikipedia.org/wiki/Object-relational_mapping">ORM</a> solution for <a href="http://www.teradata.com/?LangType=1033">Teradata</a> in VB.Net.</p>
+
+<h3>Legacy and when non-coders code</h3>
+
+<p>Recently I was a given control of a project at work. This project was a simple automation tool which read and wrote to a database and accepted user input through a GUI. Pretty standard stuff. It was been written by business analysts who knew how to code a little but had no further interest in software development. The lack of good technical direction allowed for a few bad practices. As a result, some of the things that <em>got the job done</em> in beginning did not seem acceptable going forward.</p>
+
+<p>One of the areas in which the tool was noticeably weak was communication with the database. Back when there was only one use-case, the developers did not think it was a big deal to duplicate code when connecting to the DB. After all they were only doing this a handful of times.  This means that for each database interaction the developer was defining a connection string, opening the database connection, defining a query, executing it, iterating through the resulting set, and closing the connection. This is a lot of code for just one query.</p>
+
+<h3>Rails and Research</h3>
+
+<p>Not too long ago I finished working through two rails tutorials and started working on my own application (more on that later). Since them I have become very familiar with rails.  Rails introduced me to the concept of <a href="http://en.wikipedia.org/wiki/Object-relational_mapping">Object Relational Mapping</a>. As I became better at Rails and learned more about <a href="http://guides.rubyonrails.org/active_record_basics.html">Active Record</a> (Rails ORM solution) I appreciated it more.</p>
+
+<p>Armed with my recent knowledge about ORM frameworks I started to research open-source solutions that would work with the database we were using. Teradata is not an open source and it is relatively new; consequently there is not a lot of free stuff out there that supports it. After a couple of hours I came up empty handed.</p>
+
+<p>This is when I decided I was going to build my own ORM framework. It seemed daunting at first, but  I was going to abstract a lot of the connection code anyway in order to make the code <a href="http://en.wikipedia.org/wiki/Don't_repeat_yourself">DRY</a>. After that abstraction, it seemed that I was only a few steps away from having an ORM. SO I decided to give it shot.</p>
+
+<h3>My first ORM</h3>
+
+<p>So here&rsquo;s what I did.</p>
+
+<ul>
+<li>First I put all of the connection handling logic in one class. So this class would be in charge of opening and closing connections.</li>
+<li>Then I built a couple of Agent classes to handle queries and non-queries. They would send the queries to the connections, loop through the results; and return them in a standard format.</li>
+</ul>
+
+
+<p>These two things combined pretty much solved my initial problem. Instead of writing out all that connection code I mentioned at first I could write QueryAgent.execute(&ldquo;SELECT * FROM Users&rdquo;) and get a standard Datatable object as a result. All the connection opening and closing would be handled automatically. The hassle of connecting to the databse became a one-liner. This was good start.</p>
+
+<ul>
+<li>The next thing I did was to start working on an Active Record class. At the same time I worked on a queryBuilder class.</li>
+</ul>
+
+
+<p>I based my active records class on my knowledge of Rails. This class handled all the generic <a href="http://en.wikipedia.org/wiki/Create,_read,_update_and_delete">CRUD</a> functionality for all my models and would make a lot of use of my query and non-query agent classes. Essensiattly the AR class provided an API which turned CRUD actions into SQL statements. For example, <em>create</em> would become QueryAgent.execute(&ldquo;Insert into &hellip;.&rdquo;).</p>
+
+<p>My AR class used the queryBuilder class to build all the custom queries it needed in order to be able to support several many tables with different schemas. The QueryBuilder class would differentiate between models using some key variables and build the appropriate queries. In other words it was the QueryBuilder&rsquo;s job to produce &ldquo;INSERT INTO Users&hellip;&rdquo; and &ldquo;INSERT INTO Products&hellip;&rdquo; correctly.</p>
+
+<h3>Done and done!</h3>
+
+<p>So that&rsquo;s the quick explanation. It took a few days to put all of this together. As an added bonus I built this using TDD so all the functionality of my Active Record class was tested and gave me a lot of confidence in the solution I was implemented.</p>
+
+<p>I was very proud of this. Building my own ORM solution made me feel more like a real hacker, gave me a lot of confidence in my own abilities, and validated the time and effort I spend learning and practicing outside of work.</p>
+
+
+</article>
+
+
+        
+        </div>
+        
+        
+        <aside id="sidebar" class="grid__item one-third lap-one-whole palm-one-whole">
+          <div class="grid">
+
+  
+<section class="social aside-module grid__item one-whole lap-one-half">
+  <h1 class="title delta">
+    Follow me!
+  </h1>
+  <ul class="unstyled">
+    
+    
+    <li><a class="github" href="//github.com/rafahuaman"><i class="icon-github"></i> Github</a></li>
+    
+    
+    
+    
+    
+    <li><a class="twitter" href="//twitter.com/rhuaman"><i class="icon-twitter"></i> Twitter</a></li>
+    
+  </ul>
+</section>
+
+
+  <section id="recent-posts" class="aside-module grid__item one-whole lap-one-half">
+  <h1 class="title delta">Recent Posts</h1>
+  <ul class="divided">
+    
+      <li class="post">
+        <a href="/blog/2014/05/13/applying-what-i-learned-to-my-job/">Applying what I learned to my job</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/03/01/working-through-two-rails-tutorials/">Working through two Rails tutorials</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2014/02/05/lessons-in-ruby-from-exercism-dot-io/">Lessons in Ruby from Exercism.io</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/12/24/hartls-rails-tutorial-im-done/">Hartl's Rails Tutorial - I'm Done!</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/12/12/nitrous-dot-io-and-how-i-stopped-carrying-two-laptops/">Nitrous.io and How I Stopped Carrying Two Laptops</a>
+      </li>
+    
+  </ul>
+</section>
+
+<section id="github-repos" class="aside-module grid__item one-whole lap-one-half">
+  <h1 class="title delta">
+    GitHub Repos
+    
+    <small class="pull-right">
+      <a class="btn" href="//github.com/rafahuaman" title="@rafahuaman on GitHub" target="_blank">
+        <i class="icon-external-link"></i>
+      </a>
+    </small>
+    
+  </h1>
+  <ul id="gh_repos" class="divided">
+    <li class="loading">
+      <i class="icon-spinner icon-spin"></i>
+    </li>
+  </ul>
+</section>
+
+
+
+
+</div>
+
+        </aside>
+        
+      </div>
+    </div>
+    
+    <footer>
+      <div class="grid-wrapper">
+  <div class="grid">
+    <div class="grid__item">
+      <p class="copyright">
+  All content by Rafael Huaman and licenced under <a href="//creativecommons.org/licenses/by-nc-sa/3.0/ie/">Creative Commons</a>.<br>
+  Code under <a href="//github.com/coogie/oscailte/blob/master/README.md">MIT Licence</a>.
+</p>
+    </div>
+  </div>
+</div>
+
+    </footer>
+
+    <!--[if lt IE 7]>
+      <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+    <![endif]-->
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script src="//crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/md5.js"></script>
+<script defer src="/javascripts/octopress.js"></script>
+
+
+
+
+
+
+
+<script>
+  $(document).ready(function(){
+    if (!window.jXHR){
+      var jxhr = document.createElement('script');
+      jxhr.type = 'text/javascript';
+      jxhr.src = '/javascripts/libs/jXHR.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(jxhr, s);
+    }
+
+    github.showRepos({
+      user: 'rafahuaman',
+      count: 0,
+      skip_forks: true,
+      target: '#gh_repos'
+    });
+  });
+</script>
+<script src="/javascripts/github.js"></script>
+
+
+
+
+
+
+  </body>
+</html>
