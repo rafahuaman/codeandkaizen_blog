@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: meetup | Code and Kaizen]]></title>
+  <link href="http://codeandkaizen.herokuapp.com/blog/categories/meetup/atom.xml" rel="self"/>
+  <link href="http://codeandkaizen.herokuapp.com/"/>
+  <updated>2014-11-18T04:11:52+00:00</updated>
+  <id>http://codeandkaizen.herokuapp.com/</id>
+  <author>
+    <name><![CDATA[Rafael Huaman]]></name>
+    <email><![CDATA[info@codeandkaizen.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[API Craft Chicago - Reboot]]></title>
+    <link href="http://codeandkaizen.herokuapp.com/blog/2014/11/18/api-craft-chicago-reboot/"/>
+    <updated>2014-11-18T04:10:00+00:00</updated>
+    <id>http://codeandkaizen.herokuapp.com/blog/2014/11/18/api-craft-chicago-reboot</id>
+    <content type="html"><![CDATA[<p>Today the rebooted &ldquo;API Craft Chicago&rdquo; meetup held its first meeting. It was a great evening in which organizer Stephen Rylander invited a few people to share some &lsquo;war&rsquo; stories related to API development.</p>
+
+<p>Stephen opened the night with a presentation on why he was rebooting the meetup and why he thought having discussions around APIs is important. One of his points was that we need to have discussions in order to share experience and not repeat the &ldquo;mistakes&rdquo; from the past. I also took from his talk that REST is here now and &ldquo;REST is the Internet&rdquo; but things could change like they have done in the past and we need to be ready for it.</p>
+
+<p>We heard about the “sprint of death” from the Datalogics team. It was a scary API development story with a happy ending.</p>
+
+<p>One of my favorite moments of the night was from another war story. The sentiment can be paraphrased in the following way:</p>
+
+<blockquote><p>&ldquo;If you tailor your API for them (your client), then they <strong>will be</strong> your only users&rdquo;.</p></blockquote>
+
+<p>This was a lesson the presenter learned when his team agreed to excessive clients demands for the API specification they were building. Thanks for the wisdom!</p>
+
+<p>A couple of final thoughts:</p>
+
+<ul>
+<li><strong>Performance is key</strong> in this distributed world. Start developing your APIs with performance in mind.</li>
+<li>Standards are good. Often a product depends on multiple APIs from different teams . A little agreement goes a long way.</li>
+</ul>
+
+
+<p>Thank you to the folks at Morningstar for the space and to the organizers for their time and effort!</p>
+
+<p>I look forward to the next one.</p>
+]]></content>
+  </entry>
+  
+</feed>

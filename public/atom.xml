@@ -4,7 +4,7 @@
   <title><![CDATA[Code and Kaizen]]></title>
   <link href="http://codeandkaizen.herokuapp.com/atom.xml" rel="self"/>
   <link href="http://codeandkaizen.herokuapp.com/"/>
-  <updated>2014-11-06T03:06:27+00:00</updated>
+  <updated>2014-11-18T04:11:52+00:00</updated>
   <id>http://codeandkaizen.herokuapp.com/</id>
   <author>
     <name><![CDATA[Rafael Huaman]]></name>
@@ -14,21 +14,66 @@
 
   
   <entry>
+    <title type="html"><![CDATA[API Craft Chicago - Reboot]]></title>
+    <link href="http://codeandkaizen.herokuapp.com/blog/2014/11/18/api-craft-chicago-reboot/"/>
+    <updated>2014-11-18T04:10:00+00:00</updated>
+    <id>http://codeandkaizen.herokuapp.com/blog/2014/11/18/api-craft-chicago-reboot</id>
+    <content type="html"><![CDATA[<p>Today the rebooted &ldquo;API Craft Chicago&rdquo; meetup held its first meeting. It was a great evening in which organizer Stephen Rylander invited a few people to share some &lsquo;war&rsquo; stories related to API development.</p>
+
+<p>Stephen opened the night with a presentation on why he was rebooting the meetup and why he thought having discussions around APIs is important. One of his points was that we need to have discussions in order to share experience and not repeat the &ldquo;mistakes&rdquo; from the past. I also took from his talk that REST is here now and &ldquo;REST is the Internet&rdquo; but things could change like they have done in the past and we need to be ready for it.</p>
+
+<p>We heard about the “sprint of death” from the Datalogics team. It was a scary API development story with a happy ending.</p>
+
+<p>One of my favorite moments of the night was from another war story. The sentiment can be paraphrased in the following way:</p>
+
+<blockquote><p>&ldquo;If you tailor your API for them (your client), then they <strong>will be</strong> your only users&rdquo;.</p></blockquote>
+
+<p>This was a lesson the presenter learned when his team agreed to excessive clients demands for the API specification they were building. Thanks for the wisdom!</p>
+
+<p>A couple of final thoughts:</p>
+
+<ul>
+<li><strong>Performance is key</strong> in this distributed world. Start developing your APIs with performance in mind.</li>
+<li>Standards are good. Often a product depends on multiple APIs from different teams . A little agreement goes a long way.</li>
+</ul>
+
+
+<p>Thank you to the folks at Morningstar for the space and to the organizers for their time and effort!</p>
+
+<p>I look forward to the next one.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[My App: 'Debater']]></title>
     <link href="http://codeandkaizen.herokuapp.com/blog/2014/11/06/my-app-debater/"/>
     <updated>2014-11-06T03:05:00+00:00</updated>
     <id>http://codeandkaizen.herokuapp.com/blog/2014/11/06/my-app-debater</id>
-    <content type="html"><![CDATA[<p>It took me a long time to write about I am finally doing it!</p>
-
-<p>After a few months of work, I have finally completed my first practice app. I built it little by little in the mornings before work and on the weekends as well.</p>
+    <content type="html"><![CDATA[<p>After a few months of work, I have finally completed my first practice app. I built it little by little in the mornings before work and on the weekends as well.</p>
 
 <p>With this app I wanted to demonstrate to myself what I had learned about Ruby and Rails. At the same time I was looking to build something slightly different that I had not seen before. I took this approach to keep me motivated. I didn&rsquo;t want to write just another to-do app or blogging app. developing something new kept me going.</p>
 
-<p>Another decision I made about building this app is that I wanted to keep it simple with relatively few features. The reason for this is that I didn&rsquo;t want to get distracted by frivolous features that would have made this project go on forever. I believe this app accomplishes the vision I had at the beginning.</p>
+<p>Another decision I made about building this app is that I wanted to keep it simple with relatively few features. The reason for this is that I didn&rsquo;t want to get distracted by frivolous features that would have made this project go on forever. I believe I accomplshied the vision I had at the beginning.</p>
 
-<p>I ended up building a debating forum. It looks a lot a lot like a forum except for the emphasis on a two sided discussion which is reinforced by the layout of the comments. Additionally, I included some features in order to emulate the experience of a debate. I implemented what I thought adding to an argument, correcting someone, and a counterargument could look like on the web.</p>
+<p>I ended up building a debating forum. It looks a lot a lot like a forum except for the emphasis on a two sided discussion which is reinforced by the layout of the comments. Additionally, I included some features in order to emulate the experience of a debate. I implemented what I thought adding to an argument, correcting someone, and making counterarguments could look like on the web.</p>
 
 <p>In the end I have a working app with most of the components built from scratch. I didn&rsquo;t want to depend on gems for this project since another one of my goals was to get more familiar with the Rails framework by building everything that I needed.</p>
+
+<h3>Retrospective</h3>
+
+<h4>Things that worked</h4>
+
+<p>Working on the app a little everyday was definitely very helpful. I had a lot going on with work at the time so dividing my tasks on very small chunks every day made me feel that I was making progress all the time. I will definitely attempt to keep this approach in future projects.</p>
+
+<p>Saving the weekends for potentially time-consuming or research oriented tasks made a big difference. The weekends provided the time I needed to fully immerse myself on some problems. I would usually save this time for the features that I knew were going to be more difficult. I would also use this time to solve any problems that I had during the week. I would focus on small victories every day knowing I had the weekend to resolve my bigger issues. If I got stuck on something, I would stop; make a note to do look at it on the weekend, and move on to the next task.</p>
+
+<h4>Things that I should avoid next time</h4>
+
+<p>I lost some steam towards the end. I wanted to be done and rushed a few features. The voting component comes to mind. I think that a big part of this was due to the fact I always considered this a &ldquo;practice&rdquo; app. It served its purpose and I was ready to move on.</p>
+
+<p>I left some parts of the front-end unpolished; that made me feel that I shouldn&rsquo;t spend more time on it. If I had spent a bit more time on making my app look better, I would have probably been more excited about continuing to work on it instead of moving on. I could have made the app look better when I noticed I disliked something; however, front-end design wasn&rsquo;t one of the main goals of this project. So in the spirit of staying true to my goals, I only did what was visually &ldquo;good enough&rdquo;.</p>
+
+<p>Next time I will definitely focus a bit more on the front-end and try to always fix anything that I think is lacking.</p>
 
 <p>So that is it. It was a pretty nice exercise. I am proud of this little app. It helped me a lot but I am already working on a different project. I am planning to spend more time polishing my next app so that I can actually release it to the world.</p>
 ]]></content>
