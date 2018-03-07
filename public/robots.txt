@@ -1,4 +1,0 @@
-User-agent: *
-Disallow: 
-
-Sitemap: http://codeandkaizen.herokuapp.com/sitemap.xml 
