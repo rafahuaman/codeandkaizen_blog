@@ -1,0 +1,16 @@
+programming:
+  name: programming
+  description: Thoughts on my software development journey.
+  cover: assets/images/writing.jpg
+fiction:
+  name: fiction
+  description: False
+  cover: False
+fables:
+  name: fables
+  description: A series of short stories that make you think.
+  cover: assets/images/fables.jpg
+getting-started:
+  name: getting-started
+  description: False
+  cover: False

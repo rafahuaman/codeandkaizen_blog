@@ -2,8 +2,12 @@
 layout: post
 title: "Lessons in Ruby from Exercism.io"
 date: 2014-02-05 23:44
-comments: true
-categories: [blog, web dev, Ruby, Exercism.io, Hash, Enumerable, feedback, collaboration] 
+current: post
+navigation: True
+tags: Programming
+class: post-template
+subclass: 'post'
+author: rafael
 ---
 ##Exercism.io and Patience
 When I started my path of personal development I gathered a lot of information on online resources to improve my skills as a programmer. That's when I first learned about [Exercism.io.](http://exercism.io/) It seemed like a popular and useful resource which would introduce feedback to my learning. I bookmarked and archived it; however, I didn't use it right away. I got more involved with the [Hartl Tutorial](http://ruby.railstutorial.org/), the [Agile Web Development with Rails 4](http://pragprog.com/book/rails4/agile-web-development-with-rails-4) book, and a few more [books](http://www.amazon.com/Design-Patterns-Ruby-Russ-Olsen/dp/0321490452). 

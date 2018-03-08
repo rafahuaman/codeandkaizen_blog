@@ -2,8 +2,12 @@
 layout: post
 title: "My App: 'Debater'"
 date: 2014-11-06 03:05
-comments: true
-categories: 
+current: post
+navigation: True
+tags: Programming
+class: post-template
+subclass: 'post'
+author: rafael
 ---
 
 After a few months of work, I have finally completed my first practice app. I built it little by little in the mornings before work and on the weekends as well. 

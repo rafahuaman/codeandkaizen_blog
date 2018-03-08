@@ -2,8 +2,12 @@
 layout: post
 title: "My First Code Retreat"
 date: 2013-11-28 05:44
-comments: true
-categories: [blog, learning plan, web dev, code retreat] 
+current: post
+navigation: True
+tags: Programming
+class: post-template
+subclass: 'post'
+author: rafael 
 ---
 
 This is a post about my [code retreat](http://coderetreat.org/) experience a few months ago. For those who don't know what a Code Retreat is please visit [coderetreat.org](http://coderetreat.org/). 

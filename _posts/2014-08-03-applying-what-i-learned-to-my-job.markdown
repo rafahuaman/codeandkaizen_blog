@@ -2,8 +2,12 @@
 layout: post
 title: "Applying what I learned to my job"
 date: 2014-05-13 23:00
-comments: true
-categories: [blog, web dev, ORM, Active Record, Teradata, learning] 
+current: post
+navigation: True
+tags: Programming
+class: post-template
+subclass: 'post'
+author: rafael 
 ---
 
 

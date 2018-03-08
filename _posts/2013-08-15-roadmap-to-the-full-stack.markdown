@@ -2,9 +2,12 @@
 layout: post
 title: "Roadmap to the Full Stack"
 date: 2013-08-15 17:25
-comments: true
-categories: [blog, about, web dev]
-
+current: post
+navigation: True
+tags: Programming
+class: post-template
+subclass: 'post'
+author: rafael
 ---
 
 After some research I have narrowed down the list of technologies and topics that a junior web developer should know. To put this list together I researched the technologies that the leading web development shops are using, the curricula offered at several popular Web Dev. workshops, and different posts on the web with advice related to this subject.  I am very familiar with several of these concepts; however, I plan spend some time on all of them, I want to be thorough. 

@@ -2,8 +2,12 @@
 layout: post
 title: "Git and Github"
 date: 2013-09-19 23:25
-comments: true
-categories: [blog, web dev, git, github]
+current: post
+navigation: True
+tags: Programming
+class: post-template
+subclass: 'post'
+author: rafael
 ---
 
 This is pretty straight forward. I had setup a <a href="https://github.com/">Github</a> account in the past. But I had rarely used it. I used the free <a href=” the http://try.github.io/levels/1/challenges/1”>Try git tutorial</a> from <a href=” http://www.codeschool.com/”>Code School</a> to help me started. I started using git with <a href="http://octopress.org/">Octopress</a> and with <a href="http://ruby.railstutorial.org/">Michael Hartl's Rails tutorial</a>. 

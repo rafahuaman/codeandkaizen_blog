@@ -2,8 +2,12 @@
 layout: post
 title: "A Java Refresher"
 date: 2013-08-20 13:56
-comments: true
-categories: [blog, about, web dev, Java]
+current: post
+navigation: True
+tags: Programming
+class: post-template
+subclass: 'post'
+author: rafael
 ---
 
 The first thing I decided to do was to refresh my knowledge of Java and object oriented programming in general. This is probably not the best option for a total beginner. Most of the resources out there that teach Web Dev skills start easy with HTML & CSS as well as web fundamentals. These are great for people who have just started to learn how to code. I am not a beginner though. I am well versed in a lot of technical concepts and I have already been programming for a few years. I just needed to get back in the right mindset. Exploring something familiar would help me do that quickly. So Java it was!

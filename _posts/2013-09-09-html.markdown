@@ -2,8 +2,12 @@
 layout: post
 title: "HTML, CSS, and Codecademy"
 date: 2013-09-09 22:39
-comments: true
-categories: [blog, about, web dev, HTML, CSS, Codecademy]
+current: post
+navigation: True
+tags: Programming
+class: post-template
+subclass: 'post'
+author: rafael
 ---
 
 OK so this one is a bit interesting. After playing around with Java, I decided I needed to have a really good grasp of the web fundamentals. So the next step would be HTML and CSS. 

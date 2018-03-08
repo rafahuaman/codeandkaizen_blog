@@ -2,8 +2,12 @@
 layout: post
 title: "Nitrous.io and How I Stopped Carrying Two Laptops"
 date: 2013-12-12 05:54
-comments: true
-categories: [blog, web dev, nitrous.io, cloud based ide, web based ide, tools] 
+current: post
+navigation: True
+tags: Programming
+class: post-template
+subclass: 'post'
+author: rafael
 ---
 
 This post is bittersweet. 

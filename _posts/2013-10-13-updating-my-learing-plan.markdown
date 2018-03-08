@@ -2,8 +2,12 @@
 layout: post
 title: "Updating My Learing Plan"
 date: 2013-10-13 15:05
-comments: true
-categories: [blog, learning plan, web dev] 
+current: post
+navigation: True
+tags: Programming
+class: post-template
+subclass: 'post'
+author: rafael
 ---
 
 When I started this learning process, I had a goal in mind and built a plan to help me achieve it. A plan can help you think methodically about how to achieve your goal and keep track of your progress. The learning plan I designed was based on what I knew at the time. Since then I have reached many milestones and have learned a lot from others. It is time now to revisit this plan and see if it is still relevant.

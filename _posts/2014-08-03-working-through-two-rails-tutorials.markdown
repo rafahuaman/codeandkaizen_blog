@@ -2,8 +2,12 @@
 layout: post
 title: "Working through two Rails tutorials"
 date: 2014-03-01 22:16
-comments: true
-categories: [blog, web dev, Ruby, Rails, Agile Web Development with Rails 4, Hartl] 
+current: post
+navigation: True
+tags: Programming
+class: post-template
+subclass: 'post'
+author: rafael
 ---
 
 ### After the first one

@@ -2,8 +2,12 @@
 layout: post
 title: "Hartl's Rails Tutorial - I'm Done!"
 date: 2013-12-24 06:02
-comments: true
-categories: [blog, web dev, learning, hartl tutorial] 
+current: post
+navigation: True
+tags: Programming
+class: post-template
+subclass: 'post'
+author: rafael
 ---
 
 So after a few months of coding on the weekend and late at night, I am finally done with the Hartl Rails tutorial. It was a great experience and I feel great about doing pretty much everything on the book. There was a lot to cover and I am not going to review it (there are plenty of reviews out there), but I am going to write about my biggest takeaways.

@@ -2,8 +2,12 @@
 layout: post
 title: "The Command Line"
 date: 2013-09-19 23:25
-comments: true
-categories: [blog, cli, command line] 
+current: post
+navigation: True
+tags: Programming
+class: post-template
+subclass: 'post'
+author: rafael
 ---
 This is not completely new to me. I have used the windows and UNIX command lines in the past. I used it in school to compile programs archive them. I hadn't really used for anything other than that. The point is that I wasn't a complete stranger. I debated whether I should skip this section of my road map. However, I decided against it. Since my goal is to be proficient in every aspect of web development I not could afford missing important information in one of the basics skills. Besides I had never had any "training" in terms of the command line. 
 

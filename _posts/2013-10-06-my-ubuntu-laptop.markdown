@@ -2,8 +2,12 @@
 layout: post
 title: "My Ubuntu Laptop"
 date: 2013-10-06 00:39
-comments: true
-categories: [blog, ubuntu, Ruby, Windows] 
+current: post
+navigation: True
+tags: Programming
+class: post-template
+subclass: 'post'
+author: rafael
 ---
 
 Windows Woes

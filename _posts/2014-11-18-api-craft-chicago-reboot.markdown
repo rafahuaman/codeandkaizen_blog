@@ -2,8 +2,12 @@
 layout: post
 title: "API Craft Chicago - Reboot"
 date: 2014-11-18 04:10
-comments: true
-categories: [ meetup, talks ]
+current: post
+navigation: True
+tags: Programming
+class: post-template
+subclass: 'post'
+author: rafael
 ---
 Today the rebooted "API Craft Chicago" meetup held its first meeting. It was a great evening in which organizer Stephen Rylander invited a few people to share some 'war' stories related to API development.
 

@@ -2,8 +2,12 @@
 layout: post
 title: "The Start of The Great Web Development Adventure of 2013"
 date: 2013-08-10 17:24
-comments: true
-categories: [blog, about, web dev] 
+current: post
+navigation: True
+tags: Programming
+class: post-template
+subclass: 'post'
+author: rafael
 
 ---
 

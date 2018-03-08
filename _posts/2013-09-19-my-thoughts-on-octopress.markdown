@@ -2,8 +2,12 @@
 layout: post
 title: "My Thoughts on Octopress"
 date: 2013-09-19 23:25
-comments: true
-categories: [blog, about, octopress, git, heroku] 
+current: post
+navigation: True
+tags: Programming
+class: post-template
+subclass: 'post'
+author: rafael 
 ---
 Originally I wanted to dedicate an entire post to <a href="http://octopress.org/">Octopress</a> and how I set it up. However, in the interested of moving forward I will just write down my thoughts on it and my experience so far. 
 

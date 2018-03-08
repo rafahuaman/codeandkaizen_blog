@@ -2,8 +2,12 @@
 layout: post
 title: "First Post"
 date: 2013-08-08 17:22
-comments: true
-categories: [blog, about] 
+current: post
+navigation: True
+tags:
+class: post-template
+subclass: 'post'
+author: rafael
 ---
 I am Rafael.
 

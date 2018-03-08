@@ -2,8 +2,12 @@
 layout: post
 title: "Lots of updates and Diminishing Returns"
 date: 2013-09-19 23:24
-comments: true
-categories: [blog, about] 
+current: post
+navigation: True
+tags: Programming
+class: post-template
+subclass: 'post'
+author: rafael] 
 ---
 
 Over the past couple of months I have been trying to document my achievements as I went along. I found that reflecting on the things I learned as I write about them really helped me internalize some concepts. However, after some time I reached a point where I was learning and trying new things faster than I could write about them. 

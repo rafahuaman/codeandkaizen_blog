@@ -2,8 +2,12 @@
 layout: post
 title: "Ruby and the Koans"
 date: 2013-09-19 23:26
-comments: true
-categories: [blog, web dev, Ruby, Ruby Koans, Koans, Neo Innovation]
+current: post
+navigation: True
+tags: Programming
+class: post-template
+subclass: 'post'
+author: rafael
 ---
 
 After finishing Codecademy's Web Fundamentals track I immediately started the Ruby track. I knew I wanted to go with Ruby because I had already done plenty of research on the technologies I needed to learn in order to become a web developer. I had used Ruby in the past for a very simple Ride Sharing web application I built while at school; however, I used it simply as a means to work with rails and setup the application quickly. During my student time this was OK; however, now that I have made a serious choice about becoming a web developer I need to master it.
