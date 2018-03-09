@@ -9,9 +9,18 @@ subclass: 'post page'
 author: rafael
 ---
 
+
+> "One must learn by doing the thing; for though you think you know it, you have no certainty, until you try."
+>
+>-- <cite>Sophocles</cite>
+
+## [RitualHub](ritualhub.co)
+A web app that lets people discover and share daily routines and rituals.
+
+* [Live link](https:/ritualhub.co/)
+
 ## Debater Project
-My Rails pet project. It is currently a work in progress.
-I am exploring different ways to have debates on the web.
+A Rails project. I was working on my Rails knowledge while exploring different ways to have debates on the web.
 
 * [Github link](https://github.com/rafahuaman/debater)
 * [Live link](https://debaterproject.herokuapp.com/)
