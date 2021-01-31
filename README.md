@@ -1,8 +1,8 @@
 ## Jasper2
 
 [![Build Status](https://travis-ci.org/jekyller/jasper2.svg?branch=master)](https://travis-ci.org/jekyller/jasper2)
-[![Ruby](https://img.shields.io/badge/ruby-2.4.2-blue.svg?style=flat)](http://travis-ci.org/jekyller/jasper2)
-[![Jekyll](https://img.shields.io/badge/jekyll-3.6.2-blue.svg?style=flat)](http://travis-ci.org/jekyller/jasper2)
+[![Ruby](https://img.shields.io/badge/ruby-2.5.1-blue.svg?style=flat)](http://travis-ci.org/jekyller/jasper2)
+[![Jekyll](https://img.shields.io/badge/jekyll-3.7.4-blue.svg?style=flat)](http://travis-ci.org/jekyller/jasper2)
 
 This is a full-featured port of Ghost's default theme [Casper](https://github.com/tryghost/casper)
 *v2.1.9* for [Jekyll](https://jekyllrb.com/) / [GitHub Pages](https://pages.github.com/).
@@ -34,13 +34,13 @@ This is a full-featured port of Ghost's default theme [Casper](https://github.co
 ### Deployment
 
 **Important:**  For security reasons, Github does not allow plugins (under `_plugins/`) when
-deploying with Github Pages. This means:
+deploying with Github Pages. This means that we have to do one of the following:
 
-**1)** that we need to generate your site locally (more details below) and push the resulting
+**1)** generate the site locally (more details below) and push the resulting
 HTML (the contents of `_site/` or `../jasper2-pages/`) to a Github repository, that GitHub Pages
 then host;
 
-**2)** built the site with [travis-ci](https://travis-ci.org/) (with goodies from
+**2)** build the site with [travis-ci](https://travis-ci.org/) (with goodies from
 [jekyll-travis](https://github.com/mfenner/jekyll-travis)) automatically pushing the
 generated HTML files to a *gh-pages* branch.
 This later approach is the one I am currently using to generate the live demo.
@@ -86,7 +86,7 @@ Now you can edit `/assets/css/` files, which will be compiled to `/assets/built/
 
 ## Issues and Contributing
 
-This install builds well with Ruby v2.4.2 and Jekyll v3.6.2. If you run into any problems
+This install builds well with Ruby v2.5.1 and Jekyll v3.7.4. If you run into any problems
 please log them on the [issue tracker](https://github.com/jekyller/jasper2/issues).
 
 Feel free pull-request your patches and fixes.

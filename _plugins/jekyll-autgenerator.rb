@@ -1,11 +1,11 @@
+# frozen_string_literal: true
+
 module Jekyll
-
   class AuthorsGenerator < Generator
-
     safe true
 
     def generate(site)
-      site.data['authors'].each do |author, data|
+      site.data['authors'].each do |author, _data|
         posts = [author, posts_by_author(site, author)]
         build_subpages(site, 'author', posts)
       end
@@ -13,7 +13,14 @@ module Jekyll
 
     def build_subpages(site, type, posts)
       posts[1] = posts[1].sort_by { |p| -p.date.to_f }
+      atomize(site, type, posts)
       paginate(site, type, posts)
+    end
+
+    def atomize(site, type, posts)
+      path = "/author/#{posts[0]}"
+      atom = AtomPageAuthor.new(site, site.source, path, type, posts[0], posts[1])
+      site.pages << atom
     end
 
     def paginate(site, type, posts)
@@ -21,13 +28,10 @@ module Jekyll
       (1..pages).each do |num_page|
         pager = Jekyll::Paginate::Pager.new(site, num_page, posts[1], pages)
         path = "/author/#{posts[0]}"
-        if num_page > 1
-          path = path + "/page#{num_page}"
-        end
+        path += "/page#{num_page}" if num_page > 1
         newpage = GroupSubPageAuthor.new(site, site.source, path, type, posts[0])
         newpage.pager = pager
         site.pages << newpage
-
       end
     end
 
@@ -45,10 +49,25 @@ module Jekyll
       @dir = dir
       @name = 'index.html'
 
-      self.process(@name)
-      self.read_yaml(File.join(base, '_layouts'), "author.html")
-      self.data["grouptype"] = type
-      self.data[type] = val
+      process(@name)
+      read_yaml(File.join(base, '_layouts'), 'author.html')
+      data['grouptype'] = type
+      data[type] = val
+    end
+  end
+
+  class AtomPageAuthor < Page
+    def initialize(site, base, dir, type, val, posts)
+      @site = site
+      @base = base
+      @dir = dir
+      @name = 'feed.xml'
+
+      process(@name)
+      read_yaml(File.join(base, '_layouts'), 'feed.xml')
+      data[type] = val
+      data['grouptype'] = type
+      data['posts'] = posts[0..9]
     end
   end
 end

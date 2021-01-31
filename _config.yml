@@ -2,10 +2,10 @@
 markdown: kramdown
 highlighter: rouge
 paginate: 100 # it will paginate after this number
-language: 'en-uk'
+language: "en-uk"
 
 # edit baseurl to simply '/' if using as your personal page (instead of a project page)
-baseurl: '/'
+baseurl: "/"
 
 # Website info
 title: Code & Kaizen
@@ -14,8 +14,7 @@ cover: assets/images/sky.jpg
 logo: False
 logo_dark: False
 favicon: assets/images/favicon.png
-production_url: https://rafahuaman.github.io/
-source_url: https://github.com/rafahuaman/codeandkaizen_blog
+CNAME: rafahuaman.github.io #add cname for website to be created
 
 # Social info
 navigation: True # show the navbar links
@@ -30,7 +29,7 @@ disqus: False
 disqus_shortname: jekyller # replace with your disqus username
 
 # Google Analytics
-google_analytics: UA-115368058-1 # replace with your GA tracking identifier
+# google_analytics: UA-69281367-1 # replace with your GA tracking identifier
 
 # Permalinks
 permalink: /:title
@@ -41,6 +40,7 @@ permalink: /:title
 # Tags' info in `_data/tags_info.yml`
 
 # gems and other configs
+plugins_dir: [_plugins]
 plugins: [jekyll-paginate, jekyll-feed]
 
 feed:
@@ -54,7 +54,7 @@ feed:
 # Disqus comments as a per-post basis
 # ...
 
-# Settings for builing master branch with travis-ci
+# Settings for building master branch with travis-ci
 # with jekyll-travis
 
 # Settings for deploy rake task
@@ -71,8 +71,8 @@ repo: codeandkaizen_blog
 branch: master
 relative_source: ../codeandkaizen_blog/
 destination: ../rafahuaman.github.io/
-production_url:  https://rafahuaman.github.io/
-source_url:  https://github.com/rafahuaman/rafahuaman.github.io
+production_url: https://rafahuaman.github.io/
+source_url: https://github.com/rafahuaman/rafahuaman.github.io
 
 exclude:
   - assets/css
@@ -85,6 +85,7 @@ exclude:
   - gulpfile.js
   - LICENSE
   - package.json
+  - package-lock.json
   - Rakefile
   - README.md
   - script.py
